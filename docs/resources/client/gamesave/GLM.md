@@ -139,9 +139,17 @@ GLM_11 is the current Daily ID
 
 GLM_12 contains likes given to a level
 
-| key | Description |
-|:----|:------------|
-| `like_{LikeType}_{unknown}_{like/dislike}_{ID}` | needs investigating more |
+| format |
+|:----|
+| `like_{LikeType}_{commentID/levelID}_{like/dislike}_{accountID of poster}` |
+
+#### likeTypes
+
+| key | type |
+|:----|:------|
+| 1 | level |
+| 2 | comments |
+| 3 | accountComments |
 
 ## GLM_13
 
