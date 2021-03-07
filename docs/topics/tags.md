@@ -10,7 +10,7 @@ Throughout Geometry Dash there are various interfaces in which the player an see
 
 There are `9` different colour tags that are usable in Geometry Dash. below is a table of them all
 
-**Note:** using a `\` in Geometry Dash does not stop the tags from taking effect so the `\` have been used to split the tag so it doesn't vanish for the example.
+**Note:** The `\` in the examples are **not** a part of a tag! It has been placed there to show the colour of the tag with the game still showing the tag as plain text.   
 
 | tag | Colour | Hex Code |
 |:----|:-------|:---------|
