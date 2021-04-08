@@ -23,7 +23,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0022 | higherAudioQuality |
 | gv_0023 | smoothFix |
 | gv_0024 | showCursor In-Game |
-| gv_0025 | fullscreenMode |
+| gv_0025 | Windowed Mode |
 | gv_0026 | autoRetry |
 | gv_0027 | autoCheckpoints |
 | gv_0028 | disableThumbstick |
