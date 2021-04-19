@@ -137,11 +137,18 @@ GLM_11 is the current Daily ID
 
 ## GLM_12
 
-GLM_12 contains likes given to a level
+GLM_12 contains the like key for every like you have given in Geometry Dash.
 
 | format |
 |:----|
-| `like_{LikeType}_{commentID/levelID}_{like/dislike}_{accountID of poster}` |
+| `like_{LikeType}_{itemID}_{hasLiked}_{special}` |
+
+| Value | Description | 
+|:------|:------------|
+| `likeType` | The type of item which is being liked |
+|`itemID` | Refers to the ID assigned to the item on the servers - levelIDs or CommentIDs |
+| `hasLiked` | A Bool to determine if the item has been liked or disliked - 1 = like, 0 = dislike |
+| `special` |  Extra data depending on what `likeType` the item was done on |
 
 #### likeTypes
 
@@ -150,6 +157,16 @@ GLM_12 contains likes given to a level
 | 1 | level |
 | 2 | comments |
 | 3 | accountComments |
+
+#### Special Types
+
+| likeType | value |
+|:---------|:------|
+| level | `0` |
+| level comments | `levelID` |
+| account comments | `commentID`
+
+
 
 ## GLM_13
 
