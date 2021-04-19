@@ -20,19 +20,18 @@ The color entries have the following properties:
 | 6   | Color Channel ID    | **integer**                         | the Color Channel ID of the color          |
 | 7   | Opacity             | **float**                           | the Opacity property of the color          |
 | 9   | Copied Color ID     | **integer**                         | the Color Channel ID of the copied color   |
-| 10  | Copied Color ID HSV | **[HSV]()**                         | the HSV of the copied color                |
+| 10  | Copied Color ID HSV | **[HSV](/resources/client/level-components/HSV.md)**                         | the HSV of the copied color                |
 | 17  | Copy Opacity        | **bool**                            | the Copy Opacity property of the color     |
 
 ***Undiscovered properties***
 
-| Key | Type        | Proven Existence | Common Value |
-|:----|:------------|:-----------------|:-------------|
-| 8   | **bool**(?) | yes              | 1            |
-| 11  | **integer** | yes              | 255          |
-| 12  | **integer** | yes              | 255          |
-| 13  | **integer** | yes              | 255          |
-| 14  | **unknown** | no               | N/A          |
-| 15  | **bool**(?) | yes              | 1            |
-| 16  | **unknown** | no               | N/A          |
+| Key | Type        | Proven Existence | Common Value | notes |
+|:----|:------------|:-----------------|:-------------|:------|
+| 8   | **Int** | yes              | 1            | opacity doesnt work without it |
+| 11  | **integer** | yes              | 255          | rgb.r |
+| 12  | **integer** | yes              | 255          | rgb.g |
+| 13  | **integer** | yes              | 255          | rgb.b |
+| 14  | **Float** | Yes               | N/A          |
+| 15  | **Float** | yes              | 1            |
+| 16  | **Float** | yes               | N/A          |
 | 18  | **bool**(?) | yes              | 0            |
-|     |             |                  |              |
