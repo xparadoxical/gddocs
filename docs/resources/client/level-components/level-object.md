@@ -78,13 +78,13 @@ Property keys reflect the keys found in the following table, whereas property va
 | 35  | Opacity                              | **float**                                       | the opacity value of a trigger                                                     |
 | 41  | Main Color HSV Enabled               | **bool**                                        | whether the HSV mode is enabled for the Main Color of the object                   |
 | 42  | Secondary Color HSV Enabled          | **bool**                                        | whether the HSV mode is enabled for the Secondary Color of the object              |
-| 43  | Main Color HSV                       | **[HSV]()**                                     | the HSV adjustment values of the Main Color of the object                          |
-| 44  | Secondary Color HSV                  | **[HSV]()**                                     | the HSV adjustment values of the Secondary Color of the object                     |
+| 43  | Main Color HSV                       | **[HSV](/resources/client/level-components/HSV.md)**                                     | the HSV adjustment values of the Main Color of the object                          |
+| 44  | Secondary Color HSV                  | **[HSV](/resources/client/level-components/HSV.md)**                                     | the HSV adjustment values of the Secondary Color of the object                     |
 | 45  | Fade In                              | **float**                                       | the Fade In property of the Pulse trigger                                          |
 | 46  | Hold                                 | **float**                                       | the Hold property of the Pulse trigger                                             |
 | 47  | Fade Out                             | **float**                                       | the Fade Out property of the Pulse trigger                                         |
 | 48  | Pulse Mode                           | **[Pulse Mode](enumerations.md)**               | the Pulse Mode property of the Pulse trigger                                       |
-| 49  | Copied Color HSV                     | **[HSV]()**                                     | the HSV adjustment values of the Copied Color property of a trigger                |
+| 49  | Copied Color HSV                     | **[HSV](/resources/client/level-components/HSV.md)**                                     | the HSV adjustment values of the Copied Color property of a trigger                |
 | 50  | Copied Color ID                      | **integer**                                     | the Copied Color Channel ID in a trigger                                           |
 | 51  | Target Group ID                      | **integer**                                     | the Target Group ID in a trigger                                                   |
 | 52  | Pulse Target Type                    | **[Pulse Target Type](enumerations.md)**        | the Target Type property of the Pulse trigger                                      |
