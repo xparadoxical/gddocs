@@ -73,7 +73,7 @@ and if this is left out it's most liked
 
 **onlyCompleted** - Completed filter. 0 for off, 1 for on.
 
-**completedLevels** - [SQL IN operator](https://www.w3schools.com/sql/sql_in.asp) containing a list of all completed levels
+**completedLevels** -  a list of all completed levels seperated by commas within parentheses
 
 **featured** - Featured filter. 0 for off, 1 for on.
 
