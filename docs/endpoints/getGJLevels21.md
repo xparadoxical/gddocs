@@ -67,13 +67,13 @@ and if this is left out it's most liked
 
 **page** - Which page of levels you want to see
 
-**total** - Current use is unknown, defaults to the amount of levels available, up to 9999, but leaving it out or as 0 works.
+**total** - Is echoed back in the page Object to display total levels
 
 **uncompleted** - Uncompleted filter. 0 for off, 1 for on.
 
 **onlyCompleted** - Completed filter. 0 for off, 1 for on.
 
-**completedLevels** - SQL IN operator containing a list of all completed levels
+**completedLevels** - [SQL IN operator](https://www.w3schools.com/sql/sql_in.asp) containing a list of all completed levels
 
 **featured** - Featured filter. 0 for off, 1 for on.
 
