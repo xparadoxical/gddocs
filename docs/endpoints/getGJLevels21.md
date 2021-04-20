@@ -16,6 +16,8 @@ Gets a list of levels.
 
 **gdw** - 0
 
+**accountID** - the players accountID if `local=1`
+
 **type** - Controls the fetch priority.   
 and if this is left out it's most liked
 
@@ -71,6 +73,8 @@ and if this is left out it's most liked
 
 **onlyCompleted** - Completed filter. 0 for off, 1 for on.
 
+**completedLevels** - SQL IN operator containing a list of all completed levels
+
 **featured** - Featured filter. 0 for off, 1 for on.
 
 **original** - Original filter. 0 for off, 1 for on.
@@ -81,11 +85,20 @@ and if this is left out it's most liked
 
 **epic** - Epic filter. 0 for off, 1 for on.
 
+**local** - `1` Requires `type=5` and `gjp=${Your GJP}`
+
+**star** - Bool to determine if levels should be filtered by star rating
+
+**noStar** Bool to determine if levels should be filtered by no stars
+
+**customSong** - Bool to determine if levels should be filtered by songIDs
+
+**song** - The ID of the song you want to filter by
+
 **followed** - Required if `type` is 12. A comma separated list of player IDs, **not account IDs** of the people you follow.
 
 **demonFilter** - Denotes which difficulty of demon to search for if `diff` is -2. If left out it will search for all demons, otherwise it's 1-5 for Easy to Extreme, respectively.
 
-**secret** - Wmfd2893gb7
 
 ## Response
 
