@@ -76,7 +76,7 @@ Throughout save data, there are `85` different keys that contain values. Below a
 | hasRatedGame| **Bool** | if you have rated the game |
 | binaryVersion| **Integer** | The Games Binary Version |
 | resolution| **Integer** | The games resolution?  |
-| texQuality| **Integer** | how high the text quality is  |
+| texQuality| **Integer** | how high the texture quality is  |
 
 ### GLM 
 

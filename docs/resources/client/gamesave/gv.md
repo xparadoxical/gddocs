@@ -80,7 +80,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0090| autoloadComments |
 | gv_0093| increaseLocalLevelsPerPage |
 | gv_0094| moreCommentsMode |
-| gv_0095| flippyUselessMode|
+| gv_0095| flippyUselessMode (Just Dont)|
 | gv_0096| switchWaveTrailColor|
 | gv_0097| enableLinkControls (editor) |
 | gv_0098| levelLeaderboardType |
