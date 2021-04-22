@@ -39,7 +39,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k27 | FeatureScore                   | **integer**                                                      | A featured levels Feature Score                                                  |
 | k33 | Auto                           | **Bool**                                                         | If the level is auto                                                             |
 | k34 | Replay Data                    | **[Gziped String](/topics/encryption/zip.md)**                   | Contains a Gzipped String which contains replay data for levels                  |
-| k35 | Demon                          | **[Demon](enumerations.md)**                                     | if the level is demon                                                            |
+| k35 | isPlayable                      | **Bool**                                     | if the level is playable                                                            |
 | k36 | Jumps                          | **integer**                                                      | total Jumps on a level                                                           |
 | k37 | required coins                 | **Integer**                                                      | coins required to unlock an official level                                       |
 | k38 | isUnlocked                     | **Bool**                                                         | is Official level Unlocked                                                       |
@@ -67,7 +67,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k67 | Extra String                   | **Extra String**                                                 | Contains batch information about levels                                          |
 | k68 | triggeredAntiCheat             | **Bool**                                                         | if you trigger the anticheat when beating demons                                 |
 | k69 | High Object Count              | **Bool**                                                         | If a level has a high object count                                               |
-| k71 | Orb Reward Percentage          | **integer**                                                      | the percentage up until the orb reward has been granted                          |
+| k71 | New Normal Percentage          | **Integer**                                                      | the percentage up until the new best                          |
 | k72 | hasLowDetailMode               | **Bool**                                                         | If a level has LDM                                                               |
 | k73 | toggleLDM                      | **Bool**                                                         | If a LDM is Enabled                                                              |
 | k74 | timelyID                       | **integer**                                                      | the timelyID for a level                                                         |
@@ -86,7 +86,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k87 | levelScore Seed                | **[LevelScoreSeed](/topics/encryption/chk?id=level-leaderboard)**| Contains info to verify the integrity of levelScores                             |
 | k88 | Level Progress                 | **integer**                                                      | Contains a list of high score differences seperated by a `,`                     |
 | k89 | [isLevelScorechkValid](/topics/encryption/chk?id=level-leaderboard) | **Bool**                    | used to check for level completion                                               |
-| k90 | Verify percentage              | **integer**                                                      | Contains the percentage for levels you are trying to verify                      |
+| k90 | New Normal percentage 2             | **integer**                                                      | contains the percentage for new best |
 
 
 **Last Editor State Key/Value Pairs**
