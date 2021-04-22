@@ -23,8 +23,8 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k11 | Downloads                      | **integer**                                                      | the amount of times the level's been downloaded                                  |
 | k12 | setCompletes                   | **integer**                                                      | level completions for that particular level                                      |
 | k13 | isEditable                     | **Bool**                                                         | used to stop people editing online and Official levels                           |
-| k14 | Verified                       | **bool**                                                         | whether the level is verified or not                                             |
-| k15 | Uploaded                       | **bool**                                                         | whether the level is uploaded to the server or not                               |
+| k14 | Verified                       | **Bool**                                                         | whether the level is verified or not                                             |
+| k15 | Uploaded                       | **Bool**                                                         | whether the level is uploaded to the server or not                               |
 | k16 | Level Version                  | **integer**                                                      | the version of the level                                                         |
 | k17 | Game Version                   | **integer**                                                      | The Games Version                                                                |
 | k18 | Attempts                       | **integer**                                                      | the number of attempts that are made to this level                               |
