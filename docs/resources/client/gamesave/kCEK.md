@@ -40,6 +40,8 @@ As of Geometry Dash 2.11, there are `5` different encoder keys that can be found
 
 ### ItemUnlockValues
 
+**Note:** The default case for itemUnlock is cube and it only is used if `itemType` = `9`
+
 | key | value |
 |:----|:------|
 | 1 | Cube |
