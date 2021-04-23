@@ -22,7 +22,7 @@ As of Geometry Dash 2.11, there are `5` different encoder keys that can be found
 | 1 | 9 | itemType |
 | 2 | 9 | customItemID |
 | 3 | 9 | rewardAmount |
-| 4 | 9 | itemUnlockValue -> [presumedly contains data that unlocks an item in the garage?](https://media.discordapp.net/attachments/801840133355470888/806137688905875496/unknown.png) <!--TODO -> invesitgate GameStatsManager::createSpecialChestItems()--> |
+| 4 | 9 | itemUnlockValue -> allows the player to unlock special items <!--TODO -> invesitgate GameStatsManager::createSpecialChestItems()--> |
 
 ### itemType
 
@@ -37,6 +37,23 @@ As of Geometry Dash 2.11, there are `5` different encoder keys that can be found
 | 7 | Orbs |
 | 8 | Diamonds |
 | 9 | customItem |
+
+### ItemUnlockValues
+
+| key | value |
+|:----|:------|
+| 1 | Cube |
+| 2 | Colour1 |
+| 3 | Colour2 |
+| 4 | Ship |
+| 5 | Ball |
+| 6 | UFO |
+| 7 | Wave |
+| 8 | Robot |
+| 9 | Spider |
+| 10 | Streak |
+| 11 | explosion |
+| 12 | GJItem |
 
 ### GJRewardItem GS Keys
 
