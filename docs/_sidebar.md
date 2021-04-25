@@ -106,6 +106,7 @@
 - [Level Passwords](/topics/level_passwords.md)
 - [Level Encoding/Decoding](/topics/levelstring_encoding_decoding.md)
 - [Game Save Files Encryption/Decryption](/topics/localfiles_encrypt_decrypt.md)
+- [Shop](/topics/shop)
 - [Status Codes](/topics/status_codes.md)
 - [Vault Codes](/topics/vault_codes.md)
 - **Encryption**
