@@ -89,7 +89,7 @@ GS_7 is the Highscore attempt of levels
 
 ## GS_8
 
-Unused
+`CurrencyAwardDict` -> Unused
 
 ## GS_9
 

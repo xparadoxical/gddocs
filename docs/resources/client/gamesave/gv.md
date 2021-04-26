@@ -29,8 +29,8 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0028 | disableThumbstick |
 | gv_0029 | showedOptionsText |
 | gv_0030 | vsyncEnabled |
-| gv_0031 | `cocos2d::CCEGLView::sharedOpenGLView()`? |
-| gv_0032 | forceTimerEnabled (got no idea how cos got to that??)|
+| gv_0031 | callGLFinish -> seems to be unused |
+| gv_0032 | forceTimerEnabled -> seems to be unused |
 | gv_0033 | ChangeSongPath |
 | gv_0034 | GameCenterEnabled |
 | gv_0036 | PreviewMode (editor) |
