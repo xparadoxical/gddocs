@@ -111,28 +111,28 @@ Throughout save data, there are `85` different keys that contain values. Below a
 | :-------| :--- |
 | [GS_value](/resources/client/gamesave/GS_Value?id=gs-value-structure)| A dictionary of player stats  |
 | [GS_completed](/resources/client/gamesave/GS_Value?id=gs_completed)| A dictionary of all completed level information  |
-| [GS_3](/resources/client/gamesave/GS_Value?id=gs_3)| Completed levels with coins `{levelID}_{number of coins aquired from level}` |
-| [GS_4](/resources/client/gamesave/GS_Value?id=gs_4)| Completed levels with coins `{levelID}_{number of coins aquired from level}` |
-| [GS_5](/resources/client/gamesave/GS_Value?id=gs_5)| Completed Mappacks + rewarded stars `<k>pack_{MappackID}</k><s>{Stars rewarded}</s>` |
-| [GS_6](/resources/client/gamesave/GS_Value?id=gs_6)| all Purchased Icons/Colours in the shops `<k>{ListingID}</k><s>{Price}</s>` |
-| [GS_7](/resources/client/gamesave/GS_Value?id=gs_7)| level progress `<k>{levelID}</k><s>{percentage}</s>` |
-| [GS_8](/resources/client/gamesave/GS_Value?id=gs_8)| [UNUSED] |
-| [GS_9](/resources/client/gamesave/GS_Value?id=gs_9)| How many stars downloaded levels give `<k>{levelID}</k><s>{rewardedStars}</s>` |
-| [GS_10](/resources/client/gamesave/GS_Value?id=gs_10)| Offical level progress `<k>{ID}</k><s>{percentage}</s>` |
-| [GS_11](/resources/client/gamesave/GS_Value?id=gs_11)| All rewards gained from Daily Chests |
-| [GS_12](/resources/client/gamesave/GS_Value?id=gs_12)| Contains [Quests](resources/client/gamesave/quests.md)|
-| [GS_14](/resources/client/gamesave/GS_Value#GS_14)| Daily/Challenges rewards |
-| [GS_15](/resources/client/gamesave/GS_Value?id=gs_15)| Contains Upcoming [Quests](resources/client/gamesave/quests.md)|
-| [GS_16](/resources/client/gamesave/GS_Value?id=gs_16)| Daily/Weekly level progress `<k>{Daily/WeeklyID}</k><s>{percentage}</s>` |
-| [GS_17](/resources/client/gamesave/GS_Value?id=gs_17)| Daily/Weekly Stars `<k>{Daily/WeeklyID}</k><s>{Stars}</s>` |
-| [GS_18](/resources/client/gamesave/GS_Value?id=gs_18)| Gauntlet Level Progress `<k>{levelID}</k><s>{percentage}</s>` |
-| [GS_19](/resources/client/gamesave/GS_Value#GS_19)| All the Rewards from unlocked chests in the treasure room |
+| [GS_3](/resources/client/gamesave/GS_Value?id=gs_3)| Completed levels with user coins |
+| [GS_4](/resources/client/gamesave/GS_Value?id=gs_4)| Completed levels with pending user coins |
+| [GS_5](/resources/client/gamesave/GS_Value?id=gs_5)| Completed mappacks + rewarded stars|
+| [GS_6](/resources/client/gamesave/GS_Value?id=gs_6)| All items you have purchase with orbs -> shops |
+| [GS_7](/resources/client/gamesave/GS_Value?id=gs_7)| Current highscores on online levels |
+| [GS_8](/resources/client/gamesave/GS_Value?id=gs_8)| CurrencyAwardDict -> seems to be unused |
+| [GS_9](/resources/client/gamesave/GS_Value?id=gs_9)| Stars awarded from completing rated levels |
+| [GS_10](/resources/client/gamesave/GS_Value?id=gs_10)| Current highscores on official levels |
+| [GS_11](/resources/client/gamesave/GS_Value?id=gs_11)| Collected rewards from daily chests |
+| [GS_12](/resources/client/gamesave/GS_Value?id=gs_12)| Current challenge items (Daily Quests)|
+| [GS_14](/resources/client/gamesave/GS_Value#GS_14)| Diamonds awarded from challenges and timely levels |
+| [GS_15](/resources/client/gamesave/GS_Value?id=gs_15)| Queued challenge items (Daily Quests)|
+| [GS_16](/resources/client/gamesave/GS_Value?id=gs_16)| Current highscore on timely levels |
+| [GS_17](/resources/client/gamesave/GS_Value?id=gs_17)| Stars awarded for completing timely levels |
+| [GS_18](/resources/client/gamesave/GS_Value?id=gs_18)| Current highscores for gauntlet levels -> used to calculate how many diamonds you should be awarded|
+| [GS_19](/resources/client/gamesave/GS_Value#GS_19)| Chest rewards from secret bonus chests (treasure room) |
 | [GS_20](/resources/client/gamesave/GS_Value?id=gs_20)| Demon Keys |
-| [GS_21](/resources/client/gamesave/GS_Value#GS_21)| All rewards for Completed Gauntlets + rewards for Demon quest/social medias   |
-| [GS_22](/resources/client/gamesave/GS_Value?id=gs_22)| Rewards from Geometry Dash world |
-| [GS_23](/resources/client/gamesave/GS_Value?id=gs_23)| Gauntlet Level Progress `<k>{levelID}</k><s>{percentage}</s>` |
-| [GS_24](/resources/client/gamesave/GS_Value?id=gs_24)| Daily/Weekly Percentage |
-| [GS_25](/resources/client/gamesave/GS_Value#GS_25)| All the rewards from completed weekly Demons |
+| [GS_21](/resources/client/gamesave/GS_Value#GS_21)| Chest rewards from special chests (gauntlets, socials, storyline)   |
+| [GS_22](/resources/client/gamesave/GS_Value?id=gs_22)| Orbs collected from video rewards (Advert Chests in GDW) |
+| [GS_23](/resources/client/gamesave/GS_Value?id=gs_23)| Current highscores for gauntlet levels |
+| [GS_24](/resources/client/gamesave/GS_Value?id=gs_24)| Current highscore on timely levels -> used to calculate how many diamonds you should be awarded  |
+| [GS_25](/resources/client/gamesave/GS_Value#GS_25)| Collected weekly level rewards (weekly demon chests) |
 
 ### GJA
 
