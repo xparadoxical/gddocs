@@ -86,11 +86,13 @@ Pending user coins are bronze and appear on levels without stars and on rare occ
 
 ## GS_4
 
-GS_4 contains info about all levels you have collected verified coins for
+**GS_4 contains a dictionary of levels with Verified user coins.** 
+
+Verified user coins are silver coins that can be found on levels with a star rating. Although they can be found within levels without a star rate, it is something that doesn't happen as it would defeat the point of rated levels. Upon collecting a user coin, it will increment the statistic within `GS_Value` as well as update it on the players profile for people to see.
 
 | Structure |
 |:----------|
-|`{levelID}_{coins collected}`|
+|`<levelID>_<coins collected>`|
 
 ## GS_5
 
