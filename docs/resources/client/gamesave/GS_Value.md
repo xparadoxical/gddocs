@@ -1,26 +1,45 @@
-# GS Value
+# GameStatsManager
 
-GS values contain Information regarding certain aspects of the game
+**The GS_Values within save data contains various pieces of information regarding the players statistics.**  
+
+There are 24 components of the save which contain player stats and they are all handled by the `GSM` commonly known as the `GameStatsManager`. Below are various tables and explanations of each of the 24 components of the `GSM`
+
+## GS\_Value
+
+**GS_value is a dictionary within GameStatsManager which contains all of the key player statstics.**  
+
+Most of the players stats can be found within GS_Value with a few exceptions and they are used for various tasks within the game. Although the stats are easy to access, they are a bit more difficult to manipulate as the game re-counts stats every time you launch the splash screen. A couple examples of the recount being utilised are:
+
+- Stars recounting using [GameLevelManager](/resources/client/gamesave/GLM.md)
+
+- Orbs recounting using [GameLevelManager](/resources/client/gamesave/GLM.md) and via chests
+
+- Demon Keys recounting by calulating `<Total Orbs> / 500.0`
+
+One key statistic that isn't present inside of GS_Value are bonus shards. The reason for this is that bonus shards are calculated on load by finding the `Lowest Common Denominator` of all of the shards
+
+Secret coins behave quite differently than the other stats as they don't have any keys within the [GameLevelManager](/resources/client/gamesave/GLM.md). Due to this, secret coins use a special keyword within GS_Value and the game uses this to validate if the coins are legitimate.
+
 
 ## GS Value structure
 
 | key | value |
 |:----|:------|
-| 1 | Jumps |
-| 2 | Attempts |
-| 3 | Total Completed Official Levels |
-| 4 | Total Completed Online Levels |
-| 5 | Completed Demons |
-| 6 | Total Stars |
-| 7 | Total Completed MapPacks |
-| 8 | Secret Coins Collected |
-| 9 | Destroyed Players on the menu |
-| 10 | Total Liked/Disliked levels |
-| 11 | Total Rated Levels |
-| 12 | Secret Coins collected |
-| 13 | Total Diamonds |
-| 14 | current orbs |
-| 15 | Completed Daily Levels |
+| 1 | Total jumps |
+| 2 | Total attempts |
+| 3 | Total official levels completed |
+| 4 | Total online levels completed |
+| 5 | Total completed demons |
+| 6 | Total earned stars |
+| 7 | Total completed mappacks |
+| 8 | Secret coins collected |
+| 9 | Players destroyed on the main menu |
+| 10 | Combined total of likes and dislikes |
+| 11 | Total of all difficulty ratings you have given to levels |
+| 12 | Total user coins collected |
+| 13 | Total diamonds collected |
+| 14 | Current Orbs |
+| 15 | Total completed Daily Levels |
 | 16 | Fire Shards |
 | 17 | Ice Shards |
 | 18 | Poison Shards |
@@ -28,32 +47,42 @@ GS values contain Information regarding certain aspects of the game
 | 20 | Lava Shards |
 | 21 | Demon Keys |
 | 22 | Total Orbs Collected |
-| Unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
+| `Unique_<LevelID>_<Coins Collected>` | The Coins Collected on the Official Levels |
 
 ## GS_completed
 
-all completed levels
+**GS_completed contains a dictionary of all levels that the player has completed**
+
+Although at first GS_completed looks complicated, it is fairly simple. Most levels added into GS_completed have usually have multiple instances of the ID and because of this, the system around completed levels can be quite flexible. Altogether there are 3 different types of prefixes
+
+- Completion keys -> `[n, c, d, g]` which are used to tell the game you have completed the level of that type.
+
+- Star keys -> the word `star` is appended onto the completion key and this tells the game to award the player stars.
+
+- Demon keys -> the word `demon` is appended onto the completion key and this tells the game to award the player a demon.
 
 | Key | Value |
 |:----|:------|
-| `n_{levelID}`| beaten in normal Mode |
-| `c_{levelID}` | Completed level|
-| `d_{levelID}` |completed daily |
-| `g_{levelID}` | completed gauntlet |
-| `star_{levelID}` | Collected Stars|
-| `dstar_{levelID}` | Collected Stars for daily|
-| `gstar_{levelID}` | Collected Stars for gauntlet |
-| `demon_{levelID}` | Collected Demon |
-| `ddemon_{levelID}` | Collected Demon for weekly|
-| `gdemon_{levelID}` | Collected Demon for gauntlet|
+| `n_<levelID>`| Official levels which have been completed |
+| `c_<levelID>` | Online levels that have been completed |
+| `d_<levelID>` | Timely levels that have been completed |
+| `g_<levelID>` | Gauntlet levels that have been completed |
+| `star_<levelID>` | If the completed level should give stars |
+| `dstar_<levelID>` | If the timely level should give stars|
+| `gstar_<levelID>` | If the gauntlet level should give stars |
+| `demon_<levelID>` | If the level should give demons |
+| `ddemon_<levelID>` | If the timely level should give demons|
+| `gdemon_<levelID>` | If the gauntlet level should give demons|
 
 ## GS_3
 
-GS_3 contains info about all levels you have collected unverified coins for
+**GS_3 contains a dictionary of levels with pending user coins.**   
+
+Pending user coins are bronze and appear on levels without stars and on rare occasions, some levels with stars have them. Pending user coins do not contribute to the players total user coin count on their profile as they haven't been officially verified by robtop. These coins are stored so the game can update your user coins in the event of a level you had beaten previously earning a star rating 
 
 | Structure |
 |:----------|
-|`{levelID}_{coins collected}`|
+|`<levelID>_<coins collected>`|
 
 ## GS_4
 
