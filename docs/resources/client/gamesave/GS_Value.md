@@ -78,7 +78,7 @@ Although at first GS_completed looks complicated, it is fairly simple. Most leve
 
 **GS_3 contains a dictionary of levels with pending user coins.**   
 
-Pending user coins are bronze and appear on levels without stars and on rare occasions, some levels with stars have them. Pending user coins do not contribute to the players total user coin count on their profile as they haven't been officially verified by robtop. These coins are stored so the game can update your user coins in the event of a level you had beaten previously earning a star rating 
+Pending user coins are bronze and appear on levels without stars and on rare occasions, some levels with stars have them. Pending user coins do not contribute to the players total user coin count on their profile as they haven't been officially verified by RobTop. These coins are stored so the game can update your user coins in the event of a level you had beaten previously earning a star rating 
 
 | Structure |
 |:----------|
@@ -96,11 +96,13 @@ Verified user coins are silver coins that can be found on levels with a star rat
 
 ## GS_5
 
-GS_5 contains info about all the MapPacks you have beaten
+**GS_5 contains a dictionary of MapPacks which the player has completed**
+
+MapPacks are level packs within Geometry Dash which contain handpicked levels by RobTop. Usually mappacks contain 3 different levels however, there isn't a limit to how many levels they contain. Upon completion, a special button to claim the mappack rewards is prompted and doing so results in the mappack being inserted into your save data.
 
 | Structure |
 |:----------|
-|`<k>pack_{packID}</k><s>{stars Rewarded}</s>`|
+|`<k>pack_<packID></k><s><stars Rewarded></s>`|
 
 ## GS_6
 
