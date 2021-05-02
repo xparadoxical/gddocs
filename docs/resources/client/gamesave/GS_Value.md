@@ -106,11 +106,13 @@ MapPacks are level packs within Geometry Dash which contain handpicked levels by
 
 ## GS_6
 
-GS_6 contains all the Purchased Icons on your account
+**GS_6 contains a dictionary of items which the player has purchased from the various shops**
+
+There are 3 shops as of 2.1 which contain items which you can buy. Although there are seperate shops, they all use the same table for listing IDs making the structure for GS_6 simple. A table of listing IDs can be found within the [shop](/topics/shop.md) section of the docs
 
 | Structure |
 |:----------|
-|`<k>{ListingID}</k><s>{Price}</s>`|
+|`<k><ListingID></k><s><Price></s>`|
 
 ## GS_7
 
