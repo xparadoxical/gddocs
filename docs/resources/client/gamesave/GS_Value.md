@@ -116,11 +116,13 @@ There are 3 shops as of 2.1 which contain items which you can buy. Although ther
 
 ## GS_7
 
-GS_7 is the Highscore attempt of levels
+**GS_7 contains a dictionary of highscores from online levels**
+
+GS_7 is one of the `currencyDicts` and is primarily used to calculate how many orbs the player should have from online levels. it contains the high scores for online levels and these high scores are then applied in some math to calculate the orbs you should earn
 
 | Structure |
 |:----------|
-|`<k>{levelID}</k><s>{percentage}</s>`|
+|`<k><levelID></k><s><percentage></s>`|
 
 ## GS_8
 
@@ -132,15 +134,17 @@ GS_9 provides info about how many stars downloaded levels give to you
 
 | Structure |
 |:----------|
-|`<k>{levelID}</k><s>{rewardedStars}</s>`|
+|`<k><levelID></k><s><rewardedStars></s>`|
 
 ## GS_10
 
-GS_10 Contains the high score of All Official Levels you have played
+**GS_10 contains a dictionary of highscores from official levels**
+
+GS_10 is one of the `currencyDicts` and is primarily used to calculate how many orbs the player should have from official levels. it contains the high scores for offiial levels and these high scores are then applied in some math to calculate the orbs you should earn
 
 | Structure |
 |:----------|
-|`<k>{ID}</k><s>{percentage}</s>`|
+|`<k><levelID></k><s><percentage></s>`|
 
 ## GS_11
 
@@ -148,8 +152,8 @@ GS_11 Contains the reward data for the Timely Chests you have opened
 
 | key | Description |
 |:----|:------|
-| `<k>{ChestType}_{ChestID}</k>` | reward Object |
-| `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
+| `<k><ChestType>_<ChestID></k>` | reward Object |
+| `k_<number>` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
 
 ### Chest Types
@@ -169,7 +173,7 @@ The Diamond Rewards Collected from Challenges and Daily levels
 
 | structure | type |Description |
 |:----------|:------|:-----------|
-|`{TypeID}{challenge/dailyID}` | int | The Number of Diamonds Earned | 
+|`<TypeID><challenge/dailyID>` | int | The Number of Diamonds Earned | 
 
 ### TypeID's
 
@@ -184,11 +188,13 @@ GS_15 Contains the upcoming [Quests](/resources/client/gamesave/quests)
 
 ## GS_16
 
-GS_16 contains the High Scores for daily and weekly demons
+**GS_16 contains a dictionary of highscores from timely levels**
+
+GS_16 is one of the `currencyDicts` and is primarily used to calculate how many orbs the player should have from timely levels. it contains the high scores for timely levels and these high scores are then applied in some math to calculate the orbs you should earn
 
 | Structure |
 |:----------|
-|`<k>{TimelyID}</k><s>{percentage}</s>`|
+|`<k><TimelyID></k><s><percentage></s>`|
 
 ## GS_17
 
@@ -196,15 +202,17 @@ GS_17 contains the Stars rewarded for daily and weekly demons
 
 | Structure |
 |:----------|
-|`<k>{TimelyID}</k><s>{Stars}</s>`|
+|`<k><TimelyID></k><s><Stars></s>`|
 
 ## GS_18
 
-GS_18 contains the High Scores for Gauntlet Levels
+**GS_18 contains a dictionary of highscores from gauntlet levels**
+
+GS_18 is one of the `diamondDicts` and is primarily used to calculate how many diamonds the player should have from levels. it contains the high scores for gauntlet levels and these high scores are then applied in some math to calculate the diamonds you should earn
 
 | Structure |
 |:----------|
-|`<k>{levelID}</k><s>{percentage}</s>`|
+|`<k><levelID></k><s><percentage></s>`|
 
 ## GS_19
 
@@ -212,8 +220,8 @@ GS_19 Contains the reward data for the Treasure room chests you have opened
 
 | key | Description |
 |:----|:------|
-| `<k>{ChestID}</k>` | reward Object |
-| `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
+| `<k><ChestID></k>` | reward Object |
+| `k_<number>` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
 
 ## GS_20
@@ -226,9 +234,9 @@ GS_21 Contains the reward data for the gauntlets you have completed
 
 | key | Description |
 |:----|:------|
-| `g_{GauntletID}` | the gauntlet number |
-| `000{ChestID}` | ChestIDs for Reward Chests |
-| `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
+| `g_<GauntletID>` | the gauntlet number |
+| `000<ChestID>` | ChestIDs for Reward Chests |
+| `k_<number>` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
 
 ### Chest IDs
@@ -252,23 +260,27 @@ GS_22 Contains reward data for all of the ad chests from Geometry Dash world
 
 | Key | Value |
 |:----|:------|
-| `{unix Timestamp}` | orbs |
+| `<unix Timestamp>` | orbs |
 
 ## GS_23
 
-GS_23 contains the High Scores for daily and weekly demons
+**GS_23 contains a dictionary of highscores from gauntlet levels**
+
+GS_23 is one of the `currencyDicts` and is primarily used to calculate how many orbs the player should have from gauntlet levels. it contains the high scores for gauntlet levels and these high scores are then applied in some math to calculate the orbs you should earn
 
 | Structure |
 |:----------|
-|`<k>{TimelyID}</k><s>{percentage}</s>`|
+|`<k><TimelyID></k><s><percentage></s>`|
 
 ## GS_24
 
-GS_24 contains the High Scores for Gauntlet Levels
+**GS_24 contains a dictionary of highscores from timely levels**
+
+GS_24 is one of the `diamondDicts` and is primarily used to calculate how many diamonds the player should have from daily levels. it contains the high scores for daily levels and these high scores are then applied in some math to calculate the diamonds you should earn
 
 | Structure |
 |:----------|
-|`<k>{levelID}</k><s>{percentage}</s>`|
+|`<k><levelID></k><s><percentage></s>`|
 
 ## GS_25
 
@@ -276,6 +288,6 @@ GS_25 Contains the reward data for every weekly demon you have completed
 
 | key | Description |
 |:----|:------|
-| `d100{number}` | The Timely ID of the weekly Demon you have beaten |
-| `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
+| `d100<number>` | The Timely ID of the weekly Demon you have beaten |
+| `k_<number>` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
