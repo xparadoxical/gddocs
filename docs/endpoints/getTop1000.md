@@ -28,8 +28,7 @@ Below is a small snippet of the response
     4: Superchat, 157872, 1098021
     5: Cool, 157561, 4825
 
-The Values for each segment are:
 
-| |
-|:|
+| Structure |
+|:----------|
 |`<Leaderboard Position>: <Player UserName>, <Player Star Count>, <Player AccountID>`|
