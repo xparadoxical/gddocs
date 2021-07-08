@@ -138,6 +138,7 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | :-- |:-----------|
 | ugv_25 | FireBird GateKeeper |
 | ugv_26 | Twitch Chest Unlocked |
+| ugv_27 | Discord Chest Unlocked |
 
 ### Undiscovered/unknown GV's
 
