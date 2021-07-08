@@ -49,6 +49,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0045 | debugDraw (editor) |
 | gv_0046 | hideUIOnTest (editor) |
 | gv_0047 | showedProfileText |
+| gv_0048 | viewedOwnProfile |
 | gv_0049 | buttonsPerRow (editor) |
 | gv_0050 | buttonRows (editor) |
 | gv_0051 | showedNGMessage (editor) |
@@ -146,7 +147,6 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0020  | **False** | |
 | 0021  | **False** | |
 | 0035  | **False** | |
-| 0048  | **True** | It is related to `myProfile` |
 | 0054  | **False** ||
 | 0071  | **False** ||
 | 0080  | **False** ||
