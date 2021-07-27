@@ -115,4 +115,4 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 | k91 | **string** | | unknown
 | k92 | **integer** | | unknown
 | k93 | **Bool** | unknown |
-| k94 | **Bool** | unlisted2 -> allows anyone to view unlisted level |
+| k94 | **Bool** | unlisted2 -> friends only |
