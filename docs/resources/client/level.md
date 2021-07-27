@@ -21,7 +21,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k9  | Rating                         | **integer**                                                      | The rating a level has                                                           |
 | k10 | RatingSum                      | **integer**                                                      | the sum of all the ratings a level has                                           |
 | k11 | Downloads                      | **integer**                                                      | the amount of times the level's been downloaded                                  |
-| k12 | setCompletes                   | **integer**                                                      | level completions for that particular level                                      |
+| k12 | completes                   | **integer**                                                      | level completions for that particular level                                      |
 | k13 | isEditable                     | **Bool**                                                         | used to stop people editing online and Official levels                           |
 | k14 | Verified                       | **bool**                                                         | whether the level is verified or not                                             |
 | k15 | Uploaded                       | **bool**                                                         | whether the level is uploaded to the server or not                               |
@@ -39,7 +39,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k27 | FeatureScore                   | **integer**                                                      | A featured levels Feature Score                                                  |
 | k33 | Auto                           | **Bool**                                                         | If the level is auto                                                             |
 | k34 | Replay Data                    | **[Gziped String](/topics/encryption/zip.md)**                   | Contains a Gzipped String which contains replay data for levels                  |
-| k35 | Demon                          | **[Demon](enumerations.md)**                                     | if the level is demon                                                            |
+| k35 | hasPlayed                      | **Bool**                                                         | if you have played the level                                                     |
 | k36 | Jumps                          | **integer**                                                      | total Jumps on a level                                                           |
 | k37 | required coins                 | **Integer**                                                      | coins required to unlock an official level                                       |
 | k38 | isUnlocked                     | **Bool**                                                         | is Official level Unlocked                                                       |
@@ -53,10 +53,10 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k47 | hasBeenModified                | **Bool**                                                         | if the level has been modified from outside the GD editor                        |
 | k48 | Object Count                   | **integer**                                                      | the object count of the level                                                |
 | k50 | Binary Version                 | **integer**                                                      | hardcoded to binary Version                                                      |
-| k51 | setCapacity001                 | **integer**                                                      | likely used in Extra String                                                      |
-| k52 | setCapacity002                 | **integer**                                                      | likely used in Extra String                                                      |
-| k53 | setCapacity003                 | **integer**                                                      | likely used in Extra String                                                      |
-| k54 | setCapacity004                 | **integer**                                                      | likely used in Extra String                                                      |
+| k51 | capacity001                    | **Integer**                                                      | BatchNode field for capacity string                                              |
+| k52 | capacity002                    | **integer**                                                      | BatchNodeAdd, BatchNodeAddGlow fields for capacity string                        |
+| k53 | capacity003                    | **integer**                                                      | BatchNodeBottom, BatchNodeBottom2 fields for capacity string                     |
+| k54 | capacity004                    | **integer**                                                      | BatchNodeAddBottom, BatchNodeAddBottom2, BatchNodeAddBottomGlow, BatchNodAddBottom2Glow fields for the capacity string |
 | k60 | AccountID                      | **integer**                                                      | the Creators AccountID                                                           |
 | k61 | First Coin Acquired            | **bool**                                                         | whether the first coin is acquired during verification                           |
 | k62 | Second Coin Acquired           | **bool**                                                         | whether the second coin is acquired during verification                          |
@@ -64,10 +64,10 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k64 | Total Coins                    | **Integer**                                                      | How many Coins the level has                                                     |
 | k65 | isCoinsVerified                | **Bool**                                                         | denotes if the coins are verified or not                                         |
 | k66 | Requested Stars                | **integer**                                                      | the requested stars during publication of the level                              |
-| k67 | Extra String                   | **Extra String**                                                 | Contains batch information about levels                                          |
+| k67 | [Extra String](/resources/client/level-components/capacity-string)                   | **Extra String**                                                 | Contains batch information about levels                                          |
 | k68 | triggeredAntiCheat             | **Bool**                                                         | if you trigger the anticheat when beating demons                                 |
 | k69 | High Object Count              | **Bool**                                                         | If a level has a high object count                                               |
-| k71 | Orb Reward Percentage          | **integer**                                                      | the percentage up until the orb reward has been granted                          |
+| k71 | Mana orb Percentage          | **integer**                                                      | the percentage up until the orb reward has been granted                          |
 | k72 | hasLowDetailMode               | **Bool**                                                         | If a level has LDM                                                               |
 | k73 | toggleLDM                      | **Bool**                                                         | If a LDM is Enabled                                                              |
 | k74 | timelyID                       | **integer**                                                      | the timelyID for a level                                                         |
@@ -83,10 +83,10 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k84 | Level Folder                   | **integer**                                                      | the folder in which the level belongs (0 represents no folder)                   |
 | k85 | Clicks                         | **integer**                                                      | clicks done on a level                                                           |
 | k86 | Player Time                    | **integer**                                                      | the amount of time on a players best attempt (even detects speedhacks)           |
-| k87 | levelScore Seed                | **[LevelScoreSeed](/topics/encryption/chk?id=level-leaderboard)**| Contains info to verify the integrity of levelScores                             |
+| k87 | level Seed                | **[LevelScoreSeed](/topics/encryption/chk?id=level-leaderboard)**| Contains info to verify the integrity of levelScores                             |
 | k88 | Level Progress                 | **integer**                                                      | Contains a list of high score differences seperated by a `,`                     |
-| k89 | [isLevelScorechkValid](/topics/encryption/chk?id=level-leaderboard) | **Bool**                    | used to check for level completion                                               |
-| k90 | Verify percentage              | **integer**                                                      | Contains the percentage for levels you are trying to verify                      |
+| k89 | vfDChk                         | **Bool**                                                         | not much is known about this other than it involves in level seed creation       |
+| k90 | leaderboard percentage              | **integer**                                                      | Contains the percentage for levels you are trying to verify                      |
 
 
 **Last Editor State Key/Value Pairs**
@@ -106,7 +106,7 @@ Note that the build tab pages do not depend on the user's button row/column sett
 
 The build tab page is 5, and the button settings are 6x2 (default), meaning the currently shown elements range from `5 * 6 * 2` = 60 to `6 * 6 * 2 - 1` = 71 (zero-indexed). If the user changes the button settings to 12x3, the tab page will remain as 5, showing elements ranging from `5 * 12 * 3` = 180 to `6 * 12 * 3 - 1` = 215 (zero-indexed).
 
-### GDL22
+### 2019 2.2 leaks
 
 <!-- from what i gathered, there doesnt seem to be any code that triggers these yet-->
 
