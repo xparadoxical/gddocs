@@ -110,11 +110,9 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 
 <!-- from what i gathered, there doesnt seem to be any code that triggers these yet-->
 
-**Current Unknown Values**
-
 | Key | Type        | Info                                                     |
 | :-- | :---------- | :------------------------------------------------------- |
-| k91 | **string** | |
-| k92 | **integer** | |
-| k93 | **Bool** | unlimited Objects? |
-| k94 | **Bool** | Platformer? |
+| k91 | **string** | | unknown
+| k92 | **integer** | | unknown
+| k93 | **Bool** | unknown |
+| k94 | **Bool** | unlisted2 -> allows anyone to view unlisted level |
