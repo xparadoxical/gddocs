@@ -6,27 +6,28 @@ Accepts an incoming friend request
 
 ### Required Parameters
 
-**accountID** - Account ID of the user accepting the friend request
+| Parameter | Description | Type | Required |
+|:----------|:------------|:-----|:---------|
+| **gameVersion** | The Game Version `(21)` | **Integer** | False |
+| **binaryVersion** | The Binary Version `(34/35)` | **Integer** | False |
+| **gdw** | If the game is played on GD world | **Bool** | False |
+| **accountID** | The user's accountID | **Integer** | True |
+| **gjp** | The players password encrypted with [xor-base64](/topics/encryption/xor?id=xor-keys) | **String** | True |
+| **targetAccountID** | The accountID of the player who sent the initial friend request | **Integer** | True |
+| **requestID** | The friend request ID | **Integer** | True |
+| **secret** | [Common Secret](reference?id=secrets) `Wmfd2893gb7` | **String** | True |
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user accepting the friend request
+### Request Data
 
-**targetAccountID** - Account ID of the user who sent the friend request
+| Name | Value |
+|:-----|:------|
+| Tag | `accFriendReq_<TargetAccountID>_<RequestID>` |
+| httpType | `0x1F` |
 
-**requestID** - ID of the friend request (Returned by [uploadFriendRequest20](/endpoints/uploadFriendRequest20.md))
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
 
 ## Response
 
-1, regardless of if the friend request exists or not
+Returns `1` regardless if the request is successful or not
 
 ## Example
 
@@ -48,8 +49,8 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-r = requests.post('http://boomlings.com/database/acceptGJFriendRequest20.php', data=data)
-print(req.text)
+req = requests.post('http://boomlings.com/database/acceptGJFriendRequest20.php', data=data)
+print(req.text) # 1
 ```
 
 **Response**
