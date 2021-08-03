@@ -4,27 +4,26 @@ Blocks a user.
 
 ## Parameters
 
-### Required Parameters
+| Parameter | Description | Type | Required |
+|:----------|:------------|:-----|:---------|
+| **gameVersion** | The Game Version `(21)` | **Integer** | False |
+| **binaryVersion** | The Binary Version `(34/35)` | **Integer** | False |
+| **gdw** | If the game is played on GD world | **Bool** | False |
+| **accountID** | The user's accountID | **Integer** | True |
+| **gjp** | The players password encrypted with [xor-base64](/topics/encryption/xor?id=xor-keys) | **String** | True |
+| **targetAccountID** | The accountID of the player who sent the initial friend request | **Integer** | True |
+| **secret** | [Common Secret](reference?id=secrets) `Wmfd2893gb7` | **String** | True |
 
-**accountID** - The blocking person's account ID
+### Request Data
 
-**gjp** - The blocking person's [GJP](/topics/encryption/gjp.md)
-
-**targetAccountID** - The account ID of the person being blocked
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Name | Value |
+|:-----|:------|
+| Tag | `blockUser_<TargetAccountID>` |
+| httpType | `0x22` |
 
 ## Response
 
-Always returns 1, regardless of if the target account exists or not.
+Returns `1` regardless if the account exists or not
 
 ## Example
 

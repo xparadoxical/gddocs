@@ -27,7 +27,7 @@ Accepts an incoming friend request
 
 ## Response
 
-Returns `1` regardless if the request is successful or not
+Returns `1` regardless if the account exists or not
 
 ## Example
 
