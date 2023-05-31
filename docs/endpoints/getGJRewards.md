@@ -26,7 +26,7 @@ Gets the rewards from the chests.
 
 **uuid** - Seemingly a random number also used for identifying someone
 
-**rewardType** - 0 for small chest, 1 for large chest. Defaults to 0 if left out
+**rewardType** - 1 for small chest, 2 for large chest. Defaults to 0 if left out
 
 **r1** - A random 3-5 digit number
 
