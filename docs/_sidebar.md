@@ -1,10 +1,15 @@
 <!-- docs/_sidebar.md -->
 
-- [Intro](/)
-- [Reference](/reference.md)
-- [Credits](/CREDITS.md)
+- [Home](/)
+- [Reference]()
+    - [Official Songs](/reference/songs)
+    - [Secrets](/reference/secrets)
+    - [Keys](/reference/keys)
+    - [Salts](/reference/salts)
+- [Credits](/CREDITS)
 
-## **Resources**
+
+- **Resources**
 
 - **Server**
   - [Comment](/resources/server/comment.md)

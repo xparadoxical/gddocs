@@ -1,42 +1,51 @@
 # Introduction
 
-Welcome to the Geometry Dash Programming **[Discord](https://discord.gg/jEwtDBK)** server's online iteration of documentation for Geometry Dash. Here, you'll find all sorts of information, documents, and resources for interacting with **[Geometry Dash](http://robtopgames.com)**. We aim to make **[GDDocs](https://github.com/gd-programming/gddocs)** the most comprehensive and open source of information for the game, created by many people who have interacted with the game and wish to share such with others.
+Welcome to the Geometry Dash documentation project. On this website, you will find lots of information regarding the popular indie game **Geometry Dash**
 
-The provided documentation is available on it's repository, over [here](https://github.com/gd-programming/gddocs). For all issues regarding information found here, please consult us by creating an issue.
+> If you can't find what you're looking for on here, join our [Discord Server](https://discord.gg/gd-programming-646101505417674758) and we can assist you!
 
-## Projects
+## Contributions
 
-### Geometry Dash Wrappers
+> If you wish to contribute to this project, please submit a [Pull Request](https://github.com/Wyliemaster/gddocs) in our GitHub repository
 
-A few people, or teams have gone out of their way to create proper wrappers and API's around the **Geometry Dash** servers and it's client. All of the known and endorsed projects will find their way here, as a listing of resources people can use for their own projects.
 
-#### Python
+## Community Projects
 
-* [gd.py](https://github.com/NeKitDS/gd.py) by [NeKitDS](https://github.com/NeKitDS)
+> Over the years, many community members have developed their own tools and software which interact with Geometry Dash and its servers
 
-#### C#
+### Tools and Software
 
-* [GDAPI](https://github.com/gd-edit/GDAPI) by the [GDEdit Team](https://github.com/gd-edit)
-* [GDNET](https://github.com/GDdotNET/GDNET) by the [GD.NET Team](https://github.com/GDdotNET)
+- **[GD Browser](https://gdbrowser.com/) by [GD Colon](https://github.com/GDColon)**  
+Recreation of Geometry Dash's interface available via the browser
 
-### Geometry Dash Projects
+- **[GD Forums](https://gdforums.com/) by [Hyperbolus Team](https://github.com/hyperbolus)**  
+Community Forum which can interact with the Geometry Dash Servers
 
-These are generally projects that generally interface over the Geometry Dash servers, and overall have built up their own recognition and traction along the community, and developers alike.
+- **[SPWN Language](https://github.com/Spu7Nix/SPWN-language) by [Spu7nix](https://github.com/Spu7Nix)**  
+Programming Language designed to create Geometry Dash levels
 
-#### Node.js
+- **[GD History](https://history.geometrydash.eu/) by [Cvolton](https://github.com/Cvolton)**  
+Preservation of Geometry Dash's history
 
-* [GDBrowser](https://github.com/GDColon/GDBrowser) by [GDColon](https://github.com/GDColon)
-* [GD-NodeJS-API](https://github.com/SMJSGaming/GD-NodeJS-API) by [SMJS](https://github.com/SMJSGaming)
+- **[GMDPrivateServer](https://github.com/Cvolton/GMDprivateServer) by [Cvolton](https://github.com/Cvolton)**  
+Private Server Implementation for Geometry Dash's Servers
 
-#### C#
+- **[Geode](https://geode-sdk.org/) by [Geode Team](https://github.com/geode-sdk)**  
+Cross Platform Mod loader and Modding framework
 
-* [GDEdit](https://github.com/gd-edit/GDE) by the [GDEdit Team](https://github.com/gd-edit)
+### Client Modifications
 
-#### C++
+- **[Megahack](https://absolllute.com/store/view_mega_hack_pro) by [Absolute](https://github.com/absoIute)**  
+Modded client for Windows and Android which includes hundreds of mods
 
-* [GDAddon](https://github.com/Keenlos/GDAddonSDK) by the [Keenlos Team](https://github.com/Keenlos/Keenlos/blob/master/ABOUT.md)
-* [GDCrypto](https://github.com/Cos8o/GDCrypto) by [Cos8o](https://github.com/Cos8o)
+- **[iCreate Pro](https://geticreate.pro/) by [Camila314](https://github.com/camila314)**  
+Modded client for iOS which includes 30+ mods
 
-## Outside Remarks
+- **[Crystal](https://github.com/ninXout/Crystal-Client/tree/main) by [ninXout](https://github.com/ninXout)**  
+Modded client for MacOS which includes 60+ mods
 
-With this documentation, the Geometry Dash Programming staff team would love to see your interesting ideas with this project, and the kinds of things you create with the information provided. Make sure to hit us up on our discord, and show us of such!
+- **[BetterEdit](https://github.com/HJfod/BetterEdit) by [HJFod](https://github.com/HJfod/)**  
+An extension to the GD editor with many Quality of life enhancements
+
+- **[Textureldr](https://github.com/poweredbypie/textureldr) by [PoweredByPie](https://github.com/PoweredByPie/)**  
+Integrated Texture pack system
