@@ -26,7 +26,7 @@ Gets the rewards from the chests.
 
 **uuid** - Seemingly a random number also used for identifying someone
 
-**rewardType** - 0 for small chest, 1 for large chest. Defaults to 0 if left out
+**rewardType** - 1 for small chest, 2 for large chest. Defaults to 0 if left out
 
 **r1** - A random 3-5 digit number
 
@@ -73,11 +73,15 @@ data = {
 
 req = requests.post("http://boomlings.com/database/getGJRewards.php", data=data)
 print(req.text)
+
+decoded_text = xor_cipher(base64.urlsafe_b64decode(response_text.split("|")[0][5:].encode()).decode(), '59182')
+print(decoded_text)
 ```
 
 **Response**
 ```py
 DA96FcVVmQnEPCggLBwMOAwIGDAAGDgsPcBFbU1sZQU1GFXtiGFpQS1QCAwIKCQsDDwsHDAQPDQEUAxkJHQgIBA4DDAgCDQcMAg8LAQgeAxUFFAIPDAILCAQ=|3f5f0ad92a601380e7eea113c223be94ff75304d
+DlWzC:3935672:499769:I can put BS here:173831:2646:40,1,0,0:1724:74640:200,6,4,0:533:1
 ```
 
 <!-- tabs:end -->
