@@ -10,7 +10,7 @@
 - [Credits](/CREDITS)
 
 
-- **Resources**
+**Resources**
 
 - **Server**
   - [Comment](/resources/server/comment.md)
