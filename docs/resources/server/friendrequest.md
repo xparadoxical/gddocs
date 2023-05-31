@@ -17,7 +17,7 @@ The server response returns a [User String](/resources/server/user) in a respons
 Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
 A list of all known keys can be found in the table below
 
-#### Friend Request Structure
+### Friend Request Structure
 
 **Note:** We will use "other user" to describe the user on the other side of the friend request, be it the receiving end or the sending end.
 
@@ -36,6 +36,6 @@ A list of all known keys can be found in the table below
 | 37  | age			  | **String** 					 | How long ago the friend request was sent (e.g. "2 months")
 | 41  | NewFriendRequest		  | **Bool**					 | if the friend request is new
 
-### Trivia
+#### Trivia
 
 - By sending yourself a friend request through 3rd party tools, you can actually block yourself. Doing so doesn't have any serious consequences as you can see in this [video by Cvolton](https://www.youtube.com/watch?v=R18tKYFrIqE)
