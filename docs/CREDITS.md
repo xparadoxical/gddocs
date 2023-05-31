@@ -1,12 +1,26 @@
 # Credits
 
-Thanks to the **Geometry Dash Programming** experts, and the **GDDocs** contributors for making this project a reality. Without you guys, this project wouldn't have even been possible.
+> **The GD Docs Project is maintained by [Wylie](https://github.com/Wyliemaster) and is backed by [GD Programming](https://discord.gg/gd-programming-646101505417674758) which is owned by [SMJS](https://github.com/SMJSGaming)**
 
-*-- Team professionally led by [SMJS](https://github.com/SMJSGaming)*
-- [nekit](https://github.com/nekitdev)
-- [Wylie](https://github.com/Wyliemaster)
+## Special Thanks
+
+**Special thanks to all the experts in GD Programming for their contributions to this project**
 - [Andre](https://github.com/AndreNIH)
 - [Cvolton](https://github.com/Cvolton)
 - [Colon](https://github.com/GDColon)
-- [AlFas](https://github.com/AlFasGD)
-- [zmx](https://github.com/kyurime)
+- [Mat](https://github.com/matcool)
+- [Nekit](https://github.com/nekitdev)
+- [Nora](https://github.com/naoei)
+- [Rekkon](https://github.com/Rekkonnect)
+- [zmx](https://github.com/qimiko)
+
+
+
+
+
+
+
+
+
+
+

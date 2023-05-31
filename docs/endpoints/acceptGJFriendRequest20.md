@@ -1,60 +1,30 @@
-# acceptGJFriendRequest20.php
+# Accepting Friend Requests
 
-Accepts an incoming friend request
+> This endpoint is used to accept friend requests recieved from other users
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - Account ID of the user accepting the friend request
-
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user accepting the friend request
-
-**targetAccountID** - Account ID of the user who sent the friend request
-
-**requestID** - ID of the friend request (Returned by [uploadFriendRequest20](/endpoints/uploadFriendRequest20.md))
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Parameter         | Explanation                                                        | Optional |
+| :---------------- | :----------------------------------------------------------------- | -------- |
+| `gameVersion`     | The Game Version the player is playing on                          | `True`   |
+| `binaryVersion`   | The current build the player playing on                            | `True`   |
+| `gdw`             | If the player is using Geometry Dash World                         | `True`   |
+| `requestID`       | The ID of the friend request being accepted                        | `True`   |
+| `accountID`       | The player's account ID                                            | `False`  |
+| `targetAccountID` | The account which the player is trying to send a friend request to | `False`  |
+| `gjp`             | The player's password encrypted with xor cipher and base64         | `False`  |
+| `secret`          | The common secret: `Wmfd2893gb7`                                   | `False`  |
 
 ## Response
 
-1, regardless of if the friend request exists or not
+**Successful Request**
 
-## Example
-
-<!-- tabs:start -->
-
-### **Python**
-
-```py
-import requests
-
-# With this code, DevExit is accepted a friend request
-# from PasswordFinders, whose account ID is 5317656
-
-data = {
-    "accountID": 173831, # DevExit's account ID
-    "gjp": "********", # This would be DevExit's password encoded with GJP encryption
-    "targetAccountID": 5317656,
-    "requestID": 43248797,
-    "secret": "Wmfd2893gb7",
-}
-
-r = requests.post('http://boomlings.com/database/acceptGJFriendRequest20.php', data=data)
-print(req.text)
-```
-
-**Response**
 ```py
 1
 ```
 
-<!-- tabs:end -->
+**Failed Request**
+
+```py
+-1
+```

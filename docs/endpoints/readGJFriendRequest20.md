@@ -1,54 +1,29 @@
-# readGJFriendRequest20.php
+# ReadFriendRequests
 
-Marks a friend request as "read"
+> This endpoint is used to read friend requests recieved from other players
 
 ## Parameters
 
-### Required Parameters
-
-**accountID** - The accountID of the user reading the friend request
-
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user reading the friend request
-
-**requestID** - The ID of the friend request
-
-**secret** - Wmfd2893gb7
-
-### Optional Parameters
-
-**gameVersion** - 21
-
-**binaryVersion** - 35
-
-**gdw** - 0
+| Parameter       | Explanation                                                | Optional |
+| :-------------- | :--------------------------------------------------------- | -------- |
+| `gameVersion`   | The Game Version the player is playing on                  | `True`   |
+| `binaryVersion` | The current build the player playing on                    | `True`   |
+| `gdw`           | If the player is using Geometry Dash World                 | `True`   |
+| `accountID`     | The player's account ID                                    | `False`  |
+| `gjp`           | The player's password encrypted with xor cipher and base64 | `False`  |
+| `requestID`     | The ID for the friend request recieved                     | `False`  |
+| `secret`        | The common secret: `Wmfd2893gb7`                           | `False`  |
 
 ## Response
 
-1 if the required parameters are met, otherwise -1
+**Successful Request**
 
-## Example
-
-<!-- tabs:start -->
-
-### **Python**
-
-```py
-import requests
-
-data = {
-    'accountID': 173831, # DevExit's account ID
-    'gjp': "********", # This would be DevExit's password encoded with GJP encryption
-    'requestID': 43199784,
-    'secret': 'Wmfd2893gb7'
-}
-
-r = requests.post('http://boomlings.com/database/readGJFriendRequest20.php', data=data)
-print(req.text)
-```
-
-**Response**
 ```py
 1
 ```
 
-<!-- tabs:end -->
+**Failed Request**
+
+```py
+-1
+```
