@@ -42,73 +42,67 @@
     - [Guideline String](/resources/client/level-components/guideline-string.md)
 **Endpoints**
 
-- Comments
-  - [deleteGJAccComment20](/endpoints/deleteGJAccComment20.md)
-  - [deleteGJComment20](/endpoints/deleteGJComment20.md)
-  - [getGJAccountComments20](/endpoints/getGJAccountComments20.md)
-  - [getGJCommentHistory](/endpoints/getGJCommentHistory.md)
-  - [getGJComments21](/endpoints/getGJComments21.md)
-  - [uploadGJAccComment20](/endpoints/uploadGJAccComment20.md)
-  - [uploadGJComment21](/endpoints/uploadGJComment21.md)
-- Level Packs
-  - [getGJGauntlets21](/endpoints/getGJGauntlets21.md)
-  - [getGJMapPacks21](/endpoints/getGJMapPacks21.md)
-- Levels
-  - [deleteGJLevelUser20](/endpoints/deleteGJLevelUser20.md)
-  - [downloadGJLevel22](/endpoints/downloadGJLevel22.md)
-  - [getGJDailyLevel](/endpoints/getGJDailyLevel.md)
-  - [getGJLevels21](/endpoints/getGJLevels21.md)
-  - [rateGJDemon21](/endpoints/rateGJDemon21.md)
-  - [rateGJStars211](/endpoints/rateGJStars211.md)
-  - [reportGJLevel](/endpoints/reportGJLevel.md)
-  - [suggestGJStars](/endpoints/suggestGJStars.md)
-  - [updateGJDesc20](/endpoints/updateGJDesc20.md)
-  - [uploadGJLevel21](/endpoints/uploadGJLevel21.md)
-- Messages
-  - [deleteGJMessages20](/endpoints/deleteGJMessages20.md)
-  - [downloadGJMessage20](/endpoints/downloadGJMessage20.md)
-  - [getGJMessages20](/endpoints/getGJMessages20.md)
-  - [uploadGJMessage20](/endpoints/uploadGJMessage20.md)
-- Miscellaneous
-  - [getAccountURL](/endpoints/getAccountURL.md)
-  - [getTop1000](/endpoints/getTop1000.md)
-  - [getGJSongInfo](/endpoints/getGJSongInfo.md)
-  - [getGJTopArtists](/endpoints/getGJTopArtists.md)
-  - [getSaveData](/endpoints/getSaveData.md)
-  - [testSong](/endpoints/testSong.md)
-  - [likeGJItem211](/endpoints/likeGJItem211.md)
-  - [requestUserAccess](/endpoints/requestUserAccess.md)
-  - [restoreGJItems](/endpoints/restoreGJItems.md)
-- Relationships
-  - [acceptGJFriendRequest20](/endpoints/acceptGJFriendRequest20.md)
-  - [blockGJUser20](/endpoints/blockGJUser20.md)
-  - [deleteGJFriendRequests20](/endpoints/deleteGJFriendRequests20.md)
-  - [getGJFriendRequests20](/endpoints/getGJFriendRequests20.md)
-  - [getGJUserList20](/endpoints/getGJUserList20.md)
-  - [readGJFriendRequest20](/endpoints/readGJFriendRequest20.md)
-  - [removeGJFriend20](/endpoints/removeGJFriend20.md)
-  - [unblockGJUser20](/endpoints/unblockGJUser20.md)
-  - [uploadFriendRequest20](/endpoints/uploadFriendRequest20.md)
-- Rewards
-  - [getGJChallenges](/endpoints/getGJChallenges.md)
-  - [getGJRewards](/endpoints/getGJRewards.md)
-- Scores
-  - [getGJLevelScores211](/endpoints/getGJLevelScores211.md)
-  - [getGJScores20](/endpoints/getGJScores20.md)
-- Users
-
-  - [getGJUserInfo20](/endpoints/getGJUserInfo20.md)
-  - [getGJUsers20](/endpoints/getGJUsers20.md)
-  - [updateGJAccSettings20](/endpoints/updateGJAccSettings20.md)
-  - [updateGJUserScore22](/endpoints/updateGJUserScore22.md)
-
-- **Accounts**
-  - [Login](/endpoints/accounts/loginGJAccount.md)
-  - [Registration](/endpoints/accounts/registerGJAccount.md)
-
-- **Account Server Endpoints**
-  - [Backup](/endpoints/accounts/backupGJAccountNew.md)
-  - [Sync](/endpoints/accounts/syncGJAccountNew.md)
+**Accounts**
+  - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
+  - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
+  - [loginGJAccount](/endpoints/accounts/loginGJAccount.md)
+  - [registerGJAccount](/endpoints/accounts/registerGJAccount.md)
+  - [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20.md)
+**Users**
+  - [getGJScores20](/endpoints/users/getGJScores20.md)
+  - [getGJUserInfo20](/endpoints/users/getGJUserInfo20.md)
+  - [getGJUsers20](/endpoints/users/getGJUsers20.md)
+  - [updateGJUserScore22](/endpoints/users/updateGJUserScore22.md)
+**Levels**
+  - [deleteGJLevelUser20](/endpoints/levels/deleteGJLevelUser20.md)
+  - [downloadGJLevel22](/endpoints/levels/downloadGJLevel22.md)
+  - [getGJDailyLevel](/endpoints/levels/getGJDailyLevel.md)
+  - [getGJGauntlets21](/endpoints/levels/getGJGauntlets21.md)
+  - [getGJLevels21](/endpoints/levels/getGJLevels21.md)
+  - [getGJLevelScores211](/endpoints/levels/getGJLevelScores211.md)
+  - [getGJMapPacks21](/endpoints/levels/getGJMapPacks21.md)
+  - [rateGJDemon21](/endpoints/levels/rateGJDemon21.md)
+  - [rateGJStars211](/endpoints/levels/rateGJStars211.md)
+  - [reportGJLevel](/endpoints/levels/reportGJLevel.md)
+  - [suggestGJStars](/endpoints/levels/suggestGJStars.md)
+  - [updateGJDesc20](/endpoints/levels/updateGJDesc20.md)
+  - [uploadGJLevel21](/endpoints/levels/uploadGJLevel21.md)
+**Comments**
+  - [deleteGJAccComment20](/endpoints/comments/deleteGJAccComment20.md)
+  - [deleteGJComment20](/endpoints/comments/deleteGJComment20.md)
+  - [getGJAccountComments20](/endpoints/comments/getGJAccountComments20.md)
+  - [getGJCommentHistory](/endpoints/comments/getGJCommentHistory.md)
+  - [getGJComments21](/endpoints/comments/getGJComments21.md)
+  - [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)
+  - [uploadGJComment21](/endpoints/comments/uploadGJComment21.md)
+**Socials**
+  - [acceptGJFriendRequest20](/endpoints/socials/acceptGJFriendRequest20.md)
+  - [blockGJUser20](/endpoints/socials/blockGJUser20.md)
+  - [deleteGJFriendRequests20](/endpoints/socials/deleteGJFriendRequests20.md)
+  - [deleteGJMessages20](/endpoints/socials/deleteGJMessages20.md)
+  - [downloadGJMessage20](/endpoints/socials/downloadGJMessage20.md)
+  - [getGJFriendRequests20](/endpoints/socials/getGJFriendRequests20.md)
+  - [getGJMessages20](/endpoints/socials/getGJMessages20.md)
+  - [getGJUserList20](/endpoints/socials/getGJUserList20.md)
+  - [readGJFriendRequest20](/endpoints/socials/readGJFriendRequest20.md)
+  - [removeGJFriend20](/endpoints/socials/removeGJFriend20.md)
+  - [unblockGJUser20](/endpoints/socials/unblockGJUser20.md)
+  - [uploadFriendRequest20](/endpoints/socials/UploadFriendRequest20.md)
+  - [uploadGJMessage20](/endpoints/socials/uploadGJMessage20.md)
+**Rewards**
+  - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)
+  - [getGJRewards](/endpoints/rewards/getGJRewards.md)
+**Songs**
+  - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
+  - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
+  - [testSong](/endpoints/songs/testSong.md)
+**Misc**
+  - [getAccountURL](/endpoints/misc/getAccountURL.md)
+  - [getSaveData](/endpoints/misc/getSaveData.md)
+  - [getTop1000](/endpoints/misc/getTop1000.md)
+  - [likeGJItem211](/endpoints/misc/likeGJItem211.md)
+  - [requestUserAccess](/endpoints/misc/requestUserAccess.md)
+  - [restoreGJItems](/endpoints/misc/restoreGJItems.md)
 
 - **Topics**
   - [GJP](/topics/gjp.md)
@@ -121,7 +115,7 @@
   - [Tags](/topics/tags)  
 
 
-- **Encryption**
+- **Algorithms**
   - [AES](topics/encryption/AES.md)
   - [Base64 Encoding](topics/encryption/base64.md)
   - [CHK Generation](topics/encryption/chk.md)
