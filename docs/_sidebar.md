@@ -1,6 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/)
 - [Reference]()
     - [Official Songs](/reference/songs)
     - [Secrets](/reference/secrets)
