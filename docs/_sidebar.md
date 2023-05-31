@@ -103,7 +103,6 @@
   - [likeGJItem211](/endpoints/misc/likeGJItem211.md)
   - [requestUserAccess](/endpoints/misc/requestUserAccess.md)
   - [restoreGJItems](/endpoints/misc/restoreGJItems.md)
-
 - **Topics**
   - [GJP](/topics/gjp.md)
   - [Level Passwords](/topics/level_passwords.md)
