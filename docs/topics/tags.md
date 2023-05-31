@@ -15,7 +15,7 @@
 
 **Usage:** `<cl>Coloured Text!</c>`
 
-<link rel="stylesheet" href="colour_tags.css">
+<link rel="stylesheet" href="stylesheets/colour_tags.css">
 
 | Tag       | Colour Code | Example (Website Only)                                 |
 | :-------- | :---------- | :----------------------------------------------------- |
