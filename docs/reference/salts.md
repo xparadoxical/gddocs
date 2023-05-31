@@ -32,4 +32,4 @@ Below is an example of a salt being implemented within **Vault Codes**
     }
 ```
 
-Please refer to the [Algorithms](topics/algorithms) for more information about the implementation
+Please refer to the Encryption Section for more information about the implementation

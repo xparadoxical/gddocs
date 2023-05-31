@@ -1,33 +1,48 @@
 # Base64
 
-Base64 encoding is widely used amongst different endpoints in Geometry Dash.
+> Base64 is a method of encoding data which is widely used in the context of Geometry Dash.
 
-It is used to encode fields like level data, level descriptions, comments, etc.
+**GD uses a variant of Base64 called url safe Base64 which replaces characters that may unintentionally break requests sent to the servers**
 
-GD uses *URL-safe* Base64 encoding, which uses A-Z and a-z letters, along with `_` and `-` as special characters. (Main Base64 uses `+` and `/` special characters)
+## Table of characters
 
-Here is an example of using Base64 decoding and encoding:
+> This table covers the characters url safe base64 use
 
-<!-- tabs:start -->
+| Index | Binary   | Char |     | Index | Binary   | Char |
+| :---- | :------- | :--- | :-- | :---- | -------- | ---- |
+| `0`   | `000000` | A    |     | `32`  | `100000` | g    |
+| `1`   | `000001` | B    |     | `33`  | `100001` | h    |
+| `2`   | `000010` | C    |     | `34`  | `100010` | i    |
+| `3`   | `000011` | D    |     | `35`  | `100011` | j    |
+| `4`   | `000100` | E    |     | `36`  | `100100` | k    |
+| `5`   | `000101` | F    |     | `37`  | `100101` | l    |
+| `6`   | `000110` | G    |     | `38`  | `100110` | m    |
+| `7`   | `000111` | H    |     | `39`  | `100111` | n    |
+| `8`   | `001000` | I    |     | `40`  | `101000` | o    |
+| `9`   | `001001` | J    |     | `41`  | `101001` | p    |
+| `10`  | `001010` | K    |     | `42`  | `101010` | q    |
+| `11`  | `001011` | L    |     | `43`  | `101011` | r    |
+| `12`  | `001100` | M    |     | `44`  | `101100` | s    |
+| `13`  | `001101` | N    |     | `45`  | `101101` | t    |
+| `14`  | `001110` | O    |     | `46`  | `101110` | u    |
+| `15`  | `001111` | P    |     | `47`  | `101111` | v    |
+| `16`  | `010000` | Q    |     | `48`  | `110000` | w    |
+| `17`  | `010001` | R    |     | `49`  | `110001` | x    |
+| `18`  | `010010` | S    |     | `50`  | `110010` | y    |
+| `19`  | `010011` | T    |     | `51`  | `110011` | z    |
+| `20`  | `010100` | U    |     | `52`  | `110100` | 0    |
+| `21`  | `010101` | V    |     | `53`  | `110101` | 1    |
+| `22`  | `010110` | W    |     | `54`  | `110110` | 2    |
+| `23`  | `010111` | X    |     | `55`  | `110111` | 3    |
+| `24`  | `011000` | Y    |     | `56`  | `111000` | 4    |
+| `25`  | `011001` | Z    |     | `57`  | `111001` | 5    |
+| `26`  | `011010` | a    |     | `58`  | `111010` | 6    |
+| `27`  | `011011` | b    |     | `59`  | `111011` | 7    |
+| `28`  | `011100` | c    |     | `60`  | `111100` | 8    |
+| `29`  | `011101` | d    |     | `61`  | `111101` | 9    |
+| `30`  | `011110` | e    |     | `62`  | `111110` | \_   |
+| `31`  | `011111` | f    |     | `63`  | `111111` | -    |
 
-### **Python**
+## Padding
 
-```py
-import base64
-
-# For unknown reasons, people tend to use base64.b64(decode|encode) functions
-# and replace "+" with "-" and "/" with "_" manually,
-# even though "base64" module implements base64.urlsafe_b64(decode|encode).
-
-# encode and decode functions return "bytes" type in python so we might want to use
-# bytes.decode() to convert them to "str" type.
-
-def base64_encode(string: str) -> str:
-    return base64.urlsafe_b64encode(string.encode()).decode()
-
-
-def base64_decode(string: str) -> str:
-    return base64.urlsafe_b64decode(string.encode()).decode()
-```
-
-<!-- tabs:end -->
+> The padding character is `=` however, it is optional as the Geometry Dash servers will automatically correct strings that do not have any padding

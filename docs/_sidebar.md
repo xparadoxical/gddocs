@@ -6,6 +6,7 @@
     - [Secrets](/reference/secrets)
     - [Keys](/reference/keys)
     - [Salts](/reference/salts)
+- [Request](/endpoints/generic.md)
 - [Credits](/CREDITS)
 
 
@@ -102,30 +103,28 @@
   - [updateGJUserScore22](/endpoints/updateGJUserScore22.md)
 
 - **Accounts**
-
   - [Login](/endpoints/accounts/loginGJAccount.md)
   - [Registration](/endpoints/accounts/registerGJAccount.md)
 
-- [Request](/endpoints/request.md)
+- **Account Server Endpoints**
+  - [Backup](/endpoints/accounts/backupGJAccountNew.md)
+  - [Sync](/endpoints/accounts/syncGJAccountNew.md)
 
-**Account Server Endpoints**
+- **Topics**
+  - [GJP](/topics/gjp.md)
+  - [Level Passwords](/topics/level_passwords.md)
+  - [Level Encoding/Decoding](/topics/levelstring_encoding_decoding.md)
+  - [Game Save Files Encryption/Decryption](/topics/localfiles_encrypt_decrypt.md)
+  - [Status Codes](/topics/status_codes.md)
+  - [Vault Codes](/topics/vault_codes.md)
+  - [Shop](/topics/shop)
+  - [Tags](/topics/tags)  
 
-- [Backup](/endpoints/accounts/backupGJAccountNew.md)
-- [Sync](/endpoints/accounts/syncGJAccountNew.md)
 
-**Topics**
-
-- [GJP](/topics/gjp.md)
-- [Level Passwords](/topics/level_passwords.md)
-- [Level Encoding/Decoding](/topics/levelstring_encoding_decoding.md)
-- [Game Save Files Encryption/Decryption](/topics/localfiles_encrypt_decrypt.md)
-- [Status Codes](/topics/status_codes.md)
-- [Vault Codes](/topics/vault_codes.md)
-- [Shop](/topics/shop)
-- [Tags](/topics/tags)
 - **Encryption**
+  - [AES](topics/encryption/AES.md)
   - [Base64 Encoding](topics/encryption/base64.md)
   - [CHK Generation](topics/encryption/chk.md)
   - [RS, UDID and UUID](topics/encryption/id.md)
-  - [XOR Cipher](topics/encryption/xor.md)
-  - [Data Zipping](topics/encryption/zip.md)
+  - [Xor](topics/encryption/xor.md)
+  - [RobTop Cipher](topics/encryption/robtop-cipher.md)
