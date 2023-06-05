@@ -12,7 +12,8 @@
 
 - **Client**
   - [Gamesave](/resources/client/gamesave.md)
-    - [Keybindings](/resources/client/saves/keybindings.md)
+    - [Account Manager](/resources/client/saves/account.md)
+    - [Keybindings Manager](/resources/client/saves/keybindings.md)
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
     - [Level Colors](/resources/client/level-components/level-colors.md)

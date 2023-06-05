@@ -100,7 +100,7 @@ Local Level Manager is stored inside of the `CCLocalLevels` and contains all loc
 [ACH]: #
 [GLM]: #
 [GSM]: #
-[GJA]: #
+[GJA]: /resources/client/saves/account.md
 [MDLM]: #
 [KBM]: /resources/client/saves/keybindings.md
 
