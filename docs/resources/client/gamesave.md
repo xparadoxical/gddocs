@@ -1,52 +1,112 @@
 # Client Gamesave Resource
 
-## CCGameManager.dat
+> Gamesaves contain very important information regarding the players of Geometry Dash. This document will detail the data that can be found within a save file. For information regarding the decryption of save files, refer to the [Save Decryption][SAVE] section.
 
-Your CCGameManager.dat File contains a lot of information regarding your account. it is encrypted using [Xor](/topics/encryption/xor.md) with a key of 11 / 0xB, [url-Safe Base64](/topics/encryption/base64.md) and [Gzip](/topics/encryption/zip.md) and is in the [XML](https://en.wikipedia.org/wiki/XML) format
+## Types of save files
 
-## Gamesave Key structure
+There are 2 types of save files for Geometry Dash.
 
-| Key     | Type | description |
-| :-------| :--- | :-----------|
-| bgVolume| Float| any value between 0 - 1 |
-| sfxVolume| Float| any value between 0 - 1 |
-| playerUDID| [UDID](/topics/encryption/id?id=udid)| The UDID of the user |
-| playerName| String| The In-game Name of the player|
-| playerUserID| Integer| The userID of the player|
-| playerFrame| [Icon](enumerations.md)| The ID of the player Cube |
-| playerShip| [Icon](enumerations.md)| The ID of the player Ship |
-| playerBall| [Icon](enumerations.md)| The ID of the player Ball |
-| playerBird| [Icon](enumerations.md)| The ID of the player UFO |
-| playerDart| [Icon](enumerations.md)| The ID of the player Wave |
-| playerRobot| [Icon](enumerations.md)| The ID of the player Robot |
-| playerSpider| [Icon](enumerations.md)| The ID of the player Spider |
-| playerColor| [Icon](enumerations.md)| The ID of the player Color |
-| playerColor2| [Icon](enumerations.md)| The ID of the player Color2 |
-| playerStreak| [Icon](enumerations.md)| The ID of the player Trail |
-| playerDeathEffect| [Icon](enumerations.md)| The ID of the player Death Effect |
-| playerIconType| [Icon](enumerations.md)| The Index of the player's IconType |
-| playerGlow| Bool| if Glow is enabled or not |
-| secretNumber| Integer| the answer to `cod3breaker` in the vault of secrets |
-| hasRP       | Bool | If the player is a moderator |
-| [valueKeeper](/resources/client/gamesave/valueKeeper.md)| Dictionary | Dictionary filled with GV values you have enabled |
-| unlockValueKeeper | Dictionary | Dictionary of Unlockable GV values|
-| customObjectDict| Dictionary | Dictionary of object data of custom objects saved|
-| reportedAchievements| Dictionary | contains a dictonary of all reported achievements on your account|
-| showSongMarkers| Bool | if showSongMarkers is enabled |
-| showProgressBar| Bool | if showProgressBar is enabled |
-| clickedGarage| Bool | if Garage has been clicked |
-| clickedEditor| Bool | if Editor has been clicked |
-| clickedPractice| Bool | if Practice mode button has been clicked |
-| showedEditorGuide| Bool | if EditorGuide has been clicked |
-| showedLowDetailDialog| Bool | if low detail mode has been has been clicked |
-| bootups| integer | The ammount of times you have opened Geometry Dash |
-| hasRatedGame| Bool | if you have rated the game |
-| binaryVersion| integer | The Games Binary Version |
-| resolution| integer | The games resolution?  |
-| texQuality| integer | how high the text quality is  |
-| timeOffset| integer | music offset in milliseconds  |
+- CCGameManager
+- CCLocalLevels
 
-### GLM 
+<!-- Todo: Plist section -->
+
+These files contain a lot of data regarding a player and their levels. They are stored in an [Apple property list][PLIST] format
+
+> On some platforms, special backup files called `CCGameManager2.dat` and `CCLocalLevels2.dat` are created with the intent of restoring save data in the event of save data corruption. Unfortunately, it rarely helps.
+
+## Game Manager
+
+Gamemanager is an extremely large file which contains all of the player's save data. The following is all the data which can be found within
+
+| Key                     | Type   | Description                                                                       |
+| :---------------------- | :----- | :-------------------------------------------------------------------------------- |
+| `bgVolume`              | float  | A value typically between the range of 0-1 which controls the background volume   |
+| `sfxVolume`             | float  | A value typically between the range of 0-1 which controls the sound effect volume |
+| `playerUDID`            | string | The player's [Unique Device Identifier][UDID]                                     |
+| `playerUserID`          | int    | The player's User ID                                                              |
+| `playerFrame`           | int    | The ID of the player's cube                                                       |
+| `playerShip`            | int    | The ID of the player's ship                                                       |
+| `playerBall`            | int    | The ID of the player's ball                                                       |
+| `playerBird`            | int    | The ID of the player's UFO                                                        |
+| `playerDart`            | int    | The ID of the player's wave                                                       |
+| `playerRobot`           | int    | The ID of the player's robot                                                      |
+| `playerSpider`          | int    | The ID of the player's spider                                                     |
+| `playerStreak`          | int    | The ID of the player's trail                                                      |
+| `playerDeathEffect`     | int    | The ID of the player's death effect                                               |
+| `playerColor`           | int    | The ID of the player's primary icon colour                                        |
+| `playerColor2`          | int    | The ID of the player's secondary icon colour                                      |
+| `playerGlow`            | bool   | Whether the player has icon glow enabled                                          |
+| `playerIconType`        | int    | The type of icon the player last selected in the icon select screen               |
+| `hasRP`                 | bool   | Whether the player has been given [moderator][MODERATOR] status                   |
+| `secretNumber`          | int    | The answer to the `cod3breaker` vault code in the [vault of secrets][VAULT]       |
+| `recordGameplay`        | bool   | A toggle for if the game should record gameplay for [everyplay][EVERYPLAY]        |
+| `showSongMarkers`       | bool   | A toggle for showing song markers in the editor                                   |
+| `showBPMMarkers`        | bool   | A toggle for showing markers for BPM in the editor                                |
+| `showProgressBar`       | bool   | A toggle for if the progress bar shows during gameplay                            |
+| `clickedGarage`         | bool   | If the player has entered the icon selection screen before                        |
+| `clickedEditor`         | bool   | If the player has entered the editor before                                       |
+| `clickedPractice`       | bool   | If the player has entered practice mode before                                    |
+| `clickedName`           | bool   | If the player has clicked their name in the icon selection screen                 |
+| `showedEditorGuide`     | bool   | If the editor guide popup has been shown to the player                            |
+| `showedLowDetailDialog` | bool   | If the popup explaining low detail mode has been shown in the support menu        |
+| `performanceMode`       | bool   | A toggle for if low detail mode in the support settings has been enabled          |
+| `showedRateDiffDialog`  | bool   | If the popup explaining how difficulty ratings work has been shown                |
+| `showedRateStarDialog`  | bool   | If the popup explaining how star ratings work has been shown                      |
+| `hasRatedGame`          | bool   | If the player has rated the game on the Google Play store or the Apple App Store  |
+| `bootups`               | int    | The number of times the player has opened the game                                |
+| `binaryVersion`         | int    | The current binary version the game is running on                                 |
+| `resolution`            | int    | An enum value which tells the game which resolution to display the game at        |
+| `texQuality`            | int    | An enum value which tells the game which texture quality to use                   |
+| `timeOffset`            | int    | An offset for music in milliseconds                                               |
+
+### Dictionaries
+
+Some parts of save data are embedded within dictionaries. For more information about these dictionaries, please refer to their respective sections
+
+| Key                         | Description                                                              |
+| :-------------------------- | :----------------------------------------------------------------------- |
+| [valueKeeper][VK]           | Contains temporary values as well as some unlockables                    |
+| [unlockValueKeeper][UVK]    | Contains completed events                                                |
+| [customObjectDict][OBJ]     | Contains custom objects created within the editor                        |
+| [reportedAchievements][ACH] | Contains all the achievements the player has had any progress on         |
+| [GLM][GLM]                  | The Game Level Manager which contains a set of dictionaries about levels |
+| [GSM][GSM]                  | The Game Stats Manager which contains a set of dictionaries about stats  |
+| [GJA][GJA]                  | The Account Manager which handles account data                           |
+| [MDLM][MDLM]                | The Music Download Manager which handles downloaded music                |
+| [KBM][KBM]                  | The Keybindings Manager which handles keybindings                        |
+
+## Local Level Manager
+
+Local Level Manager is stored inside of the `CCLocalLevels` and contains all locally created levels. For information regarding how levels are serialised, please refer to the [level][LEVEL] section.
+
+| Key      | Type | Description                                                                          |
+| :------- | :--- | :----------------------------------------------------------------------------------- |
+| `LLM_01` | list | LLM_01 is a list of dictionaries which contain various information regarding levels. |
+| `LLM_02` | int  | The binary version of the game                                                       |
+
+<!-- Links -->
+
+[SAVE]: #
+[PLIST]: #
+[UDID]: #
+[MODERATOR]: #
+[VAULT]: #
+[EVERYPLAY]: #
+[LEVEL]: #
+[VK]: #
+[UVK]: #
+[OBJ]: #
+[ACH]: #
+[GLM]: #
+[GSM]: #
+[GJA]: #
+[MDLM]: #
+[KBM]: #
+
+<!-- ## Gamesave Key structure
+
+### GLM
 
 | Key     | Type | description |
 | :-------| :--- | :-----------|
@@ -130,4 +190,4 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | Key | Value |
 |:----|:------|
 | KBM_001 | Keybindings |
-| KBM_002 | Keybindings |
+| KBM_002 | Keybindings | -->
