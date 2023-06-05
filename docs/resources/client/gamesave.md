@@ -102,7 +102,7 @@ Local Level Manager is stored inside of the `CCLocalLevels` and contains all loc
 [GSM]: #
 [GJA]: #
 [MDLM]: #
-[KBM]: #
+[KBM]: /resources/client/saves/keybindings.md
 
 <!-- ## Gamesave Key structure
 
@@ -178,16 +178,3 @@ Local Level Manager is stored inside of the `CCLocalLevels` and contains all loc
 | LLM_01 | Local Levels |
 | LLM_02 | Hardcoded to `binaryVersion`|
 
-### MDLM
-
-| Key | Value |
-|:----|:------|
-| MDLM_001 | Dictionary of SongInfoObject |
-| MDLM_002 | Song Priority of a song |
-
-### KBM
-
-| Key | Value |
-|:----|:------|
-| KBM_001 | Keybindings |
-| KBM_002 | Keybindings | -->

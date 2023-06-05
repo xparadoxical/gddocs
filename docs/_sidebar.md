@@ -12,13 +12,7 @@
 
 - **Client**
   - [Gamesave](/resources/client/gamesave.md)
-    - [Encoder Keys](resources/client/gamesave/kCEK.md)
-    - [GS Values](/resources/client/gamesave/GS_Value.md)
-    - [GLM](/resources/client/gamesave/GLM.md)
-    - [Value Keeper](/resources/client/gamesave/valueKeeper.md)
-    - [Game Variables](/resources/client/gamesave/gv.md)
-    - [Achievements](/resources/client/gamesave/achievement.md)
-    - [Quests](/resources/client/gamesave/quests.md)
+    - [Keybindings](/resources/client/saves/keybindings.md)
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
     - [Level Colors](/resources/client/level-components/level-colors.md)
