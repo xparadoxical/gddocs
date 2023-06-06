@@ -13,6 +13,7 @@
 - **Client**
   - [Gamesave](/resources/client/gamesave.md)
     - [Account Manager](/resources/client/saves/account.md)
+    - [Music Manager](/resources/client/saves/music.md)
     - [Keybindings Manager](/resources/client/saves/keybindings.md)
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
