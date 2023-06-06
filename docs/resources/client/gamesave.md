@@ -94,7 +94,7 @@ Local Level Manager is stored inside of the `CCLocalLevels` and contains all loc
 [VAULT]: #
 [EVERYPLAY]: #
 [LEVEL]: #
-[VK]: #
+[VK]: /resources/client/saves/value_keeper.md
 [UVK]: #
 [OBJ]: #
 [ACH]: #
