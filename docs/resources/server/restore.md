@@ -22,11 +22,11 @@ A typical Gauntlet Server response is structured with a `key:value:key:value` pa
 
 #### Official Level Structure
 
-There are three sections in regards to the `Official Level State` from the restore endpoint. The data is sent as `{NormalCompleted},{PracticeComepleted},{SecretCoins}`
+There are three sections in regards to the `Official Level State` from the restore endpoint. The data is sent as `{NormalCompleted},{PracticeCompleted},{SecretCoins}`
 
 > - `{NormalCompleted}` is a `Bool` which denotes if you have completed the level in normal Mode<br/><br/>
-> - `{PracticeComepleted}` is a `Bool` which denotes if you have completed the level in practice Mode<br/><br/>
-> - `{SecretCoins}` is an `Integer` which includes the ammount of Secret Coins you collected during the completion of the official level
+> - `{PracticeCompleted}` is a `Bool` which denotes if you have completed the level in practice Mode<br/><br/>
+> - `{SecretCoins}` is an `Integer` which includes the amount of Secret Coins you collected during the completion of the official level
 
 **<h4/>This structure is then iterated for each official level in the update and is split with a `;`**
 
