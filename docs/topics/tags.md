@@ -1,6 +1,6 @@
 # Tags
 
-> Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML.` Geometry Dash has 3 primary types of tags
+> Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML`. Geometry Dash has 3 primary types of tags
 
 - Colour Tags
 - Instant Tags
