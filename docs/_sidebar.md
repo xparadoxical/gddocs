@@ -9,7 +9,7 @@
 - [Credits](/CREDITS)
 
 
-**Resources**
+- **Resources**
 - **Server**
   - [Comment](/resources/server/comment.md)
   - [Friend Request](/resources/server/friendrequest.md)
@@ -22,7 +22,6 @@
   - [User](/resources/server/user.md)
   - [Restore](/resources/server/restore.md)
 
-
 - **Client**
   - [Gamesave](/resources/client/gamesave.md)
     - [Encoder Keys](resources/client/gamesave/kCEK.md)
@@ -32,7 +31,6 @@
     - [Game Variables](/resources/client/gamesave/gv.md)
     - [Achievements](/resources/client/gamesave/achievement.md)
     - [Quests](/resources/client/gamesave/quests.md)
-
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
     - [Level Colors](/resources/client/level-components/level-colors.md)
@@ -95,6 +93,7 @@
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)
+
 
 - **Misc**
   - [getAccountURL](/endpoints/misc/getAccountURL.md)
