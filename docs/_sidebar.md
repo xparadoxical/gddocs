@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
+
 - Reference
     - [Official Songs](/reference/songs)
     - [Secrets](/reference/secrets)
