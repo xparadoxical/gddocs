@@ -9,9 +9,7 @@
 - [Credits](/CREDITS)
 
 
-## Resources
-
-
+**Resources**
 - **Server**
   - [Comment](/resources/server/comment.md)
   - [Friend Request](/resources/server/friendrequest.md)
@@ -43,19 +41,18 @@
     - [Color String](/resources/client/level-components/color-string.md)
     - [Guideline String](/resources/client/level-components/guideline-string.md)
 **Endpoints**
-
-**Accounts**
+- **Accounts**
   - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
   - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
   - [loginGJAccount](/endpoints/accounts/loginGJAccount.md)
   - [registerGJAccount](/endpoints/accounts/registerGJAccount.md)
   - [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20.md)
-**Users**
+- **Users**
   - [getGJScores20](/endpoints/users/getGJScores20.md)
   - [getGJUserInfo20](/endpoints/users/getGJUserInfo20.md)
   - [getGJUsers20](/endpoints/users/getGJUsers20.md)
   - [updateGJUserScore22](/endpoints/users/updateGJUserScore22.md)
-**Levels**
+- **Levels**
   - [deleteGJLevelUser20](/endpoints/levels/deleteGJLevelUser20.md)
   - [downloadGJLevel22](/endpoints/levels/downloadGJLevel22.md)
   - [getGJDailyLevel](/endpoints/levels/getGJDailyLevel.md)
@@ -69,7 +66,7 @@
   - [suggestGJStars](/endpoints/levels/suggestGJStars.md)
   - [updateGJDesc20](/endpoints/levels/updateGJDesc20.md)
   - [uploadGJLevel21](/endpoints/levels/uploadGJLevel21.md)
-**Comments**
+- **Comments**
   - [deleteGJAccComment20](/endpoints/comments/deleteGJAccComment20.md)
   - [deleteGJComment20](/endpoints/comments/deleteGJComment20.md)
   - [getGJAccountComments20](/endpoints/comments/getGJAccountComments20.md)
@@ -77,7 +74,7 @@
   - [getGJComments21](/endpoints/comments/getGJComments21.md)
   - [uploadGJAccComment20](/endpoints/comments/uploadGJAccComment20.md)
   - [uploadGJComment21](/endpoints/comments/uploadGJComment21.md)
-**Socials**
+- **Socials**
   - [acceptGJFriendRequest20](/endpoints/socials/acceptGJFriendRequest20.md)
   - [blockGJUser20](/endpoints/socials/blockGJUser20.md)
   - [deleteGJFriendRequests20](/endpoints/socials/deleteGJFriendRequests20.md)
@@ -91,10 +88,10 @@
   - [unblockGJUser20](/endpoints/socials/unblockGJUser20.md)
   - [uploadFriendRequest20](/endpoints/socials/UploadFriendRequest20.md)
   - [uploadGJMessage20](/endpoints/socials/uploadGJMessage20.md)
-**Rewards**
+- **Rewards**
   - [getGJChallenges](/endpoints/rewards/getGJChallenges.md)
   - [getGJRewards](/endpoints/rewards/getGJRewards.md)
-**Songs**
+- **Songs**
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)
