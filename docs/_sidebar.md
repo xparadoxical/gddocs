@@ -1,12 +1,12 @@
 <!-- docs/_sidebar.md -->
-
-- Reference
+- **Reference**
     - [Official Songs](/reference/songs)
     - [Secrets](/reference/secrets)
     - [Keys](/reference/keys)
     - [Salts](/reference/salts)
 - [Request](/endpoints/generic.md)
 - [Credits](/CREDITS)
+
 
 
 - **Resources**
