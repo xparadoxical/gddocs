@@ -10,20 +10,19 @@
 
 
 - **Resources**
-- **Server**
-  - [Comment](/resources/server/comment.md)
-  - [Friend Request](/resources/server/friendrequest.md)
-  - [Gauntlet](/resources/server/gauntlet.md)
-  - [Leaderboard Score](/resources/server/leaderboardscore.md)
-  - [Level](/resources/server/level.md)
-  - [Map Pack](/resources/server/mappack.md)
-  - [Message](/resources/server/message.md)
-  - [Song](/resources/server/song.md)
-  - [User](/resources/server/user.md)
-  - [Restore](/resources/server/restore.md)
-
-- **Client**
-  - [Gamesave](/resources/client/gamesave.md)
+  - **Server**
+    - [Comment](/resources/server/comment.md)
+    - [Friend Request](/resources/server/friendrequest.md)
+    - [Gauntlet](/resources/server/gauntlet.md)
+    - [Leaderboard Score](/resources/server/leaderboardscore.md)
+    - [Level](/resources/server/level.md)
+    - [Map Pack](/resources/server/mappack.md)
+    - [Message](/resources/server/message.md)
+    - [Song](/resources/server/song.md)
+    - [User](/resources/server/user.md)
+    - [Restore](/resources/server/restore.md)
+  - **Client**
+    - [Gamesave](/resources/client/gamesave.md)
     - [Encoder Keys](resources/client/gamesave/kCEK.md)
     - [GS Values](/resources/client/gamesave/GS_Value.md)
     - [GLM](/resources/client/gamesave/GLM.md)
