@@ -9,7 +9,8 @@
 - [Credits](/CREDITS)
 
 
-#### Resources
+### Resources
+
 
 - **Server**
   - [Comment](/resources/server/comment.md)
@@ -22,6 +23,8 @@
   - [Song](/resources/server/song.md)
   - [User](/resources/server/user.md)
   - [Restore](/resources/server/restore.md)
+
+
 - **Client**
   - [Gamesave](/resources/client/gamesave.md)
     - [Encoder Keys](resources/client/gamesave/kCEK.md)
@@ -95,13 +98,15 @@
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)
-**Misc**
+
+- **Misc**
   - [getAccountURL](/endpoints/misc/getAccountURL.md)
   - [getSaveData](/endpoints/misc/getSaveData.md)
   - [getTop1000](/endpoints/misc/getTop1000.md)
   - [likeGJItem211](/endpoints/misc/likeGJItem211.md)
   - [requestUserAccess](/endpoints/misc/requestUserAccess.md)
   - [restoreGJItems](/endpoints/misc/restoreGJItems.md)
+
 - **Topics**
   - [GJP](/topics/gjp.md)
   - [Level Passwords](/topics/level_passwords.md)
