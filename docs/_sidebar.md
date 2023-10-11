@@ -8,7 +8,6 @@
 - [Request](/endpoints/generic.md)
 - [Credits](/CREDITS)
 
-
 - **Resources**
   - Server
     - [Comment](/resources/server/comment.md)
@@ -37,7 +36,7 @@
       - [Level Object](/resources/client/level-components/level-object.md)
       - [Color String](/resources/client/level-components/color-string.md)
       - [Guideline String](/resources/client/level-components/guideline-string.md)
-- Endpoints
+- **Endpoints**
   - Accounts
     - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
     - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
