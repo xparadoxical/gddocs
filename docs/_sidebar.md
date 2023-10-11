@@ -10,7 +10,7 @@
 
 
 - **Resources**
-  - **Server**
+  - Server
     - [Comment](/resources/server/comment.md)
     - [Friend Request](/resources/server/friendrequest.md)
     - [Gauntlet](/resources/server/gauntlet.md)
@@ -21,34 +21,35 @@
     - [Song](/resources/server/song.md)
     - [User](/resources/server/user.md)
     - [Restore](/resources/server/restore.md)
-  - **Client**
+  - Client
     - [Gamesave](/resources/client/gamesave.md)
-    - [Encoder Keys](resources/client/gamesave/kCEK.md)
-    - [GS Values](/resources/client/gamesave/GS_Value.md)
-    - [GLM](/resources/client/gamesave/GLM.md)
-    - [Value Keeper](/resources/client/gamesave/valueKeeper.md)
-    - [Game Variables](/resources/client/gamesave/gv.md)
-    - [Achievements](/resources/client/gamesave/achievement.md)
-    - [Quests](/resources/client/gamesave/quests.md)
-  - [Level](/resources/client/level.md)
-    - [Capacity String](/resources/client/level-components/capacity-string.md)
-    - [Level Colors](/resources/client/level-components/level-colors.md)
-    - [Inner Level String](/resources/client/level-components/inner-level-string.md)
-    - [Level Object](/resources/client/level-components/level-object.md)
-    - [Color String](/resources/client/level-components/color-string.md)
-    - [Guideline String](/resources/client/level-components/guideline-string.md)
-**Endpoints**
-- **Accounts**
-  - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
-  - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
-  - [loginGJAccount](/endpoints/accounts/loginGJAccount.md)
-  - [registerGJAccount](/endpoints/accounts/registerGJAccount.md)
-  - [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20.md)
-- **Users**
-  - [getGJScores20](/endpoints/users/getGJScores20.md)
-  - [getGJUserInfo20](/endpoints/users/getGJUserInfo20.md)
-  - [getGJUsers20](/endpoints/users/getGJUsers20.md)
-  - [updateGJUserScore22](/endpoints/users/updateGJUserScore22.md)
+      - [Encoder Keys](resources/client/gamesave/kCEK.md)
+      - [GS Values](/resources/client/gamesave/GS_Value.md)
+      - [GLM](/resources/client/gamesave/GLM.md)
+      - [Value Keeper](/resources/client/gamesave/valueKeeper.md)
+      - [Game Variables](/resources/client/gamesave/gv.md)
+      - [Achievements](/resources/client/gamesave/achievement.md)
+      - [Quests](/resources/client/gamesave/quests.md)
+    - [Level](/resources/client/level.md)
+      - [Capacity String](/resources/client/level-components/capacity-string.md)
+      - [Level Colors](/resources/client/level-components/level-colors.md)
+      - [Inner Level String](/resources/client/level-components/inner-level-string.md)
+      - [Level Object](/resources/client/level-components/level-object.md)
+      - [Color String](/resources/client/level-components/color-string.md)
+      - [Guideline String](/resources/client/level-components/guideline-string.md)
+
+- **Endpoints**
+  - **Accounts**
+    - [backupGJAccountNew](/endpoints/accounts/backupGJAccountNew.md)
+    - [syncGJAccountNew](/endpoints/accounts/syncGJAccountNew.md)
+    - [loginGJAccount](/endpoints/accounts/loginGJAccount.md)
+    - [registerGJAccount](/endpoints/accounts/registerGJAccount.md)
+    - [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20.md)
+  - **Users**
+    - [getGJScores20](/endpoints/users/getGJScores20.md)
+    - [getGJUserInfo20](/endpoints/users/getGJUserInfo20.md)
+    - [getGJUsers20](/endpoints/users/getGJUsers20.md)
+    - [updateGJUserScore22](/endpoints/users/updateGJUserScore22.md)
 - **Levels**
   - [deleteGJLevelUser20](/endpoints/levels/deleteGJLevelUser20.md)
   - [downloadGJLevel22](/endpoints/levels/downloadGJLevel22.md)
