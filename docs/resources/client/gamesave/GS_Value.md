@@ -26,7 +26,7 @@ GS values contain Information regarding certain aspects of the game
 | 18 | Poison Shards |
 | 19 | Shadow Shards |
 | 20 | Lava Shards |
-| 21 | Bonus Shards |
+| 21 | Demon Keys|
 | 22 | Total Orbs Collected |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 
