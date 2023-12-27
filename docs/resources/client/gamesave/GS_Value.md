@@ -28,6 +28,12 @@ GS values contain Information regarding certain aspects of the game
 | 20 | Lava Shards |
 | 21 | Demon Keys|
 | 22 | Total Orbs Collected |
+| 23 | Earth Shards |
+| 24 | Blood Shards |
+| 25 | Metal Shards |
+| 26 | Light Shards |
+| 27 | Soul Shards |
+| 28 | Moons |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 
 ## GS_completed
