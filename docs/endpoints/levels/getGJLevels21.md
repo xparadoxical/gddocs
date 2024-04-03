@@ -7,13 +7,14 @@
 | Parameter         | Description                                                                                                   | Required                              |
 | ----------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | `secret`          | [Common secret](/reference/secrets.md) `Wmfd2893gb7`                                                          | Yes                                   |
-| `gameVersion`     | [Game Version](#), 21 on 2.1                                                                                  |                                       |
-| `binaryVersion`   | [Binary Version](#), 35 on 2.113                                                                              |                                       |
+| `gameVersion`     | [Game Version](#), 22 on 2.2                                                                                  |                                       |
+| `binaryVersion`   | [Binary Version](#), 40 on 2.204                                                                              |                                       |
 | `type`            | Search type, [see values](#type). Defaults to most liked                                                      |                                       |
 | `str`             | Search query, user ID or level list depending on `type`                                                       | Only on types 5 and 10                |
 | `page`            | Which page to request, defaults to 0                                                                          |                                       |
 | `total`           | Currently unknown. Defaults to the amount of levels available up to 9999, but 0 or leaving it out also work.  |                                       |
-| `gjp`             | The [GJP](/topics/Algorithms/robtop-cipher.md) for the `accountID`                                            |                                       |
+| `gjp`             | The [GJP](/topics/encryption/gjp.md) for the `accountID`. Not present in 2.2                                  |                                       |
+| `gjp2`            | The [GJP2](/topics/encryption/gjp.md) for the `accountID`. 2.2+                                               |                                       |
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
 | `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
@@ -28,13 +29,16 @@
 | `twoPlayer`       | Two Player Mode filter, either 0 or 1                                                                         |                                       |
 | `coins`           | Coins filter, either 0 or 1                                                                                   |                                       |
 | `epic`            | Epic filter, either 0 or 1                                                                                    |                                       |
+| `legendary`       | Legendary filter, either 0 or 1. Currently broken                                                             |                                       |
+| `mythic`          | Mythic filter, either 0 or 1. Currently broken                                                                |                                       |
 | `noStar`          | Unrated filter, either 0 or 1                                                                                 |                                       |
 | `star`            | Rated filter, either 0 or 1                                                                                   |                                       |
 | `song`            | Official (or custom) song ID, not sent when off                                                               |                                       |
 | `customSong`      | Newgrounds song, 1 when on and uses `song` as the ID, not sent when off                                       |                                       |
 | `followed`        | Comma separated list of the followed user IDs                                                                 | Only on type 12                       |
 | `local`           | Whether to fetch "My Levels", either 0 or 1                                                                   | Only on type 5                        |
-
+| `udid`            | Your [UDID](/topics/encryption/id.md)                                                                         |                                       |
+| `uuid`            | Your [UUID](/topics/encryption/id.md)                                                                         |                                       |
 <details open id="type">
     <summary><code>type</code></summary>
 
@@ -113,9 +117,9 @@ levels#creators#songs#page info#hash
 
 where:
 
-- `levels` is a list of [Level Objects](#) separated by `|`
+- `levels` is a list of [Level Objects](/resources/client/level-components/level-object.md)  separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
-- `songs` is a list of [Song Objects](#) separated by `~:~`
+- `songs` is a list of [Song Objects](/resources/server/song.md) separated by `~:~`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query
   - `offset` - offset from which the current page starts
