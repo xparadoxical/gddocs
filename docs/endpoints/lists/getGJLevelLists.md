@@ -31,7 +31,7 @@
 |  3   | Trending                                                                          |
 |  4   | Recent                                                                            |
 |  5   | User's lists, uses `str` as the **account ID**                                    |
-|  6   | Unknown (returns the same levels as Awarded but in a different order)             |
+|  6   | Lists button                                                                      |
 |  7   | Magic (returns the same levels as most liked)                                     |
 |  11  | Awarded                                                                           |
 |  12  | Followed (see `followed` parameter)                                               |
