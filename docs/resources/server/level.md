@@ -51,7 +51,7 @@ Keys indicated with a caret (^) are only used for lists.
 | 16  | dislikes                 | **Integer**                                   | dislikes - likes |
 | 17  | demon                    | **Bool** 				                     | If the level's difficulty is demon    
 | 18  | stars                    | **Integer** 				                     | The amount of stars rewarded for completing the level
-| 19  | featureScore             | **Integer** 	                                 | 0 if the level is not featured, otherwise a positive number. The higher it is, the higher the level appears on the featured levels list. 
+| 19  | featureScore             | **Integer** 	                                 | 0 if the level is not featured, otherwise a positive number. The higher it is, the higher the level appears on the featured levels list. Always returns either 0 or 1 for lists.
 | 25  | auto                     | **Bool** 				                     | If the level's difficulty is auto
 | 26  | recordString             | **String**                                    | appears in the [GJGameLevel parser](https://imgur.com/a/S2bWLCC) but is unused
 | 27* | password                 | **Encrypted String** 	                     | The password required to copy the level. It is XOR encrypted with a key of 26364
