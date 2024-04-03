@@ -26,6 +26,7 @@ In 99% of cases, Geometry Dash requires you to send `POST` request. The request 
 **Rate Limits** \
 One thing to be mindful about is the number of requests you send at a given time. Sending too many requests will result in you becoming rate limited and not being able to send any more requests for a certain duration. As the number of requests required to start a rate limit changes, we are unable to provide exact numbers, but as of November 3rd, 2023, they are roughly:
 - 20x downloadGJLevel per minute, all other data-retrieval endpoints - 2 per second
+
 However, there are some longer-term limits applied on top of that as well.
 
 ## **Alternative Method**
