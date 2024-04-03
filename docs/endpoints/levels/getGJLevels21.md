@@ -53,7 +53,7 @@
 |  6   | Featured                                                                          |
 |  7   | Magic                                                                             |
 |  8   | Moderator sent levels                                                             |
-|  10  | Level list (used in map packs), uses `str` as a comma separated list of level IDs |
+|  10  | List of levels (not to be confused with type 25, which is for in-game lists), uses `str` as a comma separated list of level IDs |
 |  11  | Awarded                                                                           |
 |  12  | Followed (see `followed` parameter)                                               |
 |  13  | Friends (login required)                                                          |
@@ -63,6 +63,7 @@
 |  18  | Unknown (always empty, perhaps robtop only?)                                      |
 |  21  | Daily history                                                                     |
 |  22  | Weekly history                                                                    |
+|  25  | Level list, uses `str` as the list ID                                             |
 
 </details>
 
