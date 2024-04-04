@@ -1,4 +1,6 @@
-# List Object
+# Server List Resource
+
+## List Object
 A level list is a list of levels - playable objects in Geometry Dash.
 
 A typical list server response is structured with a `key:value:key:value` pairing and is then split with a `|`
