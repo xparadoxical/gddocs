@@ -25,6 +25,6 @@ A list of all known keys can be found in the table below
 | 29  | updateDate               | **String** 				               | The Unix timestamp of when the list was last updated
 | 49  | accountID                | **Integer**                             | The account ID of the list author
 | 50  | username                 | **String**                              | The username of the list author
-| 51  | ids                      | **Comma-Separated List**                | All level IDs in the list, separated by commas
+| 51  | levelIDs                 | **Comma-Separated List**                | All level IDs in the list, separated by commas
 | 55  | listReward               | **Integer**                             | The amount of diamonds awarded upon beating the required amount of levels in the list
 | 56  | listRewardRequirement    | **Integer**                             | The amount of levels needed to claim the list reward
