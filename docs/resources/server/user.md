@@ -27,8 +27,8 @@ A list of all known keys can be found in the table below
 | 7 | accountHighlight | **Integer** | The accountID of the player. Is used for highlighting the player on the leaderboards |
 | 8 | creatorpoints | **Integer** | The count of creatorpoints player have |
 | 9 | iconID | **Integer** | maybe... [link](https://github.com/gd-programming/gddocs/pull/16/files#r417926661) |
-| 10 | playerColor | **Integer** | First color of the player use |
-| 11 | playerColor2 | **Integer** | Second color of the player use |
+| 10 | color | **Integer** | First color of the player use |
+| 11 | color2 | **Integer** | Second color of the player use |
 | 13 | secretCoins | **Integer** | The count of coins player have |
 | 14 | iconType | **Integer** | The iconType of the player use |
 | 15 | special | **Integer** | The special number of the player use |
@@ -60,6 +60,13 @@ A list of all known keys can be found in the table below
 | 48 | accExplosion | **Integer** | The explosion number of the player use |
 | 49 | modlevel | **Integer** | 0: None, 1: Normal Mod(yellow), 2: Elder Mod(orange) |
 | 50 | commentHistoryState | **Integer** | 0: All, 1: Only friends, 2: None |
+| 51 | color3 | **Integer** | The ID of the player's glow color |
+| 52 | moons | **Integer** | The amount of moons the player has |
+| 53 | accSwing | **Integer** | The player's swing |
+| 54 | accJetpack | **Integer** | The player's jetpack |
+| 55 | demons | **String** | Breakdown of the player's demons, in the format {easy},{medium},{hard}.{insane},{extreme},{easyPlatformer},{mediumPlatformer},{hardPlatformer},{insanePlatformer},{extremePlatformer},{weekly},{gauntlet}
+| 56 | classicLevels | **String** | Breakdown of the player's classic mode non-demons, in the format {auto},{easy},{normal},{hard},{harder},{insane},{daily},{gauntlet}
+| 57 | platformerLevels | **String** | Breakdown of the player's platformer mode non-demons, in the format {auto},{easy},{normal},{hard},{harder},{insane}
 
 ### Trivia
 
