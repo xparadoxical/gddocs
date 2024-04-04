@@ -34,27 +34,27 @@ Here is a table which shows which `gauntletID` corresponds to a specific gauntle
 
 | ID ⠀| Name |
 |:---|:-----|
-  | 1| Fire|
-  | 2| Ice|
-  | 3| Poison|
-  | 4| Shadow|
-  | 5| Lava|
-  | 6| Bonus|
-  | 7| Chaos|
-  | 8| Demon|
-  | 9| Time|
-  | 10| Crystal|
-  | 11| Magic|
-  | 12| spike|
-  | 13| Monster|
-  | 14| Doom|
-  | 15| Death|
+  | 1| **Fire**|
+  | 2| **Ice**|
+  | 3| **Poison**|
+  | 4| **Shadow**|
+  | 5| **Lava**|
+  | 6| **Bonus**|
+  | 7| **Chaos**|
+  | 8| **Demon**|
+  | 9| **Time**|
+  | 10| **Crystal**|
+  | 11| **Magic**|
+  | 12| **spike**|
+  | 13| **Monster**|
+  | 14| **Doom**|
+  | 15| **Death**|
   | 16| Forest|
   | 17| Rune|
   | 18| Force|
   | 19| Spooky|
   | 20| Dragon|
-  | 21| Water|
+  | 21| **Water**|
   | 22| Haunted|
   | 23| Acid|
   | 24| Witch|
@@ -67,7 +67,7 @@ Here is a table which shows which `gauntletID` corresponds to a specific gauntle
   | 31| Ghost|
   | 32| Gem|
   | 33| Inferno|
-  | 34| Portal|
+  | 34| **Portal**|
   | 35| Strange|
   | 36| Fantasy|
   | 37| Christmas|
@@ -75,14 +75,14 @@ Here is a table which shows which `gauntletID` corresponds to a specific gauntle
   | 39| Mystery|
   | 40| Cursed|
   | 41| Cyborg|
-  | 42| Castle|
+  | 42| **Castle**|
   | 43| Grave|
   | 44| Temple|
-  | 46| World|
-  | 47| Galaxy|
-  | 48| Universe|
-  | 49| Discord|
-  | 50| Split|
+  | 46| **World**|
+  | 47| **Galaxy**|
+  | 48| **Universe**|
+  | 49| **Discord**|
+  | 50| **Split**|
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
