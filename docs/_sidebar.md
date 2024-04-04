@@ -17,6 +17,7 @@
   - [Gauntlet](/resources/server/gauntlet.md)
   - [Leaderboard Score](/resources/server/leaderboardscore.md)
   - [Level](/resources/server/level.md)
+  - [List](/resources/server/list.md)
   - [Map Pack](/resources/server/mappack.md)
   - [Message](/resources/server/message.md)
   - [Song](/resources/server/song.md)
