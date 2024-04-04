@@ -61,6 +61,7 @@
 |  16  | Hall of fame                                                                      |
 |  17  | Featured in GD World                                                              |
 |  18  | Unknown (always empty, perhaps robtop only?)                                      |
+|  19  | Unknown (same as map packs but this type has pagination and no star rate filter)  |
 |  21  | Daily history                                                                     |
 |  22  | Weekly history                                                                    |
 |  25  | Level list, uses `str` as the list ID                                             |
