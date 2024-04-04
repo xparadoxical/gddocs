@@ -64,9 +64,9 @@ A list of all known keys can be found in the table below
 | 52 | moons | **Integer** | The amount of moons the player has |
 | 53 | accSwing | **Integer** | The player's swing |
 | 54 | accJetpack | **Integer** | The player's jetpack |
-| 55 | demons | **String** | Breakdown of the player's demons, in the format {easy},{medium},{hard}.{insane},{extreme},{easyPlatformer},{mediumPlatformer},{hardPlatformer},{insanePlatformer},{extremePlatformer},{weekly},{gauntlet}
-| 56 | classicLevels | **String** | Breakdown of the player's classic mode non-demons, in the format {auto},{easy},{normal},{hard},{harder},{insane},{daily},{gauntlet}
-| 57 | platformerLevels | **String** | Breakdown of the player's platformer mode non-demons, in the format {auto},{easy},{normal},{hard},{harder},{insane}
+| 55 | demons | **String** | Breakdown of the player's demons, in the format `{easy},{medium},{hard}.{insane},{extreme},{easyPlatformer},{mediumPlatformer},{hardPlatformer},{insanePlatformer},{extremePlatformer},{weekly},{gauntlet}`
+| 56 | classicLevels | **String** | Breakdown of the player's classic mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane},{daily},{gauntlet}`
+| 57 | platformerLevels | **String** | Breakdown of the player's platformer mode non-demons, in the format `{auto},{easy},{normal},{hard},{harder},{insane}`
 
 ### Trivia
 
