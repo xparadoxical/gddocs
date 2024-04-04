@@ -4,10 +4,8 @@
 
 Gauntlets are a collection of themed levels created by the users of Geometry Dash which were hand-picked by RobTop.
 
- - As of Geometry Dash 2.11, There are `15 gauntlets`
-
-  - According to the [December 2019 2.2 leaks](https://www.reddit.com/r/geometrydash/comments/e9b0y6/update_22_leaks_megathread/), 2.2 will include `44 Gauntlets`
-    - **A list of the Gauntlet Names can be found [here](/resources/server/gauntlet?id=gauntlet-names)**<br/>*Keep in mind that these are subject to change*
+ - As of Geometry Dash 2.205, there are `23 gauntlets`
+ - **A list of the Gauntlet Names can be found [here](/resources/server/gauntlet?id=gauntlet-names)**<br/>*Keep in mind that these are subject to change*
 
 A typical gauntlet server response is structured with a `key:value:key:value` pairing and is then split with a `|`
 <!-- tabs:start -->
@@ -80,7 +78,11 @@ Here is a table which shows which `gauntletID` corresponds to a specific gauntle
   | 42| Castle|
   | 43| Grave|
   | 44| Temple|
-
+  | 46| World|
+  | 47| Galaxy|
+  | 48| Universe|
+  | 49| Discord|
+  | 50| Split|
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
