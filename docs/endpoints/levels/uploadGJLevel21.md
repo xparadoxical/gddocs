@@ -6,7 +6,7 @@ Uploads a created level to the servers.
 
 ### Required Parameters
 
-**gameVersion** - The game version. Currently 21
+**gameVersion** - The game version. Currently 22
 
 **accountID** - The uploader's account ID
 
@@ -22,7 +22,7 @@ Uploads a created level to the servers.
 
 **levelVersion** - The version number of the level
 
-**levelLength** - The length of the level as a number, where 0 is tiny and 4 is XL
+**levelLength** - The length of the level as a number, where 0 is tiny, 4 is XL and 5 is Platformer
 
 **audioTrack** - The [official song number](./reference.md) used in the level. Set to 0 if a newgrounds song is used
 
@@ -64,7 +64,7 @@ Uploads a created level to the servers.
 
 **levelInfo** - A random gzip compressed string
 
-**binaryVersion** - 35
+**binaryVersion** - 37 on Mac, 40 on Windows, 41 on Mobile
 
 **gdw** - 0
 
