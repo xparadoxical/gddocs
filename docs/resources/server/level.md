@@ -65,9 +65,9 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 | 46  | editorTime               | **Integer** 				                     | the total number of seconds spend on the current copy of a level
 | 47  | editorTime(Copies)       | **Integer** 				                     | The accumulative total of seconds spend on previous copies of the level
 | 48  | settingsString [Unused]  | **String**                              | It was found in early 2.1 coming from the servers and was removed shortly after. The `December 2019 2.2 Leaks` however have information regarding it showing that it is called `settingsString` but, there is no information regarding its usage |
-| 52  | songIDs                  | **Comma-Separated List**                | The list of all song IDs in the level, separated by commas
-| 53  | sfxIDs                   | **Comma-Separated List**                | The list of all SFX IDs in the level, separated by commas
-| 57  | verificationTime         | **Integer**                             | How long the level took to verify (in frames, assume 240 FPS)
+| 52* | songIDs                  | **Comma-Separated List**                | The list of all song IDs in the level, separated by commas
+| 53* | sfxIDs                   | **Comma-Separated List**                | The list of all SFX IDs in the level, separated by commas
+| 57* | verificationTime         | **Integer**                             | How long the level took to verify (in frames, assume 240 FPS)
 
 ### Trivia
 
