@@ -18,7 +18,8 @@ The level start object is still an object and formated exactly like a normal [le
 | kA1  | AudioTrack             | **Integer**                                 | The audio track which the level uses |
 | kA2  | Gamemode               | **[Gamemode](enumerations.md)**             | the gamemode the player starts with                                                                            |
 | kA3  | Mini Mode              | **bool**                                    | determines whether the player starts off as mini Mode                                                          |
-| kA4  | Speed                  | **[Speed](enumerations.md)**                | the speed of the level at the starts                                                                           |
+| kA4  | Speed                  | **[Speed](enumerations.md)**                | the speed of the level at the start                                                                            |
+| kA5  | Obj-2 Blending         | **bool**                                    | (deprecated since 1.9) Whether Object-2 (color channel 1) uses blending or not                                 |
 | kA6  | Background Texture ID  | **integer**                                 | the ID of the background texture that is being used in the level<br/>(enumerated in the same order as appears) |
 | kA7  | Ground Texture ID      | **integer**                                 | the ID of the ground texture that is being used in the level<br/>(enumerated in the same order as appears)     |
 | kA8  | Dual Mode              | **bool**                                    | determines whether the player starts off in dual Mode                                                          |
