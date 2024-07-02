@@ -24,6 +24,8 @@ A typical song server response is structured with a `key~|~value~|~key~|~value` 
 Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
 A list of all known keys can be found in the table below
 
+The IDs for Music Library songs start at 10,000,000
+
 #### Song Structure
 
 | Key | Name/Value                | Type                                         | Description                                                              
