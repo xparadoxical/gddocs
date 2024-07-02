@@ -1,6 +1,6 @@
 # Official Songs
 
-> **As of Geometry Dash 2.205, there are 39 songs which are used by the game within official levels.**
+> **As of Geometry Dash 2.206, there are 39 songs which are used by the game within official levels.**
 
 
 ## Table of Official Songs
