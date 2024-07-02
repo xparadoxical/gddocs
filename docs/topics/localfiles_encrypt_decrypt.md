@@ -97,6 +97,8 @@ def mac_decrypt(data: bytes) -> str:
 
 ## Encryption
 
+Note that you don't actually need to reencrypt the save file in order for the game to accept it.
+
 ### Windows
 
 Encryption is done pretty much the same way but with opposite operations and order. So the sequence for encrypting can be defined as: [gzip](https://zlib.net) compress/deflate -> [Base64](topics/encryption/base64) encode -> XOR using `0xb` (`11`) as a key.
