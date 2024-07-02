@@ -38,4 +38,9 @@ A list of all known keys can be found in the table below
 | 8   | isVerified				  | **Bool**									 | if the song artist is scouted on newgrounds
 | 9   | songPriority              | **Integer**                                  | priority over the song list
 | 10  | link					  | **String**									 | Link to the song's mp3
+| 11  | nongEnum        | **Integer** | Type of NONG. 0 for none, 1 for NCS.
+| 12  | extraArtistIDs  | **Array\[Integer]** | IDs of extra artists, separated by `.`
+| 13  | new             | **Boolean** | Whether the NEW icon shows up or not
+| 14  | newType         | **Integer** | Type of NEW icon. 0 for Yellow, 1 for Blue
+| 15  | extraArtistNames | **Array** | Seems to be an array of extra artist names, but seems to be unused. 
 
