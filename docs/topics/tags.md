@@ -43,7 +43,7 @@
 
 ## Notes
 
-- Failing to add an end tag for Colour tags and Instant tags will result in the game crashing
+- In 2.1, failing to add an end tag for Colour tags and Instant tags would result in the game crashing, but this was fixed in 2.2
 
 - Only Colour tags are usable without modifying the client - via level descriptions and comment bans
 
