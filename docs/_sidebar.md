@@ -68,6 +68,7 @@
   - [updateGJDesc20](/endpoints/levels/updateGJDesc20.md)
   - [uploadGJLevel21](/endpoints/levels/uploadGJLevel21.md)
 **Lists**
+  - [deleteGJLevelList](/endpoints/lists/deleteGJLevelList.md)
   - [getGJLevelLists](/endpoints/lists/getGJLevelLists.md)
   - [uploadGJLevelList](/endpoints/lists/uploadGJLevelList.md)
 **Comments**
