@@ -41,6 +41,8 @@
     - [Level Object](/resources/client/level-components/level-object.md)
     - [Color String](/resources/client/level-components/color-string.md)
     - [Guideline String](/resources/client/level-components/guideline-string.md)
+  
+  - [SFX Library](/resources/client/sfxlibrary.md)
 **Endpoints**
 
 **Accounts**
@@ -101,6 +103,7 @@
   - [getGJSongInfo](/endpoints/songs/getGJSongInfo.md)
   - [getGJTopArtists](/endpoints/songs/getGJTopArtists.md)
   - [testSong](/endpoints/songs/testSong.md)
+  - [sfxlibrary.dat](/endpoints/songs/sfxlibrary.md)
 **Misc**
   - [getAccountURL](/endpoints/misc/getAccountURL.md)
   - [getSaveData](/endpoints/misc/getSaveData.md)
