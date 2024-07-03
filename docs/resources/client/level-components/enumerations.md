@@ -24,3 +24,27 @@ Here you will find the enumerations that are related to the level string.
 | 2    | 2x     | 387.42                    |
 | 3    | 3x     | 468.00                    |
 | 4    | 4x     | 576.00                    |
+
+## Easing
+
+| Key  | Name                |
+|:-----|:--------------------|
+| 0    | None                | 
+| 1    | Ease In Out         | 
+| 2    | Ease In             | 
+| 3    | Ease Out            |
+| 4    | Elastic In Out      |
+| 5    | Elastic In          | 
+| 6    | Elastic Out         | 
+| 7    | Bounce In Out       | 
+| 8    | Bounce In           | 
+| 9    | Bounce Out          | 
+| 10   | Exponential In Out  | 
+| 11   | Exponential In      | 
+| 12   | Exponential Out     | 
+| 13   | Sine In Out         | 
+| 14   | Sine In             | 
+| 15   | Sine Out            | 
+| 16   | Back In Out         | 
+| 17   | Back In             | 
+| 18   | Back Out            | 
