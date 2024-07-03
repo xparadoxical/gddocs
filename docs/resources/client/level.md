@@ -127,4 +127,4 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 | k93 | **Bool** | unlimited Objects? |
 | k94 | **Bool** | Platformer? |
 | k101 | **string** | seems to be 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 |
-| k111 | **integer** | always seems to be 5 digits and seems to be platformer-exclusive |
+| k111 | **integer** | seems to be 4 or 5 digits and seems to be platformer-exclusive |
