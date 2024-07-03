@@ -1,5 +1,7 @@
 # SFX Library format
 
+To decode sfxlibrary.dat, you need to Base64 URL-Safe decode it and Zlib inflate it.
+
 The SFX library is split into 2 parts:
 
 ```
