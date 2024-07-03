@@ -48,3 +48,10 @@ Here you will find the enumerations that are related to the level string.
 | 16   | Back In Out         | 
 | 17   | Back In             | 
 | 18   | Back Out            | 
+
+## Pulse Mode
+
+| Key  | Name   |
+|:-----|:-------|
+| 0    | Color  | 
+| 1    | HSV    | 
