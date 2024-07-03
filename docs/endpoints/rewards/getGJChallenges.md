@@ -14,15 +14,15 @@ Gets a user's quests.
 
 ### Optional Parameters
 
-**gameVersion** - 20
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
 **accountID** - Account ID of the user
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp2** - The user's [GJP2](/topics/encryption/gjp.md)
 
 **uuid** - Seemingly a random number also used for identifying someone
 
