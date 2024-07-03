@@ -1,37 +1,11 @@
-## sfxlibrary.dat format
-The SFX library is split into 2 parts:
+# sfxlibrary.dat 
 
-```
-{files}|{credits}
-```
+## Requests
 
-## Files & folders
+In Geometry Dash 2.2, the Sound Effect library has been added. The library can be fetched via a GET request to `https://geometrydashfiles.b-cdn.net/sfx/sfxlibrary.dat`.
 
-`{files}` is a list of files and folders, separated with semicolons. The file format is as follows:
+You can also fetch the latest version of the SFX Library by sending a GET request to `https://geometrydashfiles.b-cdn.net/sfx/sfxlibrary_version.txt`.
 
-`{id},{name},{isFolder},{parentFolder},{filesize},{duration}`
+You can download a sound effect by sending a GET request to `https://geometrydashfiles.b-cdn.net/sfx/s{id}.ogg`.
 
-| Key          | Type      | Description                                                      |
-| :----------- | :-------- | :--------------------------------------------------------------- |
-| id           | `integer` | The sound effect/folder ID                                       |
-| name         | `string`  | The sound effect/folder name                                     |
-| isFolder     | `boolean` | Whether this is a sound effect or folder                         |
-| parentFolder | `integer` | The parent folder                                                |
-| filesize     | `integer` | The sound effect file size in bytes                              |
-| duration     | `integer` | The duration of the sound effect, in `seconds * 100`             |
- 
-The first "folder" is a special case: it has an ID of 1 and its name corresponds to the SFX library version.
-
-## Credits
-
-The `{credits}` part is very simple. It's a list of all the companies/people from which RobTop has licensed the sound effects, in this format:
-
-`{name},{link};{name},{link}...`
-
-where `name` is the name of the company and `link` is a link to their website.
-
-Example (SFX library version **95**):
-
-```
-Epic Stock Media,https://epicstockmedia.com;Cyberwave Orchestra,https://cyberwaveorchestra.com;Fusehive,http://fusehive.com;SoundMorph,https://www.soundmorph.com;Stormwave Audio,https://stormwave-audio.com;David Dumais,https://www.daviddumaisaudio.com;Sharks,https://www.sharkstunes.com;
-```
+The SFX library format is covered [here](/resources/client/sfxlibrary.md).
