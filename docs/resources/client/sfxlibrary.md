@@ -1,5 +1,7 @@
 # SFX Library format
 
+The SFX Library is stored in your save directory as `sfxlibrary.dat`. To learn how to retreive it from the servers, refer to [this page](/endpoints/songs/sfxlibrary.md).
+
 To decode sfxlibrary.dat, you need to [Base64](/topics/encryption/base64.md) URL-Safe decode it and [Zlib](/topics/encryption/zip.md) inflate it.
 
 The SFX library is split into 2 parts:
