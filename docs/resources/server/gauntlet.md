@@ -46,7 +46,6 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
   | 9| **Time**|
   | 10| **Crystal**|
   | 11| **Magic**|
-<!-- spike capitalization was fixed in 2.2-->
   | 12| **Spike**| 
   | 13| **Monster**|
   | 14| **Doom**|
