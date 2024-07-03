@@ -103,13 +103,9 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | Key | Value|
 | :-- |:-----------|
 | GJA_001 | Username|
-| GJA_002 | Password (in plaintext)|
+| GJA_002 | Password (in plaintext) (2.1 and below)|
 | GJA_003 | AccountID |
-
-#### GDL22 GJA
-| Key | Value|
-| :-- |:-----------|
-| GJA_004 | SessionID |
+| GJA_004 | Your password with GJP2 Encryption|
 
 ### LLM
 
