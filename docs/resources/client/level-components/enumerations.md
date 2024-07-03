@@ -55,3 +55,28 @@ Here you will find the enumerations that are related to the level string.
 |:-----|:-------|
 | 0    | Color  | 
 | 1    | HSV    | 
+
+## Pulse Target Type
+
+| Key  | Name     |
+|:-----|:---------|
+| 0    | Channel  | 
+| 1    | Group    | 
+
+## Touch Toggle Mode
+
+| Key  | Name       |
+|:-----|:-----------|
+| 0    | None       | 
+| 1    | Toggle On  | 
+| 2    | Toggle Off | 
+
+## Instant Count Comparison
+
+| Key  | Name       |
+|:-----|:-----------|
+| 0    | Equals     | 
+| 1    | Larger     | 
+| 2    | Smaller    | 
+
+
