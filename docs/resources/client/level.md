@@ -88,8 +88,8 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k89  | vfDChk | **Bool**                    | used to check for level completion                                               |
 | k90  | Leaderboard percentage         | **integer**                                                      | Contains the percentage for level Leaderboards                      |
 | k95  | Verification Time              | **integer**                                                      | Verification time in physics steps (240 steps per second) |
-| k104 | Songs                          | **string**                                                     | List of song IDs separated by `,` |
-| k105 | SFX                            | **string**                                                     | List of SFX IDs separated by `,` |
+| k104 | Song list                      | **string**                                                     | List of song IDs separated by `,` |
+| k105 | SFX list                       | **string**                                                     | List of SFX IDs separated by `,` |
 | k107 | Best Time                      | **integer**                                                     | Your best time on the level in milliseconds  |
 | k108 | Best Points                    | **integer**                                                     | Your point highscore on the level |
 | k109 | Local Best Times               | **integer**                                                     | List of your best times on the level in milliseconds, separated by `,` |
