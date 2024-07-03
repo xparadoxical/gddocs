@@ -10,7 +10,7 @@ Uploads a created level to the servers.
 
 **accountID** - The uploader's account ID
 
-**gjp** - The uploader's [GJP](./topics/encryption/gjp.md)
+**gjp2** - The uploader's [GJP2](./topics/encryption/gjp.md)
 
 **userName** - The uploader's username
 
@@ -42,7 +42,7 @@ Uploads a created level to the servers.
 
 **requestedStars** - The requested star rating for the level. The number is not limited to 10
 
-**unlisted** - Set to 1 if the level should be unlisted and only viewable by friends
+**unlisted** - Set to 2 if the level should be unlisted and to 1 if the level should be only viewable by friends
 
 **ldm** - Set to 1 if the level should have a low detail checkbox
 
