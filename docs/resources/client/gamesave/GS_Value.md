@@ -250,3 +250,13 @@ GS_25 Contains the reward data for every weekly demon you have completed
 | `d100{number}` | The Timely ID of the weekly Demon you have beaten |
 | `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
+
+
+## GS_27
+
+GS_27 contains the List Rewards you have acquired
+
+| Structure |
+|:----------|
+|`<k>lr_{listID}</k><s>{diamonds}</s>`|
+
