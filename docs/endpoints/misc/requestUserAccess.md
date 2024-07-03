@@ -8,15 +8,15 @@ Requests moderator access
 
 **accountID** - The accountID of the user requesting mod access
 
-**gjp** - The [GJP](/topics/encryption/gjp.md) of the user requesting mod access
+**gjp2** - The [GJP2](/topics/encryption/gjp.md) of the user requesting mod access
 
 **secret** - Wmfd2893gb7
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
