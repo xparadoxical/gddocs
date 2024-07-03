@@ -20,10 +20,12 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | playerDart| [Icon](enumerations.md)| The ID of the player Wave |
 | playerRobot| [Icon](enumerations.md)| The ID of the player Robot |
 | playerSpider| [Icon](enumerations.md)| The ID of the player Spider |
+| playerSwing| [Icon](enumerations.md)| The ID of the player Swing |
 | playerColor| [Icon](enumerations.md)| The ID of the player Color |
 | playerColor2| [Icon](enumerations.md)| The ID of the player Color2 |
 | playerStreak| [Icon](enumerations.md)| The ID of the player Trail |
 | playerDeathEffect| [Icon](enumerations.md)| The ID of the player Death Effect |
+| playerJetpack| [Icon](enumerations.md)| The ID of the player Jetpack |
 | playerIconType| [Icon](enumerations.md)| The Index of the player's IconType |
 | playerGlow| Bool| if Glow is enabled or not |
 | secretNumber| Integer| the answer to `cod3breaker` in the vault of secrets |
@@ -105,7 +107,8 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | GJA_001 | Username|
 | GJA_002 | Password (in plaintext) (2.1 and below)|
 | GJA_003 | AccountID |
-| GJA_004 | Your password with GJP2 Encryption|
+| GJA_004 | Session ID (unused) |
+| GJA_005 | Your password with GJP2 Encryption|
 
 ### LLM
 
