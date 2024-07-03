@@ -34,6 +34,19 @@ GS values contain Information regarding certain aspects of the game
 | 26 | Light Shards |
 | 27 | Soul Shards |
 | 28 | Moons |
+| 29 | Diamond Shards |
+| 30 | Fire Path Progress |
+| 31 | Ice Path Progress |
+| 32 | Poison Path Progress |
+| 33 | Shadow Path Progress |
+| 34 | Lava Path Progress |
+| 35 | Earth Path Progress |
+| 36 | Blood Path Progress |
+| 37 | Metal Path Progress |
+| 38 | Light Path Progress |
+| 39 | Soul Path Progress |
+| 40 | Amount of Completed Gauntlets |
+| 41 | List Rewards |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 
 ## GS_completed
