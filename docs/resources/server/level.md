@@ -73,6 +73,8 @@ Keys indicated with an asterisk (\*) are only returned from the downloadGJLevel2
 
 - The getGJLevels endpoint returns the keys `46` and `47` however they aren't actually correct (as of 2.1)
 
+- Keys `46` and `47` are also capped at the 24-bit integer limit so any time longer than around 4660 hours won't be accurate
+
 - key `45` caps at the 16-bit integer limit so any level with more objects won't be accurate
 
 - Key `57` caps at the 24-bit integer limit so any time longer than around 465 hours won't be accurate
