@@ -1,6 +1,6 @@
 # SFX Library format
 
-To decode sfxlibrary.dat, you need to Base64 URL-Safe decode it and Zlib inflate it.
+To decode sfxlibrary.dat, you need to [Base64](/topics/encryption/base64.md) URL-Safe decode it and [Zlib](/topics/encryption/zip.md) inflate it.
 
 The SFX library is split into 2 parts:
 
