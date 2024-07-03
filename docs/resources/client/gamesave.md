@@ -47,6 +47,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | resolution| integer | The games resolution?  |
 | texQuality| integer | how high the text quality is  |
 | timeOffset| integer | music offset in milliseconds  |
+| customFPSTarget| float | the FPS target value
 
 ### GLM 
 
@@ -99,6 +100,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | [GS_23](/resources/client/gamesave/GS_Value?id=gs_23)| Gauntlet Level Progress `<k>{levelID}</k><s>{percentage}</s>` |
 | [GS_24](/resources/client/gamesave/GS_Value?id=gs_24)| Daily/Weekly Percentage |
 | [GS_25](/resources/client/gamesave/GS_Value#GS_25)| All the rewards from completed weekly Demons |
+| [GS_27](/resources/client/gamesave/GS_Value#GS_27)| All the list rewards |
 
 ### GJA
 
