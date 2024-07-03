@@ -24,6 +24,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | playerColor| [Icon](enumerations.md)| The ID of the player Color |
 | playerColor2| [Icon](enumerations.md)| The ID of the player Color2 |
 | playerStreak| [Icon](enumerations.md)| The ID of the player Trail |
+| playerShipStreak| [Icon](enumerations.md)| The ID of the player Ship Streak |
 | playerDeathEffect| [Icon](enumerations.md)| The ID of the player Death Effect |
 | playerJetpack| [Icon](enumerations.md)| The ID of the player Jetpack |
 | playerIconType| [Icon](enumerations.md)| The Index of the player's IconType |
@@ -41,13 +42,22 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | clickedPractice| Bool | if Practice mode button has been clicked |
 | showedEditorGuide| Bool | if EditorGuide has been clicked |
 | showedLowDetailDialog| Bool | if low detail mode has been has been clicked |
+| showedRateStarDialog| Bool | if rate star dialog has been shown |
 | bootups| integer | The ammount of times you have opened Geometry Dash |
 | hasRatedGame| Bool | if you have rated the game |
 | binaryVersion| integer | The Games Binary Version |
 | resolution| integer | The games resolution?  |
 | texQuality| integer | how high the text quality is  |
 | timeOffset| integer | music offset in milliseconds  |
-| customFPSTarget| float | the FPS target value
+| customFPSTarget| float | the FPS target value |
+| dpad01 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #1 |
+| dpad02 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #2 |
+| dpad03 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #3 |
+| dpad04 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #4 |
+| dpad05 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #5 |
+| practiceOpacity | float | The opacity of the practice UI, from 0 to 1|
+| practicePosX | float | The X position of the practice UI |
+| practicePosY | float | The Y position of the practice UI |
 
 ### GLM 
 
