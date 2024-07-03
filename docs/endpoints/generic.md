@@ -14,7 +14,6 @@ To make a successful request to the Geometry Dash servers, there are a couple fa
 The Geometry Dash servers are protected using a service called [Cloudflare](https://www.cloudflare.com/). In order to send a successful request, bypassing cloudflare is essential. In order to bypass cloudflare there are two steps.
 
 - You must send the request to the `www.` subdomain.
-- You must send the request using the `HTTP` protocol, not `HTTPS`
 - You must send the request with an empty user-agent
 
 If you don't follow these steps, cloudflare will block the request and you will recieve an HTTP error code: `1020`
