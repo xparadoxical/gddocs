@@ -35,6 +35,7 @@
 
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
+    - [Enumerations](/resources/client/level-components/enumerations.md)
     - [Level Colors](/resources/client/level-components/level-colors.md)
     - [Inner Level String](/resources/client/level-components/inner-level-string.md)
     - [Level Object](/resources/client/level-components/level-object.md)
