@@ -7,6 +7,8 @@
 | 7   | [GJChallengeItem](resources/client/gamesave/quests.md) | Contains Keys that the game uses to show quests when offline |
 | 8   | [GJRewardItem](resources/client/gamesave/kCEK.md) | object that holds `GJRewardObject` |
 | 9   | [GJRewardObject](resources/client/gamesave/kCEK.md) | contains data for Rewards |
+| 10  | GJLevelList | Contains Keys for level lists |
+| 12  | GJSmartTemplate | Contains data for smart templates |
 
 ## kCEK 8 and 9 Structure
 
