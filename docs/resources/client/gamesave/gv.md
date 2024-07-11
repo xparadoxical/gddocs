@@ -137,6 +137,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0166 | Show Hitboxes (in practice mode) |
 | gv_0168 | Fast Menu |
 | gv_0169 | Small Warp Buttons (editor) |
+| gv_0170 | Borderless Fullscreen |
 | gv_0171 | Disable Player Hitbox |
 | gv_0174 | Hide Playtest Text |
 
