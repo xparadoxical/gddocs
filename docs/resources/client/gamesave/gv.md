@@ -149,9 +149,19 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | ugv_22 | YouTube Chest unlocked |
 | ugv_23 | FaceBook Chest unlocked |
 | ugv_24 | Twitter Chest unlocked |
-| ugv_25 | FireBird GateKeeper (only present in the 2019 leak) |
-| ugv_26 | Twitch Chest Unlocked |
-| ugv_27 | Discord Chest Unlocked |
+| ugv_25 | Explorers unlocked |
+| ugv_26 | Twitch Chest unlocked |
+| ugv_27 | Discord Chest unlocked |
+| ugv_28 | Clicked The Tower |
+| ugv_29 | Entered The Tower |
+| ugv_30 | Accepted Geometry Dash's Terms of Service |
+| ugv_31 | Zolguroth Encountered |
+| ugv_32 | Reddit Chest unlocked |
+| ugv_33 | The Tower Floor 1 completed |
+| ugv_34 | Diamond Shop Unlocked |
+| ugv_35 | Mechanic Unlocked |
+| ugv_36 | Mechanic Dialogue |
+| ugv_37 | Diamond Shopkeeper Dialogue |
 
 ### Undiscovered/unknown GV's
 
