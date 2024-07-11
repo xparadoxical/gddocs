@@ -98,26 +98,24 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0100| practiceDeathEffect|
 | gv_0101| forceSmoothFix |
 | gv_0102 | smoothFixInEditor |
-
-
-### 2019 Leak GV's
-
-| Key | Value|
-| :-- |:-----------|
-| gv_0103 | Layer Locking |
+| gv_0103 | Layer Locking (editor) |
 | gv_0104 | Record Order |
 | gv_0105 | StartPos Playback |
 | gv_0106 | Show Meltdown Promo |
 | gv_0108 | Auto Low Detail |
 | gv_0109 | Level Info Label |
 | gv_0110 | Fast Editor Preview |
+| gv_0112 | Increase Scale Limit (editor) |
 | gv_0113 | Flip Platformer Controls |
 | gv_0115 | Show FPS |
 | gv_0116 | Use Custom FPS |
 | gv_0117 | Preview Particle |
 | gv_0118 | Preview Animation |
 | gv_0119 | Dont Save Level Data |
-
+| gv_0125 | Unlock Practice Music (editor) |
+| gv_0152 | Hide Path (editor) |
+| gv_0155 | Disable Shader Anti-Aliasing |
+| gv_0159 | Audio Fix 01 |
 
 # Unlocked Game Variables
 
@@ -151,12 +149,7 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | ugv_22 | YouTube Chest unlocked |
 | ugv_23 | FaceBook Chest unlocked |
 | ugv_24 | Twitter Chest unlocked |
-
-### 2019 Leak UGV's
-
-| Key | Value|
-| :-- |:-----------|
-| ugv_25 | FireBird GateKeeper |
+| ugv_25 | FireBird GateKeeper (only present in the 2019 leak) |
 | ugv_26 | Twitch Chest Unlocked |
 | ugv_27 | Discord Chest Unlocked |
 
@@ -174,6 +167,5 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0085  | **False** ||
 | 0086  | **False** ||
 | 0087  | **False** ||
-| 0112  | **True** | Used in `EditorUI` (**2019 Leak**) |
 | 0114  | **True** | Used in `PlayerObject` (**2019 Leak**) |
 | 0120  | **True** | Shown in RobTop's 2020 Twitch Streams |
