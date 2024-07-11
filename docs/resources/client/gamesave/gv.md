@@ -113,8 +113,22 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0118 | Preview Animation |
 | gv_0119 | Dont Save Level Data |
 | gv_0125 | Unlock Practice Music (editor) |
+| gv_0126 | Decimal Percentage |
+| gv_0127 | Save Gauntlet Levels |
+| gv_0129 | Disable Portal Labels |
+| gv_0130 | Enable Orb Labels |
+| gv_0134 | Hide Attempts |
+| gv_0135 | Hide Attempts in Practice Mode |
+| gv_0137 | Hide Particle Icons (editor) |
+| gv_0140 | Disable Orb Scale |
+| gv_0141 | Disable Trigger Orb Scale |
+| gv_0142 | Reduce Audio Quality |
+| gv_0149 | Show Clicks (editor) |
+| gv_0150 | Auto Pause on Test (editor) |
+| gv_0151 | Start Optimization (editor) |
 | gv_0152 | Hide Path (editor) |
 | gv_0155 | Disable Shader Anti-Aliasing |
+| gv_0156 | Disable Paste State Groups (editor) |
 | gv_0159 | Audio Fix 01 |
 
 # Unlocked Game Variables
