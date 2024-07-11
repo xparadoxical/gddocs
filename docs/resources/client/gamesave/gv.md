@@ -194,7 +194,6 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0021  | **False** | |
 | 0035  | **False** | |
 | 0054  | **False** ||
-| 0071  | **False** ||
 | 0080  | **False** ||
 | 0085  | **False** ||
 | 0086  | **False** ||
