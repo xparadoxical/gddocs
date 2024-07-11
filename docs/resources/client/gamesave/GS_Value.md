@@ -228,6 +228,11 @@ GS_21 Contains the reward data for the gauntlets you have completed
 | 0007 | YouTube Chest |
 | 0008 | Twitter Chest |
 | 0009 | Facebook Chest |
+| 0010 | Twitch Chest |
+| 0011 | Discord Chest |
+| 0022 | Zolguroth Chest (repeatedly poke Shopkeeper and return to shop) |
+| 0023 | Help Button Chest |
+| 0024 | Reddit Chest |
 
 
 ## GS_22
