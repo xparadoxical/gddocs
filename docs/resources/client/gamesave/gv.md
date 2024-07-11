@@ -46,7 +46,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0042 | increaseMaxLevels |
 | gv_0043 | effectLinesEnabled (editor) |
 | gv_0044 | drawTriggerBoxes (editor) |
-| gv_0045 | debugDraw (editor) |
+| gv_0045 | Show Hitboxes (editor) |
 | gv_0046 | hideUIOnTest (editor) |
 | gv_0047 | showedProfileText |
 | gv_0048 | viewedOwnProfile |
