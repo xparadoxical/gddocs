@@ -115,6 +115,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0125 | Unlock Practice Music (editor) |
 | gv_0126 | Decimal Percentage |
 | gv_0127 | Save Gauntlet Levels |
+| gv_0128 | Lock Cursor In-Game |
 | gv_0129 | Disable Portal Labels |
 | gv_0130 | Enable Orb Labels |
 | gv_0134 | Hide Attempts |
