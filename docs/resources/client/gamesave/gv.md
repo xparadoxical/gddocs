@@ -133,6 +133,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0152 | Hide Path (editor) |
 | gv_0155 | Disable Shader Anti-Aliasing |
 | gv_0156 | Disable Paste State Groups (editor) |
+| gv_0158 | Preview Shaders (editor) |
 | gv_0159 | Audio Fix 01 |
 | gv_0163 | Enable Quick Keys |
 | gv_0166 | Show Hitboxes (in practice mode) |
