@@ -211,7 +211,7 @@ GS_21 Contains the reward data for the gauntlets you have completed
 | key | Description |
 |:----|:------|
 | `g_{GauntletID}` | the gauntlet number |
-| `000{ChestID}` | ChestIDs for Reward Chests |
+| `00{ChestID}` | ChestIDs for Reward Chests |
 | `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
 
