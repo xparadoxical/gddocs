@@ -132,6 +132,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0156 | Disable Paste State Groups (editor) |
 | gv_0159 | Audio Fix 01 |
 | gv_0163 | Enable Quick Keys |
+| gv_0168 | Fast Menu |
 | gv_0169 | Small Warp Buttons (editor) |
 
 # Unlocked Game Variables
