@@ -71,6 +71,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0068 | quickCheckpointMode |
 | gv_0069 | commentMode |
 | gv_0070 | showedUnlistedLevelMessage |
+| gv_0071 | Hide Practice Buttons |
 | gv_0072 | disableGravityEffect |
 | gv_0073| newCompletedFilter|
 | gv_0074| showRestartButton|
@@ -135,6 +136,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0166 | Show Hitboxes (in practice mode) |
 | gv_0168 | Fast Menu |
 | gv_0169 | Small Warp Buttons (editor) |
+| gv_0171 | Disable Player Hitbox |
 | gv_0174 | Hide Playtest Text |
 
 # Unlocked Game Variables
