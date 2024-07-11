@@ -113,6 +113,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0117 | Preview Particle |
 | gv_0118 | Preview Animation |
 | gv_0119 | Dont Save Level Data |
+| gv_0122 | Disable Menu Music |
 | gv_0125 | Unlock Practice Music (editor) |
 | gv_0126 | Decimal Percentage |
 | gv_0127 | Save Gauntlet Levels |
