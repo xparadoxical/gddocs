@@ -269,6 +269,13 @@ GS_25 Contains the reward data for every weekly demon you have completed
 | `k_{number}` | RewardItems -> the number corresponds to how many RewardItems the player will recieve |
 | `kCEK` | The [encoder keys](/resources/client/gamesave/kCEK?id=kcek-8-and-9-structure) |
 
+## GS_26
+
+GS_26 is your currently active path. The value is the same as the path key in GS_value.
+
+| Structure |
+|:----------|
+| `<k>GS_26</k><i>{path}</i>` |
 
 ## GS_27
 
