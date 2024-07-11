@@ -13,20 +13,21 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | playerUDID| [UDID](/topics/encryption/id?id=udid)| The UDID of the user |
 | playerName| String| The In-game Name of the player|
 | playerUserID| Integer| The userID of the player|
-| playerFrame| [Icon](enumerations.md)| The ID of the player Cube |
-| playerShip| [Icon](enumerations.md)| The ID of the player Ship |
-| playerBall| [Icon](enumerations.md)| The ID of the player Ball |
-| playerBird| [Icon](enumerations.md)| The ID of the player UFO |
-| playerDart| [Icon](enumerations.md)| The ID of the player Wave |
-| playerRobot| [Icon](enumerations.md)| The ID of the player Robot |
-| playerSpider| [Icon](enumerations.md)| The ID of the player Spider |
-| playerSwing| [Icon](enumerations.md)| The ID of the player Swing |
-| playerColor| [Icon](enumerations.md)| The ID of the player Color |
-| playerColor2| [Icon](enumerations.md)| The ID of the player Color2 |
-| playerStreak| [Icon](enumerations.md)| The ID of the player Trail |
-| playerShipStreak| [Icon](enumerations.md)| The ID of the player Ship Streak |
-| playerDeathEffect| [Icon](enumerations.md)| The ID of the player Death Effect |
-| playerJetpack| [Icon](enumerations.md)| The ID of the player Jetpack |
+| playerFrame| [Icon](enumerations.md)| The ID of the player's cube |
+| playerShip| [Icon](enumerations.md)| The ID of the player's ship |
+| playerBall| [Icon](enumerations.md)| The ID of the player's ball |
+| playerBird| [Icon](enumerations.md)| The ID of the player's UFO |
+| playerDart| [Icon](enumerations.md)| The ID of the player's wave |
+| playerRobot| [Icon](enumerations.md)| The ID of the player's robot |
+| playerSpider| [Icon](enumerations.md)| The ID of the player's spider |
+| playerSwing| [Icon](enumerations.md)| The ID of the player's swing |
+| playerColor| [Icon](enumerations.md)| The ID of the player's primary color |
+| playerColor2| [Icon](enumerations.md)| The ID of the player's secondary color |
+| playerColor3| [Icon](enumerations.md)| The ID of the player's glow color, -1 if same as secondary color |
+| playerStreak| [Icon](enumerations.md)| The ID of the player's trail |
+| playerShipStreak| [Icon](enumerations.md)| The ID of the player's ship streak |
+| playerDeathEffect| [Icon](enumerations.md)| The ID of the player's death effect |
+| playerJetpack| [Icon](enumerations.md)| The ID of the player's jetpack |
 | playerIconType| [Icon](enumerations.md)| The Index of the player's IconType |
 | playerGlow| Bool| if Glow is enabled or not |
 | secretNumber| Integer| the answer to `cod3breaker` in the vault of secrets |
