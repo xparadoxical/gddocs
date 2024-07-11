@@ -183,3 +183,13 @@ GLM_19 is a dictionary of the folders for local levels
 | Key | Value |
 |:----|:------|
 | `{folder ID}` | `{Folder Name}` |
+
+## GLM_20 
+
+GLM_20 is a dictionary of all the editor smart templates you have saved
+
+| Key | Value              |
+|:----|:-------------------|
+| 1   | Smart Template ID  |
+| 2   | Name               |
+| 3   | [Template Data](/resources/client/gamesave/template.md)|
