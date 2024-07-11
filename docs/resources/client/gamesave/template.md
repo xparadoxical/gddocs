@@ -1,6 +1,6 @@
 # Smart Templates (kCEK 10 & 11)
 
-Smart Templates are user-made templates used for the Auto Build feature. They are stored in GLM_20.
+Smart Templates are user-made templates used for the Auto Build feature. They are stored in [GLM_20](/resources/client/gamesave/GLM.md#GLM_20).
 
 ## kCEK 10
 
@@ -31,9 +31,12 @@ kCEK 11's are stored in key 3 of kCEK 10 in the following format:
   </d>
 </d>
 ```
-The keys of the dictionary represent the exact type of template variation. It's always a binary number with 9 digits, where the first digit is always 1. Other digits indicate:
 
-| Digit | Position     |
+kCEK 11 key 1 is the object string of the template variation. The object string is **unencoded** and stored raw. The center point is at X: 0, Y: -90.
+
+The keys of the dictionary are 9-bit bitfields (binary numbers) representing the exact type of template variation. The first bit is reserved and is always set to `1`. Other bits represent:
+
+| Bit   | Position     |
 |:------|:-------------|
 | 2     | Top Middle   |
 | 3     | Bottom Middle|
@@ -43,5 +46,3 @@ The keys of the dictionary represent the exact type of template variation. It's 
 | 7     | Top Right    |
 | 8     | Bottom Left  |
 | 9     | Bottom Right |
-
-kCEK 11 key 1 is the object string of the template variation. The object string is **unencoded** and stored raw. The center point is at X: 0, Y: -90.
