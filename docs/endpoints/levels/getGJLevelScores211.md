@@ -16,9 +16,9 @@ Fetches the leaderboard for a level and submits your level stats to the server
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
