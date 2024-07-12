@@ -44,7 +44,7 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 - Small chest's rewards in a comma separated list
 	- Orbs
 	- Diamonds
-	- Shards (0 is Fire, 1 is Ice, 2 is Poison, 3 is Shadow, 4 is Lava, 10 is Earth, 11 is Blood) (TODO add more shards)
+	- Shards (0 is Fire, 1 is Ice, 2 is Poison, 3 is Shadow, 4 is Lava, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul)
 	- Key (If it's not 0, give a key)
 - Large chest time remaining
 - Large chest's rewards in a comma separated list
