@@ -12,6 +12,8 @@ Updates a user's data
 
 **stars** - The amount of stars the user has
 
+**moons** - The amount of moons the user has
+
 **demons** - The amount of demons the user has
 
 **diamonds** - The amount of diamonds the user has
@@ -26,31 +28,47 @@ Updates a user's data
 
 **accIcon** - The ID of the user's selected icon.
 
-**accShip** - The ID of the user's selected icon.
+**accShip** - The ID of the user's selected ship.
 
-**accBall** - The ID of the user's selected icon.
+**accBall** - The ID of the user's selected ball.
 
-**accBird** - The ID of the user's selected icon.
+**accBird** - The ID of the user's selected UFO.
 
-**accDart** - The ID of the user's selected icon.
+**accDart** - The ID of the user's selected wave.
 
-**accRobot** - The ID of the user's selected icon.
+**accRobot** - The ID of the user's selected robot.
 
-**accGlow** - The ID of the user's selected icon.
+**accGlow** - Whether the user has glow enabled.
 
-**accSpider** - The ID of the user's selected icon.
+**accSpider** - The ID of the user's selected spider.
 
-**accExplosion** - The ID of the user's selected icon.
+**accExplosion** - The ID of the user's selected death effect.
+
+**accSwing** - The ID of the user's selected swing.
+
+**accJetpack** - The ID of the user's selected jetpack.
 
 **seed2** - [See here](/topics/encryption/chk?id=user-profile)
+
+**dinfo** - List of all completed demons (level IDs separated by `,`)
+
+**dinfow** - Same as dinfo but for weeklies
+
+**dinfog** - Same as dinfo but for gauntlets
+
+**sinfo** - List of all completed non-demon levels by star value, from 1 to 9, separated by `,`
+
+**sinfod** - List of completed dailies
+
+**sinfog** - List of completed gauntlet non-demon levels
 
 **secret** - Wmfd2893gb7
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
