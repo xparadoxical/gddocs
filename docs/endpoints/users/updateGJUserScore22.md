@@ -52,15 +52,15 @@ Updates a user's data
 
 **dinfo** - List of all completed demons (level IDs separated by `,`)
 
-**dinfow** - Same as dinfo but for weeklies
+**dinfow** - Amount of completed weeklies
 
-**dinfog** - Same as dinfo but for gauntlets
+**dinfog** - Amount of completed gauntlet demons
 
 **sinfo** - List of all completed non-demon levels by star value, from 1 to 9, separated by `,`
 
-**sinfod** - List of completed dailies
+**sinfod** - Amount of completed dailies
 
-**sinfog** - List of completed gauntlet non-demon levels
+**sinfog** - Amount of completed gauntlet non-demon levels
 
 **secret** - Wmfd2893gb7
 
