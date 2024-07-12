@@ -6,7 +6,7 @@ Gets the rewards from the chests.
 
 ### Required Parameters
 
-**udid** - A unique identifier for the user's device. This IS validated so you'll get a -1 if this is invalid
+**udid** - A unique identifier for the user's device. You can put anything here
 
 **secret** - Wmfd2893gb7
 
