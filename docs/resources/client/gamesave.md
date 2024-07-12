@@ -82,7 +82,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | [GLM_17](/resources/client/gamesave/GLM.md#GLM_17) | integer| Current Weekly ID |
 | [GLM_18](/resources/client/gamesave/GLM.md#GLM_18) | Folder | The Folder Names for saved levels |
 | [GLM_19](/resources/client/gamesave/GLM.md#GLM_19) | Folder | The Folder names for Local Levels |
-| [GLM_20](/resources/client/gamesave/GLM.md#GLM_20) | [Templates](/resources/client/gamesave/templaet.md) | Your Smart Templates |
+| [GLM_20](/resources/client/gamesave/GLM.md#GLM_20) | [Templates](/resources/client/gamesave/template.md) | Your Smart Templates |
 
 ### GS
 
