@@ -56,7 +56,7 @@ Updates a user's data
 
 **dinfog** - Amount of completed gauntlet demons
 
-**sinfo** - List of all completed non-demon levels by star value, from 1 to 9, separated by `,`
+**sinfo** - `{autoClassic},{easyClassic},{normalClassic},{hardClassic},{harderClassic},{insaneClassic},{autoPlatformer},{easyPlatformer},{normalPlatformer},{hardPlatformer},{harderPlatformer},{insanePlatformer}`
 
 **sinfod** - Amount of completed dailies
 
