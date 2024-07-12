@@ -22,7 +22,7 @@ Gets the leaderboard scores.
 
 **type** - Can be `top`, `relative`, `friends`, or `creators`. If left out it defaults to `top`
 
-**count** - Returns the amount of players specified
+**count** - Returns the amount of players specified. Limited to 100
 
 ## Response
 
