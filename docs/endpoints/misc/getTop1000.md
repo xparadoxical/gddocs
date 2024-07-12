@@ -2,7 +2,7 @@
 
 **Note: as of July 12th 2024, this endpoint does not work anymore. It now requires an empty user-agent and the generic secret just like 99% of other endpoints. But it only returns some empty HTML, which can be found here:**
 
-```
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
