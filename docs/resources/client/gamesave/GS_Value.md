@@ -287,7 +287,7 @@ GS_27 contains the List Rewards you have acquired
 
 ## GS_28
 
-GS_28 contains your enabled items (animations). All of them are booleans and set to 1 by default.
+GS_28 contains your enabled items (animations). All of them are strings (although they act as booleans) and are set to 1 by default.
 
 | Key   | Description          |
 |:------|:---------------------|
