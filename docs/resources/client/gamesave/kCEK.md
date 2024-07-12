@@ -37,6 +37,11 @@
 | 7 | Orbs |
 | 8 | Diamonds |
 | 9 | Custom Object (shares the same ID for Demon guardian key, icons and colours) |
+| 10| Earth Shard |
+| 11| Blood Shard |
+| 12| Metal Shard |
+| 13| Light Shard |
+| 14| Soul Shard |
 
 ### GJRewardItem GS Keys
 
