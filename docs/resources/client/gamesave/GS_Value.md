@@ -285,3 +285,13 @@ GS_27 contains the List Rewards you have acquired
 |:----------|
 |`<k>lr_{listID}</k><s>{diamonds}</s>`|
 
+## GS_28
+
+GS_28 contains your enabled items (animations). All of them are booleans and set to 1 by default.
+
+| Key   | Description          |
+|:------|:---------------------|
+| 17_12 | Unknown, always 1    |
+| 18_12 | Slow Robot Walk      |
+| 19_12 | Fast Robot Run       |
+| 20_12 | Spider Naruto Run    |
