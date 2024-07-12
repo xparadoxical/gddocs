@@ -10,15 +10,15 @@ Gets the leaderboard scores.
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
 **accountID** - The account ID of the user viewing the leaderboards
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp2** - The user's [GJP2](/topics/encryption/gjp.md)
 
 **type** - Can be `top`, `relative`, `friends`, or `creators`. If left out it defaults to `top`
 
