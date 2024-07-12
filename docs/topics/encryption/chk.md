@@ -140,6 +140,12 @@ Random number consisting of *5* digits.
 - Glow (0 = disabled, 1 = enabled)
 - SpiderID
 - ExplosionID
+- Length of dinfo
+- dinfow
+- dinfog
+- sinfo
+- sinfod
+- sinfog
 
 ## Level Leaderboard
 
