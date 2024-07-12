@@ -295,3 +295,7 @@ GS_28 contains your enabled items (animations). All of them are booleans and set
 | 18_12 | Slow Robot Walk      |
 | 19_12 | Fast Robot Run       |
 | 20_12 | Spider Naruto Run    |
+
+## GS_29
+
+This GS is unknown. It's also the only non-dict GS, instead being a boolean.
