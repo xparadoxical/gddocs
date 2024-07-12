@@ -1,6 +1,6 @@
-# deleteGJLevelUser20.php
+# deleteGJLevelList.php
 
-Deletes a level from the server.
+Deletes a list from the server.
 
 ## Parameters
 
@@ -42,11 +42,11 @@ import requests
 data = {
         "accountID": 173831, # DevExit's account ID
         "gjp2": "********", # This would be DevExit's password encoded with GJP2 encryption
-        "levelID": 414808,
+        "listID": 414808,
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelUser20.php", data=data)
+req = requests.post("http://boomlings.com/database/deleteGJLevelList.php", data=data)
 print(req.text)
 ```
 
