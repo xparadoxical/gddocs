@@ -6,7 +6,7 @@ Gets the rewards from the chests.
 
 ### Required Parameters
 
-**udid** - A unique identifier for the user's device, can be replaced with anything
+**udid** - A unique identifier for the user's device. This IS validated so you'll get a -1 if this is invalid
 
 **secret** - Wmfd2893gb7
 
@@ -14,15 +14,15 @@ Gets the rewards from the chests.
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
 **accountID** - Account ID of the user
 
-**gjp** - The user's [GJP](/topics/encryption/gjp.md)
+**gjp2** - The user's [GJP2](/topics/encryption/gjp.md)
 
 **uuid** - Seemingly a random number also used for identifying someone
 
@@ -44,7 +44,7 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 - Small chest's rewards in a comma separated list
 	- Orbs
 	- Diamonds
-	- Shards (0 is Fire, 1 is Ice, 2 is Poison, 3 is Shadow, and 4 is Lava)
+	- Shards (0 is Fire, 1 is Ice, 2 is Poison, 3 is Shadow, 4 is Lava, 10 is Earth) (TODO add more shards)
 	- Key (If it's not 0, give a key)
 - Large chest time remaining
 - Large chest's rewards in a comma separated list
