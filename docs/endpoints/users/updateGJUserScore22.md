@@ -102,11 +102,13 @@ data = {
     "gjp": "********", # This would be PasswordFinders' password encoded with GJP encryption
     "userName": "PasswordFinders",
     "stars": 6969,
+    "moons": 696,
     "demons": 69,
     "diamonds": 5000,
     "icon": 0,
     "color1": 21,
     "color2": 42,
+    "color3": -1,
     "iconType": 0,
     "coins": 150,
     "userCoins": 400,
@@ -120,10 +122,18 @@ data = {
     "accGlow": 0,
     "accSpider": 0,
     "accExplosion": 1,
+    "accSwing": 0,
+    "accJetpack": 0,
+    "dinfo": "13519,10109",
+    "dinfow": 0,
+    "dinfog": 0,
+    "sinfo": "6,9,6,9,6,9,6,9,6,9,6,9",
+    "sinfod": 0,
+    "sinfog": 0,
     "secret": "Wmfd2893gb7",
     "seed": ''.join(random.sample("1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM", 10))
 }
-data['seed2'] = generate_chk([data['accountID'], data['userCoins'], data['demons'], data['stars'], data['coins'], data['iconType'], data['icon'], data['diamonds'], data['accIcon'], data['accShip'], data['accBall'], data['accBird'], data['accDart'], data['accRobot'], data['accGlow'], data['accSpider'], data['accExplosion']], "85271", "xI35fsAapCRg")
+data['seed2'] = generate_chk([data['accountID'], data['userCoins'], data['demons'], data['stars'], data['coins'], data['iconType'], data['icon'], data['diamonds'], data['accIcon'], data['accShip'], data['accBall'], data['accBird'], data['accDart'], data['accRobot'], data['accGlow'], data['accSpider'], data['accExplosion'], len(data['dinfo']), data['dinfow'], data['dinfog'], data['sinfo'], data['sinfod'], data['sinfog']], "85271", "xI35fsAapCRg")
 
 r = requests.post('http://boomlings.com/database/updateGJUserScore22.php', data=data)
 print(req.text)
