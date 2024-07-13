@@ -131,8 +131,9 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 
 | Key | Value|
 | :-- |:-----------|
-| LLM_01 | Local Levels |
+| LLM_01 | Local [Levels](/resources/client/level.md) |
 | LLM_02 | Hardcoded to `binaryVersion`|
+| LLM_03 | Local [Lists](/resources/client/gamesave/list.md) |
 
 ### MDLM
 
