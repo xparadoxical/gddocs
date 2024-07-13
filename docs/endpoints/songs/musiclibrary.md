@@ -12,6 +12,12 @@ The old music library can be fetched via a GET request to `https://geometrydashf
 
 You can also fetch the latest version of the Music Library by sending a GET request to `https://geometrydashfiles.b-cdn.net/music/musiclibrary_version_02.txt` (for the old library, the link is `https://geometrydashfiles.b-cdn.net/music/musiclibrary_version.txt`. As of the writing, the latest version for the old library is `114` and this is unlikely to change in the future).
 
+The Music library format is covered [here](/resources/client/musiclibrary.md).
+
+## Downloading Songs
+
 You can download a track by sending a GET request to `https://geometrydashfiles.b-cdn.net/music/{id}.mp3`. All Music Library song IDs have an offset of 10,000,000 to not interfere with the Newgrounds songs.
 
-The Music library format is covered [here](/resources/client/musiclibrary.md).
+## Archive
+
+The music library and SFX library versions are auto-archived by Cvolton at https://cvolton.eu/sfx.
