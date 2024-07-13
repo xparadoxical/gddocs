@@ -273,7 +273,7 @@ GS_25 Contains the reward data for every weekly demon you have completed
 
 ## GS_26
 
-GS_26 is your currently active path. The value is the same as the path key in GS_value.
+GS_26 is your currently active path. The value is the same as the path key in GS_value. Contary to most GS's, it's an integer value and not a dictionary.
 
 | Structure |
 |:----------|
