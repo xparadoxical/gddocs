@@ -20,7 +20,8 @@ You can download a track by sending a GET request to `https://geometrydashfiles.
 
 ## CDN Tokens
 
-The GD client currently sends two parameters for every `https://geometrydashfiles.b-cdn.net` request: `token` and `expires`. While these aren't required as of the time of writing, they may be required in the future. Click [here](/topics/cdn_token.md) to find out how to generate the CDN tokens.
+The GD client currently sends two parameters for every `https://geometrydashfiles.b-cdn.net` request: `token` and `expires`. While these aren't required as of the time of writing, they may be required in the future. Click [here](/topics/cdn_token.md) to find instructions
+how to generate the CDN tokens.
 
 ## Archive
 
