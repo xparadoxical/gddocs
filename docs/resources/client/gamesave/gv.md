@@ -127,6 +127,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0140 | Disable Orb Scale |
 | gv_0141 | Disable Trigger Orb Scale |
 | gv_0142 | Reduce Audio Quality |
+| gv_0144 | Audio Visualizer |
 | gv_0149 | Show Clicks (editor) |
 | gv_0150 | Auto Pause on Test (editor) |
 | gv_0151 | Start Optimization (editor) |
