@@ -300,4 +300,8 @@ GS_28 contains your enabled items (animations). All of them are strings (althoug
 
 ## GS_29
 
-This GS is unknown. It's also the only non-dict GS, instead being a boolean.
+GS_29 indicates whether your currently selected path is completed or not. Contary to most GS's, it's a boolean value and not a dictionary.
+
+| Structure |
+|:----------|
+| `<k>GS_29</k><t />` |
