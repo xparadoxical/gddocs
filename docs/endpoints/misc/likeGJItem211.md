@@ -30,6 +30,8 @@ Likes a level, comment, etc.
 
 **like** - 0 is dislike, 1 is like. Not sure what it defaults to if left out, but it can be left out.
 
+**chk** - [See here](/topics/encryption/chk.md?id=like)
+
 ## Response
 
 Always returns 1, regardless of whether the item was liked/disliked or not.
