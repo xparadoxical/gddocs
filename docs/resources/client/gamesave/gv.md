@@ -53,7 +53,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0049 | buttonsPerRow (editor) |
 | gv_0050 | buttonRows (editor) |
 | gv_0051 | showedNGMessage (editor) |
-| gv_0052 | fastPracticeReset|
+| gv_0052 | Enable Faster Reset |
 | gv_0053 | Free Games Popup |
 | gv_0055 | checkIfServerOnline.php |
 | gv_0056 | disableObjectAlert |
