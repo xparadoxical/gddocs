@@ -119,7 +119,7 @@ Random number consisting of *5* digits.
 - [RS](topics/encryption/id.md?id=rs)
 - AccountID
 - [UDID](topics/encryption/id.md?id=udid)
-- [UUID](topics/encryption/id.md?id=uuid)
+- "UUID" (player/user ID, different from the account ID)
 
 ## Rate
 
@@ -128,7 +128,7 @@ Random number consisting of *5* digits.
 - [RS](topics/encryption/id.md?id=rs)
 - AccountID
 - [UDID](topics/encryption/id.md?id=udid)
-- "UUID" (user ID)
+- "UUID" (player/user ID, different from the account ID)
 
 ## User Profile
 
