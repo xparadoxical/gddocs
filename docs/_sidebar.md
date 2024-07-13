@@ -72,7 +72,7 @@
   - [rateGJDemon21](/endpoints/levels/rateGJDemon21.md)
   - [rateGJStars211](/endpoints/levels/rateGJStars211.md)
   - [reportGJLevel](/endpoints/levels/reportGJLevel.md)
-  - [suggestGJStars](/endpoints/levels/suggestGJStars.md)
+  - [suggestGJStars20](/endpoints/levels/suggestGJStars.md)
   - [updateGJDesc20](/endpoints/levels/updateGJDesc20.md)
   - [uploadGJLevel21](/endpoints/levels/uploadGJLevel21.md)
 **Lists**
