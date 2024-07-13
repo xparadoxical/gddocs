@@ -1,4 +1,4 @@
-# suggestGJStars.md
+# suggestGJStars20.php
 
 Endpoint used by moderators to send levels to RobTop
 
@@ -48,7 +48,7 @@ data = {
         "secret": "Wmfp3879gc3"
 }
 
-req = requests.post("http://boomlings.com/database/suggestGJStars.php", data=data)
+req = requests.post("http://boomlings.com/database/suggestGJStars20.php", data=data)
 print(req.text)
 
 ```
