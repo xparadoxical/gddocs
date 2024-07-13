@@ -20,7 +20,7 @@ Endpoint used by moderators to send levels to RobTop
 
 **binaryVersion** - the binary version
 
-**feature** - 1 for feature, 0 for star rate
+**feature** - 0 for star rate, 1 for feature, 2 for epic, 3 for legendary, 4 for mythic
 
 **gdw** - 0
 
