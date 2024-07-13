@@ -44,5 +44,5 @@ The IDs for Music Library songs start at 10,000,000
 | 12  | extraArtistIDs  | **Array\[Integer]** | IDs of extra artists, separated by `.`
 | 13  | new             | **Boolean** | Whether the NEW icon shows up or not
 | 14  | newType         | **Integer** | Type of NEW icon. 0 for Yellow, 1 for Blue
-| 15  | extraArtistNames | **Array** | Seems to be an array of extra artist names, but seems to be unused. 
+| 15  | extraArtistNames | **Array** | Artist names in this format: `{id},{name},{id},{name}`
 
