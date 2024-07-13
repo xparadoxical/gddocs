@@ -34,6 +34,7 @@
     - [Quests](/resources/client/gamesave/quests.md)
     - [Platformer UI](resources/client/gamesave/dpad.md)
     - [Smart Templates](resources/client/gamesave/template.md)
+    - [Lists](resources/client/gamesave/list.md)
 
   - [Level](/resources/client/level.md)
     - [Capacity String](/resources/client/level-components/capacity-string.md)
