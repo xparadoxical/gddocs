@@ -67,6 +67,7 @@
   - [getGJGauntlets21](/endpoints/levels/getGJGauntlets21.md)
   - [getGJLevels21](/endpoints/levels/getGJLevels21.md)
   - [getGJLevelScores211](/endpoints/levels/getGJLevelScores211.md)
+  - [getGJLevelScoresPlat](/endpoints/levels/getGJLevelScoresPlat.md)
   - [getGJMapPacks21](/endpoints/levels/getGJMapPacks21.md)
   - [rateGJDemon21](/endpoints/levels/rateGJDemon21.md)
   - [rateGJStars211](/endpoints/levels/rateGJStars211.md)
