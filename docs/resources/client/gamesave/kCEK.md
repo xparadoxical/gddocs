@@ -9,6 +9,7 @@
 | 9   | [GJRewardObject](resources/client/gamesave/kCEK.md) | contains data for Rewards |
 | 10  | [GJSmartTemplate](resources/client/gamesave/template.md) | Contains data about smart template |
 | 11  | [GJSmartTemplate](resources/client/gamesave/template.md) | Contains data for presets in smart template |
+| 12  | [GJLevelList](/resources/client/gamesave/list.md)        | Contains keys for level lists | 
 
 ## kCEK 8 and 9 Structure
 
