@@ -94,8 +94,17 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k108 | Best Points                    | **integer**                                                     | Your point highscore on the level |
 | k109 | Local Best Times               | **integer**                                                     | List of your best times on the level in milliseconds, separated by `,` |
 | k110 | Local Best Points              | **integer**                                                     | List of your point highscores on the level, separated by `,` |
-| k111 | Platformer Hash                | **integer**                                                     | Hash for platformer completions according to this formula: `(((((bestTime + 7890) % 34567) * 601 + ((bestPoints + 3456) % 78901) * 967 + 94819) % 94433) * 829) % 77849`
+| k111 | Platformer Hash                | **integer**                                                     | Hash for platformer completions, see below for code  |
 | k112 | No Shake                       | **bool**                                                         | Whether the player has disabled shake for this level |
+
+The platformer hash is generated like this:
+
+```py
+def generatePlatformerHash(bestTime, bestPoints) {
+  number = (((bestTime + 7890) % 34567) * 601 + (((bestPoints) + 3456) % 78901) * 967 + 94819) % 94433
+  return ((number ^ number >> 16) * 829) % 77849
+}
+```
 
 
 **Last Editor State Key/Value Pairs**
