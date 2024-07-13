@@ -128,4 +128,4 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 | k94 | **Bool** | Platformer? |
 | k101 | **string** | seems to be 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 |
 | k106 | **integer** | corresponds to key 54 on the servers |
-| k111 | **integer** | seems to be 4 or 5a digits and seems to be platformer-exclusive |
+| k111 | **integer** | seems to be some sort of platformer-exclusive hash |
