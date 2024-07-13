@@ -121,6 +121,15 @@ Random number consisting of *5* digits.
 - [UDID](topics/encryption/id.md?id=udid)
 - [UUID](topics/encryption/id.md?id=uuid)
 
+## Rate
+
+- LevelID
+- Stars
+- [RS](topics/encryption/id.md?id=rs)
+- AccountID
+- [UDID](topics/encryption/id.md?id=udid)
+- "UUID" (user ID)
+
 ## User Profile
 
 - AccountID
