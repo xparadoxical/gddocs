@@ -1,4 +1,4 @@
-# Server Song Resource
+# Client & Server Song Resource
 
 ## Song
 
@@ -46,3 +46,5 @@ The IDs for Music Library songs start at 10,000,000
 | 14  | newType         | **Integer** | Type of NEW icon. 0 for Yellow, 1 for Blue
 | 15  | extraArtistNames | **Array** | Artist names in this format: `{id},{name},{id},{name}`
 
+#### **Trivia**
+- The savefile song structure uses the exact same keys as the server response
