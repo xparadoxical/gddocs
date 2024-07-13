@@ -18,6 +18,10 @@ The Music library format is covered [here](/resources/client/musiclibrary.md).
 
 You can download a track by sending a GET request to `https://geometrydashfiles.b-cdn.net/music/{id}.mp3`. All Music Library song IDs have an offset of 10,000,000 to not interfere with the Newgrounds songs.
 
+## CDN Tokens
+
+The GD client currently sends two parameters for every `https://geometrydashfiles.b-cdn.net` request: `token` and `expires`. While these aren't required as of the time of writing, they may be required in the future. Click [here](/topics/cdn_token.md) to find out how to generate the CDN tokens.
+
 ## Archive
 
 The music library and SFX library versions are auto-archived by Cvolton at https://cvolton.eu/sfx.
