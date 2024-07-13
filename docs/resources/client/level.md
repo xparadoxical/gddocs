@@ -94,6 +94,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k108 | Best Points                    | **integer**                                                     | Your point highscore on the level |
 | k109 | Local Best Times               | **integer**                                                     | List of your best times on the level in milliseconds, separated by `,` |
 | k110 | Local Best Points              | **integer**                                                     | List of your point highscores on the level, separated by `,` |
+| k111 | Platformer Hash                | **integer**                                                     | Hash for platformer completions according to this formula: `(((((bestTime + 7890) % 34567) * 601 + ((bestPoints + 3456) % 78901) * 967 + 94819) % 94433) * 829) % 77849`
 | k112 | No Shake                       | **bool**                                                         | Whether the player has disabled shake for this level |
 
 
@@ -128,4 +129,3 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 | k94 | **Bool** | Platformer? |
 | k101 | **string** | seems to be 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 |
 | k106 | **integer** | corresponds to key 54 on the servers |
-| k111 | **integer** | seems to be some sort of platformer-exclusive hash |
