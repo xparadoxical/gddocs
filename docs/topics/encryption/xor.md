@@ -51,7 +51,7 @@ for (i = 0; i < input.length; i++) {
 | `39673` | Level Leaderboard Integrity | Cycled   |
 | `41274` | Level Integrity             | Cycled   |
 | `48291` | Load Data                   | Cycled   |
-| `57709` | Musiclibrary UUID           | Cycled   |
+| `57709` | Music/SFX Library Secret    | Cycled   |
 | `58281` | Rating Integrity            | Cycled   |
 | `59182` | Chest Rewards               | Cycled   |
 | `85271` | Stat Submission Integrity   | Cycled   |
