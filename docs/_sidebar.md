@@ -124,7 +124,8 @@
   - [Status Codes](/topics/status_codes.md)
   - [Vault Codes](/topics/vault_codes.md)
   - [Shop](/topics/shop)
-  - [Tags](/topics/tags)  
+  - [Tags](/topics/tags)
+  - [CDN Tokens](/topics/cdn_token.md)
 
 
 - **Algorithms**
