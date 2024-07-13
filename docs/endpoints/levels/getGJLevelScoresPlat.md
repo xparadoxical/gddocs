@@ -26,6 +26,8 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 
 **points** - Your points
 
+**plat** - Always 1 for this endpoint
+
 **percent** - The percent the user has on the level. Will not update if left out, but still retrieves data
 
 **type** - 0 for Friends, 1 for Top, 2 for Week. Defaults to 0 if left out
