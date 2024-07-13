@@ -58,6 +58,8 @@
 
 - In 2.1, failing to add an end tag for Colour tags and Instant tags would result in the game crashing, but this was fixed in 2.2
 
+- In 2.1, the Fade tags actually made the block of text appear instantly, and so no number was required. To emulate the old behavior, you can use `<i000>`
+
 - Only Colour tags are usable without modifying the client - via level descriptions and comment bans
 
 - The tags are defined within the `MultilineBitmapFont` class and are sometimes disabled within the create method using a bool
