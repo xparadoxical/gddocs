@@ -100,10 +100,10 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 The platformer hash is generated like this:
 
 ```py
-def generatePlatformerHash(bestTime, bestPoints) {
+def generatePlatformerHash(bestTime, bestPoints):
   number = (((bestTime + 7890) % 34567) * 601 + (((bestPoints) + 3456) % 78901) * 967 + 94819) % 94433
   return ((number ^ number >> 16) * 829) % 77849
-}
+
 ```
 
 
