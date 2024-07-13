@@ -3,7 +3,7 @@
 > Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML.` Geometry Dash has 4 primary types of tags
 
 - Colour Tags
-- Instant/Fade Tags
+- Fade Tags
 - Delay Tags
 - Shake Tags
 
@@ -37,7 +37,7 @@
 
 ## Instant/Fade Tags
 
-> Fade Tags are used to fade in a block of text on screen instead of making it appear character by character. Similarly to colour tags, Instant tags have a start and end tag to denote which piece of text should appear instantly. The number is specified in hectoseconds, which is 1/100th of a second. You can omit the number and the text will appear instantly.
+> Fade Tags are used to fade in a block of text on screen instead of making it appear character by character. Similarly to colour tags, Fade tags have a start and end tag to denote which piece of text should appear instantly. The number is specified in hectoseconds, which is 1/100th of a second.
 
 **Usage:** `<i100>Freaky</i>`
 
