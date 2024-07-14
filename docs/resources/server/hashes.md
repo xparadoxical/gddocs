@@ -72,9 +72,15 @@ For each gauntlet, add these segments:
 
 Salt: `xI25fpAapCQg`
 
-## getGJRewards
+## getGJChallenges
 
 The hash just takes the entire **undecoded** response string (excluding the 5 characters appended to the front).
+
+Salt: `oC36fpYaPtdg`
+
+## getGJRewards
+
+The hash is generated the same way as getGJChallenges, with the exception of a different salt.
 
 Salt: `pC26fpYaQCtg`
 
