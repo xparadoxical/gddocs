@@ -15,6 +15,7 @@
   - [Comment](/resources/server/comment.md)
   - [Friend Request](/resources/server/friendrequest.md)
   - [Gauntlet](/resources/server/gauntlet.md)
+  - [Hashes](/resources/server/hashes.md)
   - [Leaderboard Score](/resources/server/leaderboardscore.md)
   - [Level](/resources/server/level.md)
   - [List](/resources/server/list.md)
