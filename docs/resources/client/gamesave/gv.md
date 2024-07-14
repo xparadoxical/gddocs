@@ -136,6 +136,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0150 | Auto Pause on Test (editor) |
 | gv_0151 | Start Optimization (editor) |
 | gv_0152 | Hide Path (editor) |
+| gv_0153 | Explode Player on Death |
 | gv_0155 | Disable Shader Anti-Aliasing |
 | gv_0156 | Disable Paste State Groups (editor) |
 | gv_0157 | Level Upload Guidelines Shown |
