@@ -26,7 +26,7 @@ Gets the rewards from the chests.
 
 **uuid** - Seemingly a random number also used for identifying someone
 
-**rewardType** - 1 for small chest, 2 for large chest. Defaults to 0 if left out
+**rewardType** - 0 for getting info about the chests, 1 for small chest, 2 for large chest. Defaults to 0 if left out
 
 **r1** - A random 3-5 digit number
 
@@ -45,7 +45,7 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 	- Orbs
 	- Diamonds
 	- Shards (0 is Fire, 1 is Ice, 2 is Poison, 3 is Shadow, 4 is Lava, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul)
-	- Key (If it's not 0, give a key)
+	- Key (If it's not 0, give a key. The usual value is 6)
 - Large chest time remaining
 - Large chest's rewards in a comma separated list
 - Maybe the amount of rewards claimed?
