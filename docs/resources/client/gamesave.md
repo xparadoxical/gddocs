@@ -54,8 +54,8 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | dpad01 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #1 |
 | dpad02 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #2 |
 | dpad03 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #3 |
-| dpad04 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #4 |
-| dpad05 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #5 |
+| dpad04 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #4, however it's missing the last 5 options |
+| dpad05 | [Platformer UI](/resources/client/gamesave/dpad.md) | Platformer UI configuration #5, however it's missing the last 5 options |
 | dpadLayout01 | [Platformer UI](/resources/client/gamesave/dpad.md) | Default UI? |
 | dpadLayoutDual01 | [Platformer UI](/resources/client/gamesave/dpad.md) | 2 platformer UIs separated by `;`, then 2 gamepad placements, also separated by `;`
 | practiceOpacity | float | The opacity of the practice UI, from 0 to 1|
