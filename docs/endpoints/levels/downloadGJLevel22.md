@@ -42,7 +42,7 @@ Returns a [level object](/resources/server/level.md) along with 2 hashes. All of
 ```
 where:
 - `{level}` is the level object
-- `{hash1}` and `{hash2}` are integrity hashes the GD client uses to validate the response
+- `{hash1}` and `{hash2}` are integrity [hashes](/resources/server/hashes.md) the GD client uses to validate the response
 - `{unk}` is always an empty string. It's unknown if this segment even exists or if the response is just split with 2 `#` characters.
 - `{songMetadata}` is the metadata of all the [songs](/resources/server/song.md) used in the level.
 - `{extraArtists}` is a key-value pair map of extra artists in the songs. It uses the following format: `{id},{name},{id},{name}...`
