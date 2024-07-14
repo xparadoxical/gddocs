@@ -12,6 +12,7 @@
 | `xI35fsAapCRg` | Update Profile Chk                       |
 | `yPg6pUrtWn0J` | Level Leaderboard Chk                    |
 | `ask2fpcaqCQ2` | Vault of Secrets & Chamber of Time Codes |
+| `pC26fpYaQCtg` | getGJRewards hash                        |
 | `mI29fmAnxgTs` | [GJP2](/topics/gjp.md)                   |
 
 ## How Salts are used
