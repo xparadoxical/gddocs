@@ -47,8 +47,9 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 	- Item 1 (1 is Fire, 2 is Ice, 3 is Poison, 4 is Shadow, 5 is Lava, 6 is Demon Key, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul)
 	- Item 2
 - Large chest time remaining
+- Amount of small chests claimed
 - Large chest's rewards in a comma separated list
-- Maybe the amount of rewards claimed?
+- Amount of large chests claimed
 - `rewardType`
 
 This list is then [XOR](/topics/encryption/xor.md)'d and [URL-Safe Base64](/topics/encryption/base64.md) encoded. Then it is separated with its [hash](/resources/server/hashes.md?id=getgjrewards) by a pipe `|`. It also has a random string of 5 characters appended to the front.
