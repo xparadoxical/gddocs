@@ -71,3 +71,7 @@ For each gauntlet, add these segments:
 - The IDs of the levels in the gauntlet, separated by `,`
 
 Salt: `xI25fpAapCQg`
+
+## getGJLevelLists
+
+This endpoint returns a hash, but since the GD client doesn't check it, the way to generate this hash is unknown.
