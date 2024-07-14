@@ -121,6 +121,8 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0128 | Lock Cursor In-Game |
 | gv_0129 | Disable Portal Labels |
 | gv_0130 | Enable Orb Labels |
+| gv_0131 | Use Nearby as Reference (smart template) |
+| gv_0132 | Dont Delete (smart template) |
 | gv_0134 | Hide Attempts |
 | gv_0135 | Hide Attempts in Practice Mode |
 | gv_0137 | Hide Particle Icons (editor) |
