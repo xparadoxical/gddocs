@@ -2,11 +2,11 @@
 
 For both musiclibrary and sfxlibrary, there are 2 optional parameters that are sent by the GD client but are currently **not** required to receive the data. One still may want to implement these into their code for future-proofing.
 
-- **`expires`**
+#### `expires`
 
 This is the UNIX timestamp (seconds) that is an hour later than the current timestamp.
 
-- **`token`**
+#### `token`
 
 Tokens are generated this way (pseudocode):
 
