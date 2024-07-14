@@ -123,10 +123,12 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0130 | Enable Orb Labels |
 | gv_0131 | Use Nearby as Reference (smart template) |
 | gv_0132 | Dont Delete (smart template) |
+| gv_0133 | Group ID Filter (editor) |
 | gv_0134 | Hide Attempts |
 | gv_0135 | Hide Attempts in Practice Mode |
 | gv_0136 | Enable Extra LDM |
 | gv_0137 | Hide Particle Icons (editor) |
+| gv_0139 | Color Channel Filter (editor) |
 | gv_0140 | Disable Orb Scale |
 | gv_0141 | Disable Trigger Orb Scale |
 | gv_0142 | Reduce Audio Quality |
@@ -218,5 +220,3 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0087  | **False** ||
 | 0114  | **True** | Used in `PlayerObject` (**2019 Leak**) |
 | 0120  | **True** | Shown in RobTop's 2020 Twitch Streams |
-| 0133  | **True** | Something related to some editor filter |
-| 0139  | **True** | Something related to some editor filter |
