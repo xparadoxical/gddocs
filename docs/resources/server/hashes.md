@@ -72,6 +72,12 @@ For each gauntlet, add these segments:
 
 Salt: `xI25fpAapCQg`
 
+## getGJRewards
+
+The hash just takes the entire response string.
+
+Salt: `pC26fpYaQCtg`
+
 ## getGJLevelLists
 
 This endpoint returns a hash, but since the GD client doesn't check it, the way to generate this hash is unknown.
