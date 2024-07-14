@@ -46,8 +46,8 @@ A list of attributes of the Rewards, separated by colons `:` as follows:
 	- Diamonds
 	- Item 1 (1 is Fire, 2 is Ice, 3 is Poison, 4 is Shadow, 5 is Lava, 6 is Demon Key, 10 is Earth, 11 is Blood, 12 is Metal, 13 is Light and 14 is Soul)
 	- Item 2
-- Large chest time remaining
 - Amount of small chests claimed
+- Large chest time remaining
 - Large chest's rewards in a comma separated list
 - Amount of large chests claimed
 - `rewardType`
