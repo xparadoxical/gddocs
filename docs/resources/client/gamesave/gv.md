@@ -146,6 +146,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0158 | Preview Shaders (editor) |
 | gv_0159 | Audio Fix 01 |
 | gv_0163 | Enable Quick Keys |
+| gv_0164 | Level Leaderboard Mode |
 | gv_0166 | Show Hitboxes (in practice mode) |
 | gv_0167 | Confirm Exit |
 | gv_0168 | Fast Menu |
@@ -217,3 +218,5 @@ Unlocked Game Variables (ugv) are used to check if ingame events have been compl
 | 0087  | **False** ||
 | 0114  | **True** | Used in `PlayerObject` (**2019 Leak**) |
 | 0120  | **True** | Shown in RobTop's 2020 Twitch Streams |
+| 0133  | **True** | Something related to some editor filter |
+| 0139  | **True** | Something related to some editor filter |
