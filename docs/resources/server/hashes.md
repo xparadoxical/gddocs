@@ -74,7 +74,7 @@ Salt: `xI25fpAapCQg`
 
 ## getGJRewards
 
-The hash just takes the entire **undecoded** response string.
+The hash just takes the entire **undecoded** response string (excluding the 5 characters appended to the front).
 
 Salt: `pC26fpYaQCtg`
 
