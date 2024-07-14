@@ -125,6 +125,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0132 | Dont Delete (smart template) |
 | gv_0134 | Hide Attempts |
 | gv_0135 | Hide Attempts in Practice Mode |
+| gv_0136 | Enable Extra LDM |
 | gv_0137 | Hide Particle Icons (editor) |
 | gv_0140 | Disable Orb Scale |
 | gv_0141 | Disable Trigger Orb Scale |
@@ -149,6 +150,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0169 | Small Warp Buttons (editor) |
 | gv_0170 | Borderless Fullscreen |
 | gv_0171 | Disable Player Hitbox |
+| gv_0172 | Disable Shake (2.2) |
 | gv_0173 | Ignore Damage (playtesting outside of editor) |
 | gv_0174 | Hide Playtest Text |
 
