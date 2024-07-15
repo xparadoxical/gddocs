@@ -94,10 +94,24 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k108 | Best Points                    | **integer**                                                     | Your point highscore on the level |
 | k109 | Local Best Times               | **integer**                                                     | List of your best times on the level in milliseconds, separated by `,` |
 | k110 | Local Best Points              | **integer**                                                     | List of your point highscores on the level, separated by `,` |
-| k111 | Platformer Hash                | **integer**                                                     | Hash for platformer completions, see below for code  |
+| k111 | Platformer Seed                | **integer**                                                     | Checksum for platformer completions, see below for code  |
 | k112 | No Shake                       | **bool**                                                         | Whether the player has disabled shake for this level |
 
-The platformer hash is generated like this:
+The classic level seed is generated like this (please note you need to add another `1482` when submitting the level score):
+
+```py
+def generate_classic_leaderboard_seed(
+    jumps: int, percentage: int, seconds: int, has_played: bool = True
+) -> int:
+
+    return (
+        1482 * has_played
+        + (jumps + 3991) * (percentage + 8354)
+        + ((seconds + 4085) ** 2) - 50028039
+    )
+```
+
+The platformer seed is generated like this:
 
 ```py
 def generatePlatformerHash(bestTime, bestPoints):
