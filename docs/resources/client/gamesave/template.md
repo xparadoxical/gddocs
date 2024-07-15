@@ -9,6 +9,10 @@ Smart Templates are user-made templates used for the Auto Build feature. They ar
 | 1   | Smart Template ID  | integer   |
 | 2   | Name               | string    |
 | 3   | Template Variations| dict      |
+| 4   | Unknown            | integer   |
+| 5   | Unknown            | integer   |
+| 6   | Unknown            | integer   |
+| 7   | Unknown            | integer   |
 
 ## kCEK 11
 
