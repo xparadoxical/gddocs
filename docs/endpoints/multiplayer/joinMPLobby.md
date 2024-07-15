@@ -28,4 +28,4 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 
 ## Response
 
-Currently unknown, but most likely 1 if successful and -1 if the request was rejected.
+Currently unknown, but most likely some info about the lobby if successful and -1 if the request was rejected.
