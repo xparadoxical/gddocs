@@ -80,6 +80,10 @@
   - [deleteGJLevelList](/endpoints/lists/deleteGJLevelList.md)
   - [getGJLevelLists](/endpoints/lists/getGJLevelLists.md)
   - [uploadGJLevelList](/endpoints/lists/uploadGJLevelList.md)
+**Multiplayer**
+  - [exitMPLobby](/endpoints/multiplayer/exitMPLobby.md)
+  - [joinMPLobby](/endpoints/multiplayer/joinMPLobby.md)
+  - [uploadMPComment](/endpoints/multiplayer/uploadMPComment.md)
 **Comments**
   - [deleteGJAccComment20](/endpoints/comments/deleteGJAccComment20.md)
   - [deleteGJComment20](/endpoints/comments/deleteGJComment20.md)
