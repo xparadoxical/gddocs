@@ -165,14 +165,14 @@ Random number consisting of *5* digits.
 - Attempts
 - Seed
 
-Seed can be generated like this:
+Seed for classic levels can be generated like this:
 
 <!-- tabs:start -->
 
 ### **Python**
 
 ```py
-def generate_leaderboard_seed(
+def generate_classic_leaderboard_seed(
     jumps: int, percentage: int, seconds: int, has_played: bool = True
 ) -> int:
 
@@ -181,6 +181,20 @@ def generate_leaderboard_seed(
         + (jumps + 3991) * (percentage + 8354)
         + ((seconds + 4085) ** 2) - 50028039
     )
+```
+
+<!-- tabs:end -->
+
+For platformer levels:
+
+<!-- tabs:start -->
+
+### **Python**
+
+```py
+def generatePlatformerHash(bestTime, bestPoints):
+  number = (((bestTime + 7890) % 34567) * 601 + (((bestPoints) + 3456) % 78901) * 967 + 94819) % 94433
+  return ((number ^ number >> 16) * 829) % 77849
 ```
 
 <!-- tabs:end -->
