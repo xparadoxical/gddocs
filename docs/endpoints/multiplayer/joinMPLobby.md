@@ -8,15 +8,15 @@ Joins a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, not `b
 
 ### Required Parameters
 
-**accountID** - The commenter's account ID
+**accountID** - The player's account ID
 
-**gjp2** - The commenter's [GJP2](/topics/encryption/gjp.md)
+**gjp2** - The player's [GJP2](/topics/encryption/gjp.md)
 
 **secret** - Wmfv3899gc9
 
 **gameID** - The ID of the multiplayer lobby
 
-**lastCommentID** - Your last multiplayer comment ID
+**lastCommentID** - Your last multiplayer comment ID. It's unknown what the initial value is
 
 ### Optional Parameters
 
