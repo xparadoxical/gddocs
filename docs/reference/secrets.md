@@ -6,13 +6,13 @@
 
 ### Table of Secrets
 
-|     Secret    |  Type   |
-|:--------------|:--------|
-| `Wmfd2893gb7` | Common  |
-| `Wmfv3899gc9` | Account |
-| `Wmfv2898gc9` | Level   |
-| `Wmfp3879gc3` | Mod     |
-| `Wmfx2878gb9` | Admin   |
+|     Secret    |  Type      |
+|:--------------|:-----------|
+| `Wmfd2893gb7` | Common     |
+| `Wmfv3899gc9` | Account/MP |
+| `Wmfv2898gc9` | Level      |
+| `Wmfp3879gc3` | Mod        |
+| `Wmfx2878gb9` | Admin      |
 
 ### Secret Types
 <u>**As of Geometry Dash version 2.206, there are 4 *publicly* known secrets**</u>
@@ -81,7 +81,7 @@
 </details>  
 
 **<h3><u>Account Secret</u></h3>**  
-> As of Geometry Dash 2.206, there are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. Below is a table of each endpoint which uses the Account Secret.
+> As of Geometry Dash 2.206, there are 5 endpoints which use the `Account Secret`. The Account Secret was created for endpoints that deal with <u>important account features such as save data and privacy settings</u>. However, some unused code in 2.2 also reveals that the secret could be used for the upcoming multiplayer mode, however this is subject to change. Below is a table of each endpoint which uses the Account Secret.
 
 <details close>
 <summary><u>Endpoints</u></summary>
@@ -93,6 +93,18 @@
     <tr><td><a href="/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>        
     <tr><td><a href="/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>    
     <tr><td><a href="/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>    
+</table>
+
+</details>
+
+<details close>
+<summary><u>Known Multiplayer Endpoints</u></summary>
+
+<table>
+    <tr><th><center>Endpoint</center></th></tr>
+    <tr><td><a href="/#/endpoints/multiplayer/exitMPLobby">http://www.boomlings.com/database/exitMPLobby.php</a></td></tr>     
+    <tr><td><a href="/#/endpoints/multiplayer/joinMPLobby">http://www.boomlings.com/database/joinMPLobby.php</a></td></tr>      
+    <tr><td><a href="/#/endpoints/multiplayer/uploadMPComment">http://www.boomlings.com/database/uploadMPComment.php</a></td></tr>    
 </table>
 
 </details>
