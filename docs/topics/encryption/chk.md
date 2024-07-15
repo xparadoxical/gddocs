@@ -195,6 +195,13 @@ For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 - TimelyID
 - [RS](topics/encryption/id.md?id=rs)
 
+## Upload Multiplayer Comment
+
+- AccountID
+- Comment
+- GameID
+- Extra
+
 ## Salts
 
 | Value        | Type              |
