@@ -6,13 +6,15 @@ Gets the URL for the data server.
 
 ### Required Parameters
 
+**accountID** - Any valid account ID
+
 **type** - used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data
 
 **secret** - Wmfd2893gb7
 
 ## Response
 
-[https://www.robtopgames.org](https://www.robtopgames.org) for type 1, [https://www.robtopgames.net](https://www.robtopgames.net) for type 2
+Usually [https://www.robtopgames.org](https://www.robtopgames.org). However, without a valid accountID and at type 2, [https://www.robtopgames.net](https://www.robtopgames.net) is returned instead
 
 ## Example
 
@@ -24,7 +26,7 @@ Gets the URL for the data server.
 import requests
 
 data = {
-        "accountID": 173831,
+        "accountID": 71,
         "type": 2,
         "secret": "Wmfd2893gb7"
 }
