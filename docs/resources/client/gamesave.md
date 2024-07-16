@@ -47,7 +47,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | bootups| integer | The ammount of times you have opened Geometry Dash |
 | hasRatedGame| Bool | if you have rated the game |
 | binaryVersion| integer | The Games Binary Version |
-| resolution| integer | The games resolution  |
+| resolution| [resolution](/resources/client/gamesave/enums.md) | The games resolution  |
 | texQuality| integer | how high the text quality is (0 for Auto, 1 for Low, 2 for Medium and 3 for High) |
 | timeOffset| integer | music offset in milliseconds  |
 | customFPSTarget| float | the FPS target value |
