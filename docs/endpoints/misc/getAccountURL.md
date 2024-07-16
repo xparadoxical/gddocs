@@ -37,7 +37,7 @@ print(req.text)
 
 **Response**
 ```py
-http://69.164.210.48
+https://www.robtopgames.net
 ```
 
 <!-- tabs:end -->
