@@ -2,7 +2,7 @@
 
 Loads account data
 
-**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently http://www.robtopgames.net) 
+**Note:** This page is on the account server. You can find the domain name by sending a request to /database/accounts/getAccountURL.php (currently http://www.robtopgames.org) 
 
 ## Parameters
 
@@ -16,9 +16,9 @@ Loads account data
 
 ### Optional Parameters
 
-**gameVersion** - 21
+**gameVersion** - 22
 
-**binaryVersion** - 35
+**binaryVersion** - 42
 
 **gdw** - 0
 
@@ -51,7 +51,7 @@ data = {
     "secret": "Wmfv3899gc9"
 }
 
-req = requests.post("http://www.robtopgames.net/database/accounts/syncGJAccountNew.php", data=data)
+req = requests.post("http://www.robtopgames.org/database/accounts/syncGJAccountNew.php", data=data)
 print(req.text)
 ```
 
