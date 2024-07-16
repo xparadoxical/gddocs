@@ -7,7 +7,7 @@ This enum represents the quality of the game's textures.
 | Value | Name   |
 | :-----|:------ |
 | 0     | Auto   |
-| 1`    | Low    |
+| 1     | Low    |
 | 2     | Medium |
 | 3     | High   |
 
