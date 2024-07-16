@@ -20,3 +20,4 @@ Value Keeper is a giant Dictionary found in CCGameManager.dat that contains the 
 | c0_{ID} | The Colour1's you have unlocked |
 | c1_{ID} | The Colour2's you have unlocked |
 | death_{ID} | Unlocked Death Effects |
+| shipstreak_{ID} | Unlocked ship streaks |
