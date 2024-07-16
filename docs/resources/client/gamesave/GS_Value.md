@@ -49,6 +49,8 @@ GS values contain Information regarding certain aspects of the game
 | 41 | List Rewards |
 | unique_{LevelID}_{Coins Collected} | The Coins Collected on the Official Levels
 | unique_secretB03 | Glubfub coin |
+| unique_secret04 | Official level page secret coin |
+| unique_secret06 | 'Sparky' coin |
 
 ## GS_completed
 
