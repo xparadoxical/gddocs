@@ -6,8 +6,6 @@ Gets the URL for the data server.
 
 ### Required Parameters
 
-**accountID** - Anyone's account ID
-
 **type** - used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data
 
 **secret** - Wmfd2893gb7
