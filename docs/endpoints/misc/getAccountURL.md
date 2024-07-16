@@ -14,7 +14,7 @@ Gets the URL for the data server.
 
 ## Response
 
-[https://www.robtopgames.net](https://www.robtopgames.net)
+[https://www.robtopgames.org](https://www.robtopgames.org) for type 1, [https://www.robtopgames.net](https://www.robtopgames.net) for type 2
 
 ## Example
 
