@@ -143,6 +143,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 |:----|:------|
 | MDLM_001 | Dictionary of [SongInfoObject](/resources/server/song.md) |
 | MDLM_002 | Song Priority of a song |
+| MDLM_003 | Unknown (dict) |
 
 ### KBM
 
