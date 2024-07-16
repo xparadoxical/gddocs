@@ -51,7 +51,7 @@ data = {
     "twitch": "devexit"
 }
 
-req = requests.post('http://boomlings.com/database/updateGJAccSettings20.php', data=data)
+req = requests.post('https://www.boomlings.com/database/updateGJAccSettings20.php', data=data)
 print(req.text)
 ```
 
