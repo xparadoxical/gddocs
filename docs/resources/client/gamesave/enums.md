@@ -1,8 +1,19 @@
-# Enums
+# Enumerations
+
+## Texture Quality
+
+This enum represents the quality of the game's textures.
+
+| Value | Name   |
+| :-----|:------ |
+| 0     | Auto   |
+| 1`    | Low    |
+| 2     | Medium |
+| 3     | High   |
 
 ## Resolution
 
-This enum represents the game window's resoution.
+This enum represents the game window's resolution.
 
 | Value | Width | Height | Aspect Ratio |
 |:------|:------|:-------|:-------------|
