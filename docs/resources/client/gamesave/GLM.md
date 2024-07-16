@@ -12,7 +12,7 @@ GLM_01 is used to store all progress the player has made on official levels
 
 ## GLM_02
 
-GLM_02 was used before the account system to keep track of who owned Specific levels, currently unused
+GLM_02 was used in the earliest versions of the game back when your local levels were stored in CCGameManager.dat instead of being separated to CCLocalLevels.dat, currently unused
 
 | Key | description |
 |:----|:------------|
