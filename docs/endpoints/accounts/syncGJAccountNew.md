@@ -34,7 +34,7 @@ A list of values, separated by semicolons `;`:
 
 - a list of rated levels separated by commas `,`, in the format `[levelID],[stars]`, compressed with deflate and a random string of *20* characters at the front and back
 
-- a list of map pack objects separated by pipes `|`, with keys 1, 3, 4 and 5, compressed with deflate and a random string of *20* characters at the front and back
+- a list of [map pack objects](/resources/server/mappack.md) separated by pipes `|`, with keys 1, 3, 4 and 5, compressed with deflate and a random string of *20* characters at the front and back
 
 ## Example
 
