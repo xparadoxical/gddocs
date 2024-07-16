@@ -8,9 +8,9 @@ Loads account data
 
 ### Required Parameters
 
-**userName** - The username of the account to be added
+**accountID** - The account ID of the account to be added
 
-**password** - The password of the account to be added
+**gjp2** - The password of the account to be added with [GJP2](/topics/gjp.md) encryption
 
 **secret** - Wmfv3899gc9
 
@@ -46,8 +46,8 @@ A list of values, separated by semicolons `;`:
 import requests
 
 data = {
-    "userName": "APIAccount",
-    "password": "********", # This would be APIAccount's password
+    "accountID": 23590959, # This would be APIAccount's account ID
+    "gjp2": "********", # This would be APIAccount's password with GJP2 encryption
     "secret": "Wmfv3899gc9"
 }
 
