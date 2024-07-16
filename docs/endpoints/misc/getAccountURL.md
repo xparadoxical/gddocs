@@ -1,6 +1,6 @@
 # getAccountURL.php
 
-Gets the URL for the data server. Official domain name is [http://geometrydash.com](http://geometrydash.com), but the server returns [http://69.164.210.48](http://69.164.210.48).
+Gets the URL for the data server.
 
 ## Parameters
 
@@ -14,7 +14,7 @@ Gets the URL for the data server. Official domain name is [http://geometrydash.c
 
 ## Response
 
-[http://69.164.210.48](http://69.164.210.48)
+[https://www.robtopgames.net](https://www.robtopgames.net)
 
 ## Example
 
