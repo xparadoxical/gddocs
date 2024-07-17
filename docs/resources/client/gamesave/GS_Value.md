@@ -304,7 +304,7 @@ GS_28 contains your enabled items. All of them are strings (although they act as
 
 ## GS_29
 
-GS_29 is unknown but is related to paths. Contary to most GS's, it's a boolean value and not a dictionary.
+GS_29 is unknown but is related to trying to fix some path bug. Contary to most GS's, it's a boolean value and not a dictionary.
 
 | Structure |
 |:----------|
