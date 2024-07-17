@@ -296,7 +296,7 @@ GS_28 contains your enabled items (animations). All of them are strings (althoug
 
 | Key   | Description          |
 |:------|:---------------------|
-| 17_12 | Unknown, always 1    |
+| 17_12 | Music Unlocker       |
 | 18_12 | Slow Robot Walk      |
 | 19_12 | Fast Robot Run       |
 | 20_12 | Spider Naruto Run    |
