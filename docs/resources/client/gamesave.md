@@ -77,6 +77,12 @@ These keys were used in old versions of the game but are now obsolete.
 | lastMonth | Integer | Presumably the month when you last played (0-indexed) |
 | clickedName | Bool | Whether you clicked on your name in the icon kit to change it |
 | autoCheckpoints | Bool | Whether checkpoints are placed automatically in practice mode. Moved to valueKeeper::[gv_0027](/resources/client/gamesave/gv.md) |
+| showBPMMarkers | Bool | if BPM markers are shown |
+| autoRetryLevel | Bool | If the level automatically restarts after death. Moved to valueKeeper::[gv_0026](/resources/client/gamesave/gv.md) |
+| recordGameplay | Bool | presumably whether to record gameplay with everyplay |
+| commentSortRecent | Bool | unknown (there was no option to sort comments by most liked at the time) |
+| kEnableTutorial | Bool | unknown |
+| showedFirstTutorial | Bool | unknown |
 
 ### GLM 
 
