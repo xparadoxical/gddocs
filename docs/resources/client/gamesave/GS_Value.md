@@ -292,7 +292,7 @@ GS_27 contains the List Rewards you have acquired
 
 ## GS_28
 
-GS_28 contains your enabled items. All of them are strings (although they act as booleans). The animations (18-20) are set to 1 by default even if not unlocked. However, the other items are set to 1 permanently when you unlock them.
+GS_28 contains your enabled items. All of them are strings (although they act as booleans). The animations (18-20) are set to 1 after doing.. something? even if not unlocked. The music unlocker is set to 1 by default as soon as you start the game. The music customize is set to 1 permanently when you unlock it.
 
 | Key   | Description          |
 |:------|:---------------------|
