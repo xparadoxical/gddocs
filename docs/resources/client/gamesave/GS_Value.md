@@ -292,7 +292,7 @@ GS_27 contains the List Rewards you have acquired
 
 ## GS_28
 
-GS_28 contains your enabled items (animations). All of them are strings (although they act as booleans) and are set to 1 by default.
+GS_28 contains your enabled items. All of them are strings (although they act as booleans). The animations (18-20) are set to 1 by default despite not being unlocked. However, the other items are set to 1 permanently when you unlock them.
 
 | Key   | Description          |
 |:------|:---------------------|
@@ -300,6 +300,7 @@ GS_28 contains your enabled items (animations). All of them are strings (althoug
 | 18_12 | Slow Robot Walk      |
 | 19_12 | Fast Robot Run       |
 | 20_12 | Spider Naruto Run    |
+| 21_12 | Music Customizer     |
 
 ## GS_29
 
