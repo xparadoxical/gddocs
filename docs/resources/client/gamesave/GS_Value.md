@@ -292,7 +292,7 @@ GS_27 contains the List Rewards you have acquired
 
 ## GS_28
 
-GS_28 contains your enabled items. All of them are strings (although they act as booleans). The animations (18-20) are set to 1 by default despite not being unlocked. However, the other items are set to 1 permanently when you unlock them.
+GS_28 contains your enabled items. All of them are strings (although they act as booleans). The animations (18-20) are set to 1 by default even if not unlocked. However, the other items are set to 1 permanently when you unlock them.
 
 | Key   | Description          |
 |:------|:---------------------|
