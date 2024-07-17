@@ -43,7 +43,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | clickedPractice| Bool | if Practice mode button has been clicked |
 | showedEditorGuide| Bool | if EditorGuide has been clicked |
 | showedLowDetailDialog| Bool | if low detail mode has been has been clicked |
-| showedRateStarDialog| Bool | if rate star dialog has been shown |
+| showedRateStarDialog| Bool | Whether the difficulty rating explanation was shown |
 | bootups| integer | The ammount of times you have opened Geometry Dash |
 | hasRatedGame| Bool | if you have rated the game |
 | binaryVersion| integer | The Games Binary Version |
@@ -80,7 +80,7 @@ These keys were used in old versions of the game but are now obsolete.
 | showBPMMarkers | Bool | if BPM markers are shown |
 | autoRetryLevel | Bool | If the level automatically restarts after death. Moved to valueKeeper::[gv_0026](/resources/client/gamesave/gv.md) |
 | recordGameplay | Bool | Presumably whether to record gameplay with Everyplay |
-| showedRateDiffDialog | Bool | Whether the difficulty rating explanation was shown |
+| showedRateDiffDialog | Bool | Unknown (showedRateStarDialog does the same thing?) |
 | commentSortRecent | Bool | unknown (there was no option to sort comments by most liked at the time) |
 | kEnableTutorial | Bool | unknown |
 | showedFirstTutorial | Bool | unknown |
