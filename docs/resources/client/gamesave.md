@@ -70,7 +70,7 @@ These keys were used in old versions of the game but are now obsolete.
 | :-------| :--- | :-----------|
 | musicEnabled | Bool | Whether music is enabled or not. Moved to bgVolume |
 | fxEnabled | Bool | Whether sound effects are enabled or not. Moved to sfxVolume |
-| moreGamesString | String | The contents of the More Games button. It was a list of values separated by `_`. The values were: `gj` for GD Lite, `boom` for Boomlings, `mu` for Boomlings MatchUp and `mm` for Memory Mastermind. The game & string allowed repeated values |
+| moreGamesString | String | The contents of the More Games button. It was a list of values separated by `_`. The values were: `gj` for GD Lite, `boom` for Boomlings, `mu` for Boomlings MatchUp and `mm` for Memory Mastermind. The game allowed repeated values |
 | hasNewGames | Bool | Whether there are new games in the More Games button. This showed an exclamation mark icon next to the button |
 | gameCenterEnabled | Bool | Whether the Game Center (iOS) was enabled. Moved to valueKeeper::[gv_0034](/resources/client/gamesave/gv.md) |
 | lastDay | Integer | Presumably the day when you last played (0-indexed) |
