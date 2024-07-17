@@ -62,6 +62,22 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | practicePosX | float | The X position of the practice UI |
 | practicePosY | float | The Y position of the practice UI |
 
+## Legacy Keys
+
+These keys were used in old versions of the game but are now obsolete.
+
+| Key     | Type | description |
+| :-------| :--- | :-----------|
+| musicEnabled | Bool | Whether music is enabled or not. Moved to bgVolume |
+| fxEnabled | Bool | Whether sound effects are enabled or not. Moved to sfxVolume |
+| moreGamesString | String | The contents of the More Games button. It was a list of values separated by `_`. The values were: `gj` for GD Lite, `boom` for Boomlings, `mu` for Boomlings MatchUp and `mm` for Memory Mastermind. The game & string allowed repeated values |
+| hasNewGames | Bool | Whether there are new games in the More Games button. This showed an exclamation mark icon next to the button |
+| gameCenterEnabled | Bool | Whether the Game Center (iOS) was enabled. Moved to valueKeeper::[gv_0034](/resources/client/gamesave/gv.md) |
+| lastDay | Integer | Presumably the day when you last played (0-indexed) |
+| lastMonth | Integer | Presumably the month when you last played (0-indexed) |
+| clickedName | Bool | Whether you clicked on your name in the icon kit to change it |
+| autoCheckpoints | Bool | Whether checkpoints are placed automatically in practice mode. Moved to valueKeeper::[gv_0027](/resources/client/gamesave/gv.md) |
+
 ### GLM 
 
 | Key     | Type | description |
