@@ -79,7 +79,10 @@ These keys were used in old versions of the game but are now obsolete.
 | autoCheckpoints | Bool | Whether checkpoints are placed automatically in practice mode. Moved to valueKeeper::[gv_0027](/resources/client/gamesave/gv.md) |
 | showBPMMarkers | Bool | if BPM markers are shown |
 | autoRetryLevel | Bool | If the level automatically restarts after death. Moved to valueKeeper::[gv_0026](/resources/client/gamesave/gv.md) |
-| recordGameplay | Bool | presumably whether to record gameplay with everyplay |
+| recordGameplay | Bool | Presumably whether to record gameplay with Everyplay |
+| showedRateDiffDialog | Bool | Whether the difficulty rating explanation was shown |
+| showedRateStarDialog | Bool | Whether the dialogue about rating GD on the Play Store/App Store was shown |
+| showedLowDetailDialog | Bool | Whether the low detail dialogue was shown |
 | commentSortRecent | Bool | unknown (there was no option to sort comments by most liked at the time) |
 | kEnableTutorial | Bool | unknown |
 | showedFirstTutorial | Bool | unknown |
