@@ -63,10 +63,10 @@ all completed levels
 | `d_{levelID}` | completed daily
 | `g_{levelID}` | completed gauntlet
 | `star_{levelID}` | Collected Stars|
-| `dstar_{levelID}` | Collected Stars for daily|
+| `dstar_{timelyID}` | Collected Stars for daily|
 | `gstar_{levelID}` | Collected Stars for gauntlet |
 | `demon_{levelID}` | Collected Demon |
-| `ddemon_{levelID}` | Collected Demon for weekly|
+| `ddemon_{timelyID}` | Collected Demon for weekly|
 | `gdemon_{levelID}` | Collected Demon for gauntlet|
 
 ## GS_3
