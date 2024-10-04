@@ -53,6 +53,7 @@
 
 **Usage:** `<s260>CHOPPER!</s>`
 
+![shake preview](../assets/shake_tag.gif)
 
 ## Notes
 
