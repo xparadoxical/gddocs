@@ -1,6 +1,6 @@
 # Tags
 
-> Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML.` Geometry Dash has 4 primary types of tags
+Various text interfaces within the Geometry Dash client can be manipulated using special tags similar to markup languages such as `HTML`. Geometry Dash has 4 primary types of tags:
 
 - Colour Tags
 - Fade Tags
@@ -12,13 +12,13 @@
 <link rel="stylesheet" href="stylesheets/imageStyles.css">
 <img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/colour_tags.png" class="alertlayer">
 
-> Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading. 
+Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading. 
 
 **Usage:** `<cl>Coloured Text!</c>`
 
 <link rel="stylesheet" href="stylesheets/colour_tags.css">
 
-| Tag    | Colour Code | Example (Website Only)         |
+| Tag    | Colour code | Example (website only)         |
 | :----- | :---------- | :----------------------------- |
 | `<cb>` | `0x4A52E1`  | <gdfmt><cb>Sample</cb></gdfmt> |
 | `<cg>` | `0x40E348`  | <gdfmt><cg>Sample</cg></gdfmt> |
@@ -37,7 +37,7 @@
 
 ## Instant/Fade Tags
 
-> Fade Tags are used to fade in a block of text on screen instead of making it appear character by character. Similarly to colour tags, Fade tags have a start and end tag to denote which piece of text should appear instantly. The number is specified in centiseconds, which is 1/100th of a second.
+Fade Tags are used to fade in a block of text on screen instead of making it appear character by character. Similarly to colour tags, Fade tags have a start and end tag to denote which piece of text should appear instantly. The number is specified in centiseconds, which is 1/100th of a second.
 
 **Usage:** `Hello, <i100>world!</i>`
 
@@ -45,7 +45,7 @@
 
 ## Delay Tags
 
-> Delay tags are used to create a delay before a specific string in dialog boxes. The game detects a Delay Tag if the string contains a `<d` and then it reads the next 3 characters and converts them into an integer. This value is then passed into the [CCDelayTime](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/d6/dde/classcocos2d_1_1_c_c_delay_time.html) class from the [cocos2d-x](/) engine which Geometry Dash uses. The number is specified in centiseconds, which is 1/100th of a second.
+Delay tags are used to create a delay before a specific string in dialog boxes. The game detects a Delay Tag if the string contains a `<d` and then it reads the next 3 characters and converts them into an integer. This value is then passed into the [CCDelayTime](https://docs.cocos2d-x.org/api-ref/cplusplus/V2.2/d6/dde/classcocos2d_1_1_c_c_delay_time.html) class from the [cocos2d-x](/) engine which Geometry Dash uses. The number is specified in centiseconds, which is 1/100th of a second.
 
 **Usage:** `uhh<d030>.<d030>.<d030>.`
 
@@ -53,7 +53,7 @@
 
 ## Shake Tags
 
-> Shake Tags are used to render shaky text on screen. The number denotes the intensity of the shake.
+Shake Tags are used to render shaky text on screen. The number denotes the intensity of the shake.
 
 **Usage:** `<s260>CHOPPER!</s>`
 
