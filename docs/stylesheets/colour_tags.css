@@ -3,73 +3,62 @@
     src: url("/assets/fonts/texgyreheros-regular.woff") format("woff");
 }
 
-/*todo: extract font to a tag*/
-cb {
-    color: #4A52E1;
+gdfmt {
     font-family: "TeX Gyre Heros";
-}
 
-cg {
-    color: #40E348;
-    font-family: "TeX Gyre Heros";
-}
+    cb {
+        color: #4A52E1;
+    }
 
-cl {
-    color: #60ABEF;
-    font-family: "TeX Gyre Heros";
-}
+    cg {
+        color: #40E348;
+    }
 
-cj {
-    color: #32C8FF;
-    font-family: "TeX Gyre Heros";
-}
+    cl {
+        color: #60ABEF;
+    }
 
-cy {
-    color: #FFFF00;
-    font-family: "TeX Gyre Heros";
-}
+    cj {
+        color: #32C8FF;
+    }
 
-co {
-    color: #FFA54B;
-    font-family: "TeX Gyre Heros";
-}
+    cy {
+        color: #FFFF00;
+    }
 
-cr {
-    color: #FF5A5A;
-    font-family: "TeX Gyre Heros";
-}
+    co {
+        color: #FFA54B;
+    }
 
-cp {
-    color: #FF00FF;
-    font-family: "TeX Gyre Heros";
-}
+    cr {
+        color: #FF5A5A;
+    }
 
-ca {
-    color: #9632FF;
-    font-family: "TeX Gyre Heros";
-}
+    cp {
+        color: #FF00FF;
+    }
 
-cd {
-    color: #FF96FF;
-    font-family: "TeX Gyre Heros";
-}
+    ca {
+        color: #9632FF;
+    }
 
-cc {
-    color: #FFFF96;
-    font-family: "TeX Gyre Heros";
-}
+    cd {
+        color: #FF96FF;
+    }
 
-cf {
-    color: #96FFFF;
-    font-family: "TeX Gyre Heros";
-}
+    cc {
+        color: #FFFF96;
+    }
 
-cs {
-    color: #FFDC41;
-    font-family: "TeX Gyre Heros";
-}
+    cf {
+        color: #96FFFF;
+    }
 
-ccDefault {
-    color: #FF0000;
-    font-family: "TeX Gyre Heros";
+    cs {
+        color: #FFDC41;
+    }
+
+    c {
+        color: #FF0000;
+    }
 }
